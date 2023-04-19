@@ -1,0 +1,1429 @@
+# Orders
+
+## Get all orders by customer
+
+This endpoint retrieves orders for a specified customer
+
+
+#### HTTP Request
+`GET https://api.omnifront.cloudsnob.com/orders`
+
+### Header Requirements
+
+| Parameter   | Description                     |
+| ----------- | ------------------------------- |
+| customerToken | Login token associated with customer |
+| token        | Site token |
+
+
+```shell
+curl --request GET \
+  --url https://api.omnifront.cloudsnob.com/orders \
+  --header 'token: usr_token'\
+  --header 'token: site_token
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+    {
+        "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+        "orderNumber": 200349,
+        "companyToken": "comp_dft6yhzjkli",
+        "PO": "",
+        "siteToken": "site_Dpawt345k2m4",
+        "customerToken": "cust_KvkbqVKprvrsc0hSlqCTlCcv",
+        "orderProducts": [
+            {
+                "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+                "cartProdToken": "cp_jU1LMK5SUoPSaTOp14aI7tHF",
+                "cartProdQuantity": 1,
+                "addOnToProdToken": "",
+                "addOnProdTokens": null,
+                "prodToken": "vrnt_EC3pcqgCkY6xiP5e",
+                "deleted": 0,
+                "createdAt": "2022-11-27 22:34:02",
+                "editedAt": "2022-11-27 22:34:02",
+                "companyToken": "comp_dft6yhzjkli",
+                "siteToken": "site_Dpawt345k2m4",
+                "customerToken": "cust_KvkbqVKprvrsc0hSlqCTlCcv",
+                "cartCreated": "1669588442",
+                "cartLastTouched": "1669588442",
+                "prodStaticCollections": [],
+                "specialValues": [],
+                "product": {
+                    "prodToken": "prod_lr40vYlpg0qERv3t",
+                    "variantToken": "vrnt_EC3pcqgCkY6xiP5e",
+                    "companyToken": "comp_dft6yhzjkli",
+                    "variantName": "Ameliorated",
+                    "variantImage": [],
+                    "variantImages": [],
+                    "variantWeight": "1",
+                    "variantDimW": "",
+                    "variantDimL": "",
+                    "variantDimH": "",
+                    "variantUpc": "",
+                    "variantNumber": "",
+                    "manufacturerPartNumber": "",
+                    "variantPrice": 0.1,
+                    "variantMapPrice": 0,
+                    "variantMsrpPrice": 0,
+                    "variantDisplayPrice": 0,
+                    "variantDescription": "",
+                    "variantAlert": "",
+                    "variantLowlevel": "",
+                    "variantSlug": "",
+                    "variantVisible": 1,
+                    "taxType": "",
+                    "hideGoogleData": 0,
+                    "google_variantCategory": null,
+                    "google_variantType": null,
+                    "google_variantCondition": null,
+                    "taxable": 1,
+                    "variantAllowCheckout": 0,
+                    "variantCheckInvetory": 0,
+                    "variantTrackInventory": 0,
+                    "inventoryCount": 78,
+                    "shippingProduct": 0,
+                    "variantMetaTitle": "",
+                    "variantMetaDescription": "",
+                    "variantBrand": "",
+                    "sortOrder": 2,
+                    "dateCreated": "1668684651",
+                    "deleted": 0,
+                    "backOrderWarning": 0,
+                    "createdAt": "2022-11-17 11:30:51",
+                    "editedAt": "2022-11-27 22:32:33",
+                    "variantInStock": true,
+                    "prodName": "Tasty Concrete ChipsBacon",
+                    "prodImage": {
+                        "file": ""
+                    }
+                },
+                "addOnProducts": [],
+                "pricing": {
+                    "total": 0.1
+                },
+                "shipping": {
+                    "totalWeight": 1
+                }
+            }
+        ],
+        "BillToName": "John - shippingName Green - shippingName",
+        "BillToAddress": "{\"name\":\"John - shippingName Green - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+        "orderShippingMethod": {
+            "carrier": "freeshipping",
+            "description": "",
+            "deliveryDateTime": null,
+            "deliveryDays": null,
+            "origRate": 0,
+            "rate": 0,
+            "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "methodName": ""
+        },
+        "orderShippingAddress": {
+            "address": "12354 Main Street",
+            "address2": "",
+            "city": "Monsey",
+            "state": "NY",
+            "zip": "10952",
+            "country": "",
+            "phone": "",
+            "mobile": "",
+            "specialValues": []
+        },
+        "orderTotal": "0.1",
+        "orderTax": "0",
+        "orderTotalPaid": null,
+        "orderShipping": "0",
+        "orderStatus": "os_awaiting_fulfillment",
+        "customerObject": {
+            "id": 52806,
+            "customerFirstName": "Emmanuel",
+            "customerLastName": "Konopelski",
+            "customerEmail": "chayelle+725Rodger@evelt.com",
+            "customerPhone": "358-236-3686",
+            "customerCompanyName": "Hessel, Casper and Bayer",
+            "dateCreated": "1669588428",
+            "customerStatus": "cs_reg_customer",
+            "customerTypes": null,
+            "customerGroups": null,
+            "isLoggedIn": 1,
+            "customerDocs": null,
+            "taxExempt": null,
+            "taxExemptID": null,
+            "createdAt": "2022-11-27 22:33:48",
+            "editedAt": "2022-11-27 22:33:48"
+        },
+        "orderWeight": 1,
+        "contactFirstName": "John - shippingName",
+        "contactLastName": "Green - shippingName",
+        "orderEmail": "chayelle+725Rodger@evelt.com",
+        "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
+        "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+        "orderPaymentMethod": {
+            "xResult": "A",
+            "xStatus": "Approved",
+            "xError": "",
+            "xErrorCode": "00000",
+            "xRefNum": "760465207",
+            "xExp": "0325",
+            "xDate": "11/27/2022 5:34:39 PM",
+            "xAuthCode": "678485",
+            "xBatch": "100202",
+            "xAvsResultCode": "YYY",
+            "xAvsResult": "Address: Match & 5 Digit Zip: Match",
+            "xCvvResultCode": "",
+            "xCvvResult": "No CVV data available",
+            "xAuthAmount": "0.10",
+            "xToken": "m1569g3mq49m07p61mh9n43q7gqq8pgp",
+            "xMaskedCardNumber": "5xxxxxxxxxxx0666",
+            "xCardType": "MasterCard",
+            "xName": "John - shippingName Green - shippingName",
+            "cardToken": "cc_CLTRoRwe80ej"
+        },
+        "checkoutObject": {
+            "id": 30450,
+            "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+            "customerToken": "cs_Eeavd8NmpDthoJmx0RYNeQIT5HvvRBj5hwqP",
+            "couponCodes": null,
+            "addressToken": "adrs_n5zSmeQPpUfcX60p1ATEsn3B",
+            "shippingMethod": {
+                "carrier": "freeshipping",
+                "description": "",
+                "deliveryDateTime": null,
+                "deliveryDays": null,
+                "origRate": 0,
+                "rate": 0,
+                "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                "methodName": ""
+            },
+            "shippingMethodId": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "shippingAddressLabel": "",
+            "shippingAddress": {
+                "address": "12354 Main Street",
+                "address2": "",
+                "city": "Monsey",
+                "state": "NY",
+                "zip": "10952",
+                "country": "",
+                "phone": "",
+                "mobile": "",
+                "specialValues": []
+            },
+            "contactEmail": "chayelle+725Rodger@evelt.com",
+            "contactPhone": "358-236-3686",
+            "shippingMethodsJson": [
+                {
+                    "carrier": "freeshipping",
+                    "description": "",
+                    "deliveryDateTime": null,
+                    "deliveryDays": null,
+                    "origRate": 0,
+                    "rate": 0,
+                    "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS Ground",
+                    "rate": 13.164000000000001,
+                    "currency": "USD",
+                    "service_code": "03",
+                    "est_delivery_time": "2022-11-29T23:00:00-00:00",
+                    "delivery_days": 1,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 10.97,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        },
+                        {
+                            "amount": 1.61,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 9.36,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS Ground",
+                    "deliveryDateTime": "2022-11-29T23:00:00-00:00",
+                    "deliveryDays": 1,
+                    "origRate": 10.97,
+                    "id": "Chj95cPeY4sAt3zWIkZviSbR",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS 3 Day Select",
+                    "rate": 19.416,
+                    "currency": "USD",
+                    "service_code": "12",
+                    "est_delivery_time": "2022-12-01T23:00:00-00:00",
+                    "delivery_days": 3,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 16.18,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        },
+                        {
+                            "amount": 2.61,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 13.57,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS 3 Day Select",
+                    "deliveryDateTime": "2022-12-01T23:00:00-00:00",
+                    "deliveryDays": 3,
+                    "origRate": 16.18,
+                    "id": "R1f0AsWP7NkgFpuMIrKxUaLn",
+                    "methodName": ""
+                },
+                {
+                    "desc": "Priority Mail Large Flat Rate Box",
+                    "rate": 27.45,
+                    "currency": "USD",
+                    "service_code": "22",
+                    "est_delivery_time": "2022-11-30",
+                    "package_type": "",
+                    "rate_detail": null,
+                    "guaranteed": false,
+                    "zone": "1",
+                    "carrier": "usps",
+                    "description": "Priority Mail Large Flat Rate Box",
+                    "deliveryDateTime": "2022-11-30",
+                    "deliveryDays": "",
+                    "origRate": 22.45,
+                    "id": "MWiAvglGmF3ufP598SjraZT4",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS 2nd Day Air",
+                    "rate": 30.384,
+                    "currency": "USD",
+                    "service_code": "02",
+                    "est_delivery_time": "2022-11-30T23:00:00-00:00",
+                    "delivery_days": 2,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 25.32,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 4.09,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 21.23,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS 2nd Day Air",
+                    "deliveryDateTime": "2022-11-30T23:00:00-00:00",
+                    "deliveryDays": 2,
+                    "origRate": 25.32,
+                    "id": "cmZ052RYMaOyGxqNWAJbh3rC",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS Second Day Air AM",
+                    "rate": 33.096,
+                    "currency": "USD",
+                    "service_code": "59",
+                    "est_delivery_time": "2022-11-30T23:00:00-00:00",
+                    "delivery_days": 2,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 27.58,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        },
+                        {
+                            "amount": 4.45,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 23.13,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS Second Day Air AM",
+                    "deliveryDateTime": "2022-11-30T23:00:00-00:00",
+                    "deliveryDays": 2,
+                    "origRate": 27.58,
+                    "id": "KYUDVCnc0tPa1qxTwumZr8FE",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS Next Day Air Saver",
+                    "rate": 45.132,
+                    "currency": "USD",
+                    "service_code": "13",
+                    "est_delivery_time": "2022-11-29T23:00:00-00:00",
+                    "delivery_days": 1,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 37.61,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 6.07,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 31.54,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS Next Day Air Saver",
+                    "deliveryDateTime": "2022-11-29T23:00:00-00:00",
+                    "deliveryDays": 1,
+                    "origRate": 37.61,
+                    "id": "WYGxQKTSDEM12k8he4i0XvBt",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS Next Day Air",
+                    "rate": 49.368,
+                    "currency": "USD",
+                    "service_code": "01",
+                    "est_delivery_time": "2022-11-29T15:00:00-00:00",
+                    "delivery_days": 1,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 41.14,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        },
+                        {
+                            "amount": 6.64,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 34.5,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS Next Day Air",
+                    "deliveryDateTime": "2022-11-29T15:00:00-00:00",
+                    "deliveryDays": 1,
+                    "origRate": 41.14,
+                    "id": "viZKoyXQsFuE8R3SqV6arthB",
+                    "methodName": ""
+                },
+                {
+                    "desc": "UPS Next Day Air Early AM",
+                    "rate": 92.304,
+                    "currency": "USD",
+                    "service_code": "14",
+                    "est_delivery_time": "2022-11-29T10:00:00-00:00",
+                    "delivery_days": 1,
+                    "package_type": "02",
+                    "rate_detail": [
+                        {
+                            "amount": 76.92,
+                            "currency": "USD",
+                            "type": "TransportationCharges"
+                        },
+                        {
+                            "amount": 12.42,
+                            "currency": "USD",
+                            "type": "375"
+                        },
+                        {
+                            "amount": 64.5,
+                            "currency": "USD",
+                            "type": "BaseServiceCharge"
+                        },
+                        {
+                            "amount": 0,
+                            "currency": "USD",
+                            "type": "376"
+                        }
+                    ],
+                    "billing_weight": 1,
+                    "carrier": "ups",
+                    "description": "UPS Next Day Air Early AM",
+                    "deliveryDateTime": "2022-11-29T10:00:00-00:00",
+                    "deliveryDays": 1,
+                    "origRate": 76.92,
+                    "id": "CcAqGjSEZNIQ7M2OmeLkn5wb",
+                    "methodName": ""
+                }
+            ],
+            "contactFirstName": "John - shippingName",
+            "contactLastName": "Green - shippingName",
+            "companyName": "Hessel, Casper and Bayer",
+            "createdAt": "2022-11-27 22:34:13",
+            "editedAt": "2022-11-27 22:34:18",
+            "pricing": {
+                "productsTotal": 0.1,
+                "origTotal": 0.1,
+                "subTotal": 0.1,
+                "tax": 0,
+                "totalCouponDiscount": 0,
+                "totalAfterCoupon": 0.1,
+                "total": 0.1
+            },
+            "couponCodesInfo": []
+        },
+        "orderProdQuantity": "1",
+        "paymentObject": {
+            "xResult": "A",
+            "xStatus": "Approved",
+            "xError": "",
+            "xErrorCode": "00000",
+            "xRefNum": "760465207",
+            "xExp": "0325",
+            "xDate": "11/27/2022 5:34:39 PM",
+            "xAuthCode": "678485",
+            "xBatch": "100202",
+            "xAvsResultCode": "YYY",
+            "xAvsResult": "Address: Match & 5 Digit Zip: Match",
+            "xCvvResultCode": "",
+            "xCvvResult": "No CVV data available",
+            "xAuthAmount": "0.10",
+            "xToken": "m1569g3mq49m07p61mh9n43q7gqq8pgp",
+            "xMaskedCardNumber": "5xxxxxxxxxxx0666",
+            "xCardType": "MasterCard",
+            "xName": "John - shippingName Green - shippingName",
+            "cardToken": "cc_CLTRoRwe80ej"
+        },
+        "cardToken": "cc_CLTRoRwe80ej",
+        "orderIP": "::1",
+        "dateCreated": "1669588464",
+        "deleted": "",
+        "numberOfPackages": 0,
+        "createdAt": "2022-11-27 22:34:24",
+        "editedAt": "2022-11-27 22:34:24",
+        "orderStatusValue": {
+            "id": "os_awaiting_fulfillment",
+            "name": "Awaiting Fulfillment",
+            "color": "#ffc107"
+        },
+        "statusAndTerms": {
+            "processingStatus": "Awaiting Fulfillment",
+            "shippingStatus": "Pending",
+            "paymentStatus": "Closed",
+            "orderStatus": "Open",
+            "paymentTerms": "Website Payment Transaction",
+            "postPaymentStatus": "NULL"
+        },
+        "paymentHistory": [
+            {
+                "paymentHistoryToken": "pmth_bj2Hqpvbl2BnRtpnvt4BWGMe23sVIgd98XjZ",
+                "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+                "amount": "0.1",
+                "action": "charge",
+                "dateTime": "1669588465",
+                "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"m1569g3mq49m07p61mh9n43q7gqq8pgp\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"John - shippingName Green - shippingName\",\"cardToken\":\"cc_CLTRoRwe80ej\"}",
+                "cardToken": "cc_CLTRoRwe80ej",
+                "userToken": "omni",
+                "createdAt": "2022-11-27 22:34:25",
+                "editedAt": "2022-11-27 22:34:25"
+            }
+        ]
+    }
+]
+```
+
+
+
+
+## Get a specific order
+
+This endpoint retrieves a specific order
+
+
+### HTTP Request
+
+`GET https://api.omnifront.cloudsnob.com/orders/[orderToken]`
+
+### Header Requirements
+
+| Parameter   | Description                     |
+| ----------- | ------------------------------- |
+| customerToken | Login token associated with customer |
+| token        | Site token |
+
+### URL Parameters
+
+| Parameter   | Description                     |
+| ----------- | ------------------------------- |
+| Order Token | Token of the Order to retrieve. |
+
+```shell
+curl --request GET \
+  --url https://api.omnifront.cloudsnob.com/orders/[orderToken] \
+  --header 'token: 123'/
+  --header 'customerToken: loginToken123'
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+    "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+    "orderNumber": 200349,
+    "companyToken": "comp_dft6yhzjkli",
+    "PO": "",
+    "siteToken": "site_Dpawt345k2m4",
+    "customerToken": "cust_KvkbqVKprvrsc0hSlqCTlCcv",
+    "orderProducts": [
+        {
+            "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+            "cartProdToken": "cp_jU1LMK5SUoPSaTOp14aI7tHF",
+            "cartProdQuantity": 1,
+            "addOnToProdToken": "",
+            "addOnProdTokens": null,
+            "prodToken": "vrnt_EC3pcqgCkY6xiP5e",
+            "deleted": 0,
+            "createdAt": "2022-11-27 22:34:02",
+            "editedAt": "2022-11-27 22:34:02",
+            "companyToken": "comp_dft6yhzjkli",
+            "siteToken": "site_Dpawt345k2m4",
+            "customerToken": "cust_KvkbqVKprvrsc0hSlqCTlCcv",
+            "cartCreated": "1669588442",
+            "cartLastTouched": "1669588442",
+            "prodStaticCollections": [],
+            "specialValues": [],
+            "product": {
+                "prodToken": "prod_lr40vYlpg0qERv3t",
+                "variantToken": "vrnt_EC3pcqgCkY6xiP5e",
+                "companyToken": "comp_dft6yhzjkli",
+                "variantName": "Ameliorated",
+                "variantImage": [],
+                "variantImages": [],
+                "variantWeight": "1",
+                "variantDimW": "",
+                "variantDimL": "",
+                "variantDimH": "",
+                "variantUpc": "",
+                "variantNumber": "",
+                "manufacturerPartNumber": "",
+                "variantPrice": 0.1,
+                "variantMapPrice": 0,
+                "variantMsrpPrice": 0,
+                "variantDisplayPrice": 0,
+                "variantDescription": "",
+                "variantAlert": "",
+                "variantLowlevel": "",
+                "variantSlug": "",
+                "variantVisible": 1,
+                "taxType": "",
+                "hideGoogleData": 0,
+                "google_variantCategory": null,
+                "google_variantType": null,
+                "google_variantCondition": null,
+                "taxable": 1,
+                "variantAllowCheckout": 0,
+                "variantCheckInvetory": 0,
+                "variantTrackInventory": 0,
+                "inventoryCount": 78,
+                "shippingProduct": 0,
+                "variantMetaTitle": "",
+                "variantMetaDescription": "",
+                "variantBrand": "",
+                "sortOrder": 2,
+                "dateCreated": "1668684651",
+                "deleted": 0,
+                "backOrderWarning": 0,
+                "createdAt": "2022-11-17 11:30:51",
+                "editedAt": "2022-11-27 22:32:33",
+                "variantInStock": true,
+                "prodName": "Tasty Concrete ChipsBacon",
+                "prodImage": {
+                    "file": ""
+                }
+            },
+            "addOnProducts": [],
+            "pricing": {
+                "total": 0.1
+            },
+            "shipping": {
+                "totalWeight": 1
+            }
+        }
+    ],
+    "BillToName": "John - shippingName Green - shippingName",
+    "BillToAddress": "{\"name\":\"John - shippingName Green - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+    "orderShippingMethod": {
+        "carrier": "freeshipping",
+        "description": "",
+        "deliveryDateTime": null,
+        "deliveryDays": null,
+        "origRate": 0,
+        "rate": 0,
+        "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+        "methodName": ""
+    },
+    "orderShippingAddress": {
+        "address": "12354 Main Street",
+        "address2": "",
+        "city": "Monsey",
+        "state": "NY",
+        "zip": "10952",
+        "country": "",
+        "phone": "",
+        "mobile": "",
+        "specialValues": []
+    },
+    "orderTotal": "0.1",
+    "orderTax": "0",
+    "orderTotalPaid": null,
+    "orderShipping": "0",
+    "orderStatus": "os_awaiting_fulfillment",
+    "customerObject": {
+        "id": 52806,
+        "customerFirstName": "Emmanuel",
+        "customerLastName": "Konopelski",
+        "customerEmail": "chayelle+725Rodger@evelt.com",
+        "customerPhone": "358-236-3686",
+        "customerCompanyName": "Hessel, Casper and Bayer",
+        "dateCreated": "1669588428",
+        "customerStatus": "cs_reg_customer",
+        "customerTypes": null,
+        "customerGroups": null,
+        "isLoggedIn": 1,
+        "customerDocs": null,
+        "taxExempt": null,
+        "taxExemptID": null,
+        "createdAt": "2022-11-27 22:33:48",
+        "editedAt": "2022-11-27 22:33:48"
+    },
+    "orderWeight": 1,
+    "contactFirstName": "John - shippingName",
+    "contactLastName": "Green - shippingName",
+    "orderEmail": "chayelle+725Rodger@evelt.com",
+    "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
+    "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+    "orderPaymentMethod": {
+        "xResult": "A",
+        "xStatus": "Approved",
+        "xError": "",
+        "xErrorCode": "00000",
+        "xRefNum": "760465207",
+        "xExp": "0325",
+        "xDate": "11/27/2022 5:34:39 PM",
+        "xAuthCode": "678485",
+        "xBatch": "100202",
+        "xAvsResultCode": "YYY",
+        "xAvsResult": "Address: Match & 5 Digit Zip: Match",
+        "xCvvResultCode": "",
+        "xCvvResult": "No CVV data available",
+        "xAuthAmount": "0.10",
+        "xToken": "m1569g3mq49m07p61mh9n43q7gqq8pgp",
+        "xMaskedCardNumber": "5xxxxxxxxxxx0666",
+        "xCardType": "MasterCard",
+        "xName": "John - shippingName Green - shippingName",
+        "cardToken": "cc_CLTRoRwe80ej"
+    },
+    "checkoutObject": {
+        "id": 30450,
+        "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+        "customerToken": "cs_Eeavd8NmpDthoJmx0RYNeQIT5HvvRBj5hwqP",
+        "couponCodes": null,
+        "addressToken": "adrs_n5zSmeQPpUfcX60p1ATEsn3B",
+        "shippingMethod": {
+            "carrier": "freeshipping",
+            "description": "",
+            "deliveryDateTime": null,
+            "deliveryDays": null,
+            "origRate": 0,
+            "rate": 0,
+            "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "methodName": ""
+        },
+        "shippingMethodId": "0PNDsKOHvAmjwE7YICdQh2bL",
+        "shippingAddressLabel": "",
+        "shippingAddress": {
+            "address": "12354 Main Street",
+            "address2": "",
+            "city": "Monsey",
+            "state": "NY",
+            "zip": "10952",
+            "country": "",
+            "phone": "",
+            "mobile": "",
+            "specialValues": []
+        },
+        "contactEmail": "chayelle+725Rodger@evelt.com",
+        "contactPhone": "358-236-3686",
+        "shippingMethodsJson": [
+            {
+                "carrier": "freeshipping",
+                "description": "",
+                "deliveryDateTime": null,
+                "deliveryDays": null,
+                "origRate": 0,
+                "rate": 0,
+                "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS Ground",
+                "rate": 13.164000000000001,
+                "currency": "USD",
+                "service_code": "03",
+                "est_delivery_time": "2022-11-29T23:00:00-00:00",
+                "delivery_days": 1,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 10.97,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    },
+                    {
+                        "amount": 1.61,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 9.36,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS Ground",
+                "deliveryDateTime": "2022-11-29T23:00:00-00:00",
+                "deliveryDays": 1,
+                "origRate": 10.97,
+                "id": "Chj95cPeY4sAt3zWIkZviSbR",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS 3 Day Select",
+                "rate": 19.416,
+                "currency": "USD",
+                "service_code": "12",
+                "est_delivery_time": "2022-12-01T23:00:00-00:00",
+                "delivery_days": 3,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 16.18,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    },
+                    {
+                        "amount": 2.61,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 13.57,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS 3 Day Select",
+                "deliveryDateTime": "2022-12-01T23:00:00-00:00",
+                "deliveryDays": 3,
+                "origRate": 16.18,
+                "id": "R1f0AsWP7NkgFpuMIrKxUaLn",
+                "methodName": ""
+            },
+            {
+                "desc": "Priority Mail Large Flat Rate Box",
+                "rate": 27.45,
+                "currency": "USD",
+                "service_code": "22",
+                "est_delivery_time": "2022-11-30",
+                "package_type": "",
+                "rate_detail": null,
+                "guaranteed": false,
+                "zone": "1",
+                "carrier": "usps",
+                "description": "Priority Mail Large Flat Rate Box",
+                "deliveryDateTime": "2022-11-30",
+                "deliveryDays": "",
+                "origRate": 22.45,
+                "id": "MWiAvglGmF3ufP598SjraZT4",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS 2nd Day Air",
+                "rate": 30.384,
+                "currency": "USD",
+                "service_code": "02",
+                "est_delivery_time": "2022-11-30T23:00:00-00:00",
+                "delivery_days": 2,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 25.32,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 4.09,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 21.23,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS 2nd Day Air",
+                "deliveryDateTime": "2022-11-30T23:00:00-00:00",
+                "deliveryDays": 2,
+                "origRate": 25.32,
+                "id": "cmZ052RYMaOyGxqNWAJbh3rC",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS Second Day Air AM",
+                "rate": 33.096,
+                "currency": "USD",
+                "service_code": "59",
+                "est_delivery_time": "2022-11-30T23:00:00-00:00",
+                "delivery_days": 2,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 27.58,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    },
+                    {
+                        "amount": 4.45,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 23.13,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS Second Day Air AM",
+                "deliveryDateTime": "2022-11-30T23:00:00-00:00",
+                "deliveryDays": 2,
+                "origRate": 27.58,
+                "id": "KYUDVCnc0tPa1qxTwumZr8FE",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS Next Day Air Saver",
+                "rate": 45.132,
+                "currency": "USD",
+                "service_code": "13",
+                "est_delivery_time": "2022-11-29T23:00:00-00:00",
+                "delivery_days": 1,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 37.61,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 6.07,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 31.54,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS Next Day Air Saver",
+                "deliveryDateTime": "2022-11-29T23:00:00-00:00",
+                "deliveryDays": 1,
+                "origRate": 37.61,
+                "id": "WYGxQKTSDEM12k8he4i0XvBt",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS Next Day Air",
+                "rate": 49.368,
+                "currency": "USD",
+                "service_code": "01",
+                "est_delivery_time": "2022-11-29T15:00:00-00:00",
+                "delivery_days": 1,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 41.14,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    },
+                    {
+                        "amount": 6.64,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 34.5,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS Next Day Air",
+                "deliveryDateTime": "2022-11-29T15:00:00-00:00",
+                "deliveryDays": 1,
+                "origRate": 41.14,
+                "id": "viZKoyXQsFuE8R3SqV6arthB",
+                "methodName": ""
+            },
+            {
+                "desc": "UPS Next Day Air Early AM",
+                "rate": 92.304,
+                "currency": "USD",
+                "service_code": "14",
+                "est_delivery_time": "2022-11-29T10:00:00-00:00",
+                "delivery_days": 1,
+                "package_type": "02",
+                "rate_detail": [
+                    {
+                        "amount": 76.92,
+                        "currency": "USD",
+                        "type": "TransportationCharges"
+                    },
+                    {
+                        "amount": 12.42,
+                        "currency": "USD",
+                        "type": "375"
+                    },
+                    {
+                        "amount": 64.5,
+                        "currency": "USD",
+                        "type": "BaseServiceCharge"
+                    },
+                    {
+                        "amount": 0,
+                        "currency": "USD",
+                        "type": "376"
+                    }
+                ],
+                "billing_weight": 1,
+                "carrier": "ups",
+                "description": "UPS Next Day Air Early AM",
+                "deliveryDateTime": "2022-11-29T10:00:00-00:00",
+                "deliveryDays": 1,
+                "origRate": 76.92,
+                "id": "CcAqGjSEZNIQ7M2OmeLkn5wb",
+                "methodName": ""
+            }
+        ],
+        "contactFirstName": "John - shippingName",
+        "contactLastName": "Green - shippingName",
+        "companyName": "Hessel, Casper and Bayer",
+        "createdAt": "2022-11-27 22:34:13",
+        "editedAt": "2022-11-27 22:34:18",
+        "pricing": {
+            "productsTotal": 0.1,
+            "origTotal": 0.1,
+            "subTotal": 0.1,
+            "tax": 0,
+            "totalCouponDiscount": 0,
+            "totalAfterCoupon": 0.1,
+            "total": 0.1
+        },
+        "couponCodesInfo": []
+    },
+    "orderProdQuantity": "1",
+    "paymentObject": {
+        "xResult": "A",
+        "xStatus": "Approved",
+        "xError": "",
+        "xErrorCode": "00000",
+        "xRefNum": "760465207",
+        "xExp": "0325",
+        "xDate": "11/27/2022 5:34:39 PM",
+        "xAuthCode": "678485",
+        "xBatch": "100202",
+        "xAvsResultCode": "YYY",
+        "xAvsResult": "Address: Match & 5 Digit Zip: Match",
+        "xCvvResultCode": "",
+        "xCvvResult": "No CVV data available",
+        "xAuthAmount": "0.10",
+        "xToken": "m1569g3mq49m07p61mh9n43q7gqq8pgp",
+        "xMaskedCardNumber": "5xxxxxxxxxxx0666",
+        "xCardType": "MasterCard",
+        "xName": "John - shippingName Green - shippingName",
+        "cardToken": "cc_CLTRoRwe80ej"
+    },
+    "cardToken": "cc_CLTRoRwe80ej",
+    "orderIP": "::1",
+    "dateCreated": "1669588464",
+    "deleted": "",
+    "numberOfPackages": 0,
+    "createdAt": "2022-11-27 22:34:24",
+    "editedAt": "2022-11-27 22:34:24",
+    "orderStatusValue": {
+        "id": "os_awaiting_fulfillment",
+        "name": "Awaiting Fulfillment",
+        "color": "#ffc107"
+    },
+    "statusAndTerms": {
+        "processingStatus": "Awaiting Fulfillment",
+        "shippingStatus": "Pending",
+        "paymentStatus": "Closed",
+        "orderStatus": "Open",
+        "paymentTerms": "Website Payment Transaction",
+        "postPaymentStatus": "NULL"
+    },
+    "paymentHistory": [
+        {
+            "paymentHistoryToken": "pmth_bj2Hqpvbl2BnRtpnvt4BWGMe23sVIgd98XjZ",
+            "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+            "amount": "0.1",
+            "action": "charge",
+            "dateTime": "1669588465",
+            "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"m1569g3mq49m07p61mh9n43q7gqq8pgp\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"John - shippingName Green - shippingName\",\"cardToken\":\"cc_CLTRoRwe80ej\"}",
+            "cardToken": "cc_CLTRoRwe80ej",
+            "userToken": "omni",
+            "createdAt": "2022-11-27 22:34:25",
+            "editedAt": "2022-11-27 22:34:25"
+        }
+    ]
+}
+
+
+## CREATE ORDER NOT AVAILABLE TO USE, USE CHECKOUT INSTEAD.
+
+<!-- ## Create Order
+
+### HTTP Request
+
+`POST https://api.omnifront.cloudsnob.com/orders`
+
+### QUERY Parameters
+
+| Parameter            | Required | Description                                                                                                                                                                                         |
+| -------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| customerToken        | true     | The Customer Token                                                                                                                                                                                  |
+| companyToken         | false    | The Company Token                                                                                                                                                                                   |
+| orderProducts        | true     | Products inside the order                                                                                                                                                                           |
+| orderEmail           | true     | Email for Order                                                                                                                                                                                     |
+| orderTotal           | false    | orderTotal                                                                                                                                                                                          |
+| customerObject       | false    | customerObject                                                                                                                                                                                      |
+| cartToken            | false    | cartToken                                                                                                                                                                                           |
+| orderShippingMethod  | false    | orderShippingMethod                                                                                                                                                                                 |
+| siteToken            | false    | The SITE Token                                                                                                                                                                                      |
+| orderShippingAddress | false    | orderShippingAddress                                                                                                                                                                                |
+| orderPaymentMethod   | false    | orderPaymentMethod                                                                                                                                                                                  |
+| orderTax             | false    | orderTax                                                                                                                                                                                            |
+| orderShipping        | false    | orderShipping                                                                                                                                                                                       |
+| contactLastName      | false    | contactLastName                                                                                                                                                                                     |
+| contactFirstName     | false    | contactFirstName                                                                                                                                                                                    |
+| checkoutObject       | false    | checkoutObject                                                                                                                                                                                      |
+| orderProdQuantity    | false    | orderProdQuantity                                                                                                                                                                                   |
+| paymentObject        | false    | paymentObject                                                                                                                                                                                       |
+| cardToken            | false    | Token of card                                                                                                                                                                                       |
+| orderWeight          | false    | orderWeight                                                                                                                                                                                         |
+| BillToName           | true     | Name to Bill                                                                                                                                                                                        |
+| BillToAddress        | true     | Address to send bill                                                                                                                                                                                |
+| avsMatched           | false    | avsMatched                                                                                                                                                                                          |
+| zipMatched           | false    | zipMatched                                                                                                                                                                                          |
+| orderIP              | false    | orderIP                                                                                                                                                                                             |
+| orderNotePrivate     | false    | orderNotePrivate - Admin note private to only admin - is not returned in order object. Its created by the admin at checkout and submited with an order.                                             |
+| orderNotePublic      | false    | Note written by customer to the site at checkout to be saved with the order                                                                                                                         |
+| po                   | false    | Identifying Purchase Order number. Can include digits, letters (which will be converted to upper case), dashes and dots. All other characters will not be procesed and will return an error message |
+
+```shell
+curl --request POST \
+  --url https://api.omnifront.cloudsnob.com/orders \
+  --header 'cache-control: no-cache' \
+  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'token: 123' \
+  --data '{ "customerToken" : "cs_pQb1hZqri7FLep1WCwxTjBms", "orderProducts" : [array of products],"BillToName":"myName","BillToAddress":"myAddress", "orderEmail" : "abc@gmail.com" }'
+
+```
+
+Response:
+
+```json
+{
+  "orderToken": "ordr_xh8BX0gS6GJ6ZK17L42KOzh0",
+  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "siteToken": "site_123",
+  "customerToken": "cust_CrMpXsC9jVuzpOtLg58OqfBT",
+  "orderProducts": [
+    {
+      "cartToken": "cart_uVCTu26zon4Zjut2YZ399BiG",
+      "cartProdToken": "cp_WI1VQfFpPAoKcVx9jTcvXzIo",
+      "cartProdQuantity": 2,
+      "prodToken": "prod_3aiNdXcBQ2CPxPny",
+      "deleted": "0",
+      "product": {
+        "prodToken": "prod_3aiNdXcBQ2CPxPny",
+        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "prodName": "Flat Wire for Lightning iPhone, iPad, iPod Sync and Charge Cable",
+        "prodImage": "5-31-2018/1527796147164__187422__ZF-ZFACUSBFWIP5.jpg",
+        "prodImages": [],
+        "prodWeight": "5",
+        "prodDimW": "",
+        "prodDimL": "",
+        "prodDimH": "",
+        "prodUpc": "850067005100",
+        "prodNumber": "ZF-ZFACUSBFWIP5zzz",
+        "prodPrice": "100",
+        "prodCostPrice": "",
+        "prodDescription": "",
+        "prodAlert": "",
+        "prodLowlevel": "",
+        "prodSlug": "flat-wire-for-lightning-iphone-ipad-ipod-sync-and-charge-cable",
+        "prodVisible": "1",
+        "prodAllowCheckout": "0",
+        "prodCheckInvetory": "0",
+        "prodTrackInventory": "0",
+        "inventoryCount": "5",
+        "prodCollections": ["clcs_ip9Hw1k7ejnviHFi"]
+      },
+      "pricing": {
+        "total": 200
+      },
+      "shipping": {
+        "totalWeight": 10
+      }
+    }
+  ],
+  "orderShippingMethod": {
+    "desc": "Priority Mail 3-Day Window Flat Rate Envelope",
+    "rate": 18.7,
+    "currency": "USD",
+    "service_code": "40",
+    "est_delivery_time": "2018-06-28",
+    "package_type": "",
+    "rate_detail": null,
+    "guaranteed": false,
+    "carrier": "usps",
+    "origRate": 6.7,
+    "id": "NOiHJ45TzMC7ZGRtnclUdFvI"
+  },
+  "orderTotal": "218.7",
+  "orderStatus": "1",
+  "customerObject": "",
+  "orderEmail": "schwart@ygmaitl.com",
+  "orderNotePublic": "This is orderNotePublic",
+  "cartToken": "",
+  "orderPaymentMethod": {
+    "id": "ch_1ChkIgEmQpkAHEEPa14xaRDI",
+    "object": "charge",
+    "amount": 2187,
+    "amount_refunded": 0,
+    "application": null,
+    "application_fee": null,
+    "balance_transaction": "txn_1ChkIhEmQpkAHEEPMKYJfzog",
+    "captured": true,
+    "created": 1530131498,
+    "currency": "usd",
+    "customer": null,
+    "description": "Moishes charge",
+    "destination": null,
+    "dispute": null,
+    "failure_code": null,
+    "failure_message": null,
+    "fraud_details": [],
+    "invoice": null,
+    "livemode": false,
+    "metadata": [],
+    "on_behalf_of": null,
+    "order": null,
+    "outcome": {
+      "network_status": "approved_by_network",
+      "reason": null,
+      "risk_level": "normal",
+      "seller_message": "Payment complete.",
+      "type": "authorized"
+    },
+    "paid": true,
+    "receipt_email": null,
+    "receipt_number": null,
+    "refunded": false,
+    "refunds": {
+      "object": "list",
+      "data": [],
+      "has_more": false,
+      "total_count": 0,
+      "url": "/v1/charges/ch_1ChkIgEmQpkAHEEPa14xaRDI/refunds"
+    },
+    "review": null,
+    "shipping": null,
+    "source": {
+      "id": "card_1ChkIgEmQpkAHEEPea27kJ4E",
+      "object": "card",
+      "address_city": null,
+      "address_country": null,
+      "address_line1": null,
+      "address_line1_check": null,
+      "address_line2": null,
+      "address_state": null,
+      "address_zip": null,
+      "address_zip_check": null,
+      "brand": "Visa",
+      "country": "US",
+      "customer": null,
+      "cvc_check": "pass",
+      "dynamic_last4": null,
+      "exp_month": 12,
+      "exp_year": 2020,
+      "fingerprint": "d6DaoacmudCLi151",
+      "funding": "credit",
+      "last4": "4242",
+      "metadata": [],
+      "name": null,
+      "tokenization_method": null
+    },
+    "source_transfer": null,
+    "statement_descriptor": null,
+    "status": "succeeded",
+    "transfer_group": null
+  },
+  "dateCreated": "",
+  "deleted": ""
+}
+``` -->
+
+## Delete a cart Order 
+
+This endpoint deletes (soft deletes) an address
+
+### HTTP Request
+
+`DELETE https://api.omnifront.cloudsnob.com/orders/[cartToken]`
+
+### Header Parameters
+
+| Parameter | Description              |
+| --------- | ------------------------ |
+| customerToken     | Login token associated with the address to be deleted |
+
+### URL Parameters
+
+| Parameter | Description              |
+| --------- | ------------------------ |
+| Token     | The cart Token to delete |
+
+```shell
+curl --request DELETE \
+  --url https://api.omnifront.cloudsnob.com/orders/[cartToken] \
+  --header 'content-type: application/json' \
+  --header 'token: 123'/
+  --header 'customerToken: loginToken123'
+```
+
+> The above command returns JSON structured like this:
+
+```json
+{
+  "token": "cart_token",
+  "deleted": true
+}
+```
+
+
