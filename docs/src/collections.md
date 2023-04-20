@@ -20,7 +20,7 @@ curl --request GET \
 [
   {
     "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "collectionName": "c 1d23",
     "collectionDefaultSort": "b",
     "collectionSlug": "d",
@@ -36,7 +36,7 @@ curl --request GET \
   },
   {
     "collectionToken": "clcs_EoexlRSAdfrkH37d",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "collectionName": "NAME",
     "collectionDefaultSort": "b",
     "collectionSlug": "SLUG",
@@ -78,7 +78,7 @@ curl --request GET \
 ```json
 {
   "collectionToken": "clcs_vbnmZ9yKFy",
-  "companyToken": "comp_3fgfgNjbnmjhvst7",
+  "companyToken": "comp_123456",
   "collectionName": "c 1d23",
   "collectionDefaultSort": "b",
   "collectionSlug": "d",
@@ -96,7 +96,7 @@ curl --request GET \
       "prodToken": "prod_DRPBasdfghjkDB",
       "collectionToken": "clcs_5KHjsdfvbnmZ9yKFy",
       "sortOrder": null,
-      "companyToken": "comp_3fgfgsdftyujkBcst7",
+      "companyToken": "comp_123456",
       "prodName": "brgtbr",
       "prodImage": "",
       "prodImages": "",
@@ -134,7 +134,7 @@ curl --request GET \
         {
           "prodToken": "prod_dfghjmya",
           "variantToken": "vrnt_fwSxcvbnbvcg0c",
-          "companyToken": "comp_sfsdfghgsfh5g",
+          "companyToken": "comp_123456",
           "variantName": "Plvbnt dvbvt cghbvu",
           "variantImage": {
             "file": "[]"
@@ -188,7 +188,7 @@ curl --request GET \
       "prodToken": "prod_DRPsdfghbvcftyhB",
       "collectionToken": "clcs_5KrtyuiopZluertyhKFy",
       "sortOrder": null,
-      "companyToken": "comp_3fgfgNjMfe5Bcst7",
+      "companyToken": "comp_123456",
       "prodName": "brgtbr",
       "prodImage": "",
       "prodImages": "",
@@ -226,7 +226,7 @@ curl --request GET \
         {
           "prodToken": "prod_2zza34TZ9v6Aidya",
           "variantToken": "vrnt_fwSP2CWn0v72Ag0c",
-          "companyToken": "comp_sfgb50s0dsdgsfh5g",
+          "companyToken": "comp_123456",
           "variantName": "Placeat aut consequ",
           "variantImage": {
             "file": "[]"
