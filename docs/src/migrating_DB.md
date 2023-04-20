@@ -78,7 +78,7 @@ a) Copy and paste this api call below into postman (Import > Raw text > Continue
     curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/companyToken/123!' \
     --header 'token: usr_gb67jkKjgT'
 
-b) Edit the url ‘companyToken’ to the company token of the company you want the data of. eg Sanders Furnishers = ‘comp_DUKNlH2doBNtlKrq’ :
+b) Edit the url ‘companyToken’ to the company token of the company you want the data of. eg ### ##### = ‘comp_123456’ :
 
     curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/comp_DUKNlH2doBNtlKrq/123!' \
     --header 'token: usr_gb67jkKjgT' 
