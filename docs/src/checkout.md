@@ -8,7 +8,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
   --header 'token: 123' \
-  --data '{"contactEmail" : "mschwartz@test.com","addressToken" : "adrs_xipKF02Td5eJ66IoEyzHdXUM","contactFirstName":"Moises","contactLastName","Scheiyz"}'
+  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_xipKF02Td5eJ66IoEyzHdXUM","contactFirstName":"####","contactLastName","####"}'
 
 ```
 
@@ -18,7 +18,7 @@ curl --request POST \
 {
   "id": 821,
   "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
-  "customerToken": "cs_BXW5tm36lo2QHdAs634YYwAj6o4xItx3lbIK",
+  "customerToken": "cs_123456",
   "couponCodes": null,
   "addressToken": "adrs_xipKF02Td5eJ66IoEyzHdXUM",
   "shippingMethod": null,
@@ -35,9 +35,9 @@ curl --request POST \
     "mobile": "",
     "specialValues": []
   },
-  "contactEmail": "ha.haseeb29@gmail.com",
-  "contactFirstName": "Haseeb",
-  "contactLastName": "Ali",
+  "contactEmail": "123456@gmail.com",
+  "contactFirstName": "####",
+  "contactLastName": "###",
   "companyName": "",
   "contactPhone": "1233333",
   "shippingMethodsJson": [
@@ -100,7 +100,7 @@ curl --request POST \
 {
   "id": 821,
   "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
-  "customerToken": "cs_BXW5tm36lo2QHdAs634YYwAj6o4xItx3lbIK",
+  "customerToken": "cs_123456",
   "couponCodes": null,
   "addressToken": "adrs_xipKF02Td5eJ66IoEyzHdXUM",
   "shippingMethod": null,
@@ -117,9 +117,9 @@ curl --request POST \
     "mobile": "",
     "specialValues": []
   },
-  "contactEmail": "ha.haseeb29@gmail.com",
-  "contactFirstName": "Haseeb",
-  "contactLastName": "Ali",
+  "contactEmail": "123456@gmail.com",
+  "contactFirstName": "####",
+  "contactLastName": "###",
   "companyName": "",
   "contactPhone": "1233333",
   "shippingMethodsJson": [
@@ -192,9 +192,9 @@ curl --request POST \
         "addOnProdTokens": null,
         "prodToken": "vrnt_fwSP2CWn0v72Ag0c",
         "deleted": 0,
-        "companyToken": "comp_sfgb50s0dsdgsfh5g",
+        "companyToken": "comp_123456",
         "siteToken": "site_dg30sdfsgdsgsvv",
-        "customerToken": "cust_mKlmFU2BuyLg59nwVHToivs3",
+        "customerToken": "cust_123456",
         "cartCreated": "1638443146",
         "cartLastTouched": "1638443146",
         "prodStaticCollections": ["clcs_pZYTDuzGLEQjvvlW"],
@@ -202,7 +202,7 @@ curl --request POST \
         "product": {
           "prodToken": "prod_2zza34TZ9v6Aidya",
           "variantToken": "vrnt_fwSP2CWn0v72Ag0c",
-          "companyToken": "comp_sfgb50s0dsdgsfh5g",
+          "companyToken": "comp_123456",
           "variantName": "Placeat aut consequ",
           "variantImage": {
             "file": "[]"
@@ -257,7 +257,7 @@ curl --request POST \
         }
       }
     ],
-    "orderEmail": "ha.haseeb29@gmail.com",
+    "orderEmail": "123456@gmail.com",
     "orderShippingMethod": {
       "carrier": "freeshipping",
       "description": "",
@@ -289,20 +289,20 @@ curl --request POST \
       "xAuthAmount": "9.90",
       "xMaskedCardNumber": "4xxxxxxxxxxx4242",
       "xCardType": "Visa",
-      "xName": "Haseeb Ali",
+      "xName": "## ###",
       "xToken": "724h3q7h9n07n792m9pmppmp1q02nmhn",
       "xMID": "xxxxxxxxxx9999",
       "xTID": "xxxxx6789",
       "xCurrency": "USD",
       "xDate": "12/2/2021 6:19:14 AM",
       "xEntryMethod": "Keyed",
-      "cardToken": "cc_OJctC8FyAXnk"
+      "cardToken": "cc_123456"
     },
-    "contactLastName": "Ali",
-    "contactFirstName": "Haseeb",
+    "contactLastName": "###",
+    "contactFirstName": "#####",
     "orderProdQuantity": 1,
     "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"554234277\",\"xExp\":\"0123\",\"xAuthCode\":\"27119A\",\"xBatch\":\"5150840\",\"xAvsResultCode\":\"NNN\",\"xAvsResult\":\"Address: No Match & 5 Digit Zip: No Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"9.90\",\"xMaskedCardNumber\":\"4xxxxxxxxxxx4242\",\"xCardType\":\"Visa\",\"xName\":\"Haseeb Ali\",\"xToken\":\"724h3q7h9n07n792m9pmppmp1q02nmhn\",\"xMID\":\"xxxxxxxxxx9999\",\"xTID\":\"xxxxx6789\",\"xCurrency\":\"USD\",\"xDate\":\"12\\/2\\/2021 6:19:14 AM\",\"xEntryMethod\":\"Keyed\",\"cardToken\":\"cc_OJctC8FyAXnk\"}",
-    "cardToken": "cc_OJctC8FyAXnk",
+    "cardToken": "cc_123456",
     "orderIP": "103.151.236.50",
     "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
     "po": "",
@@ -310,13 +310,13 @@ curl --request POST \
     "BillToAddress": "{\"name\":\"Haseeb Ali\",\"address\":\"abc\",\"address2\":\"\",\"zip\":\"71005\",\"city\":\"New York\",\"state\":\"New York\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
     "orderNotePublic": "",
     "siteToken": "site_dg30sdfsgdsgsvv",
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
-    "customerToken": "cust_mKlmFU2BuyLg59nwVHToivs3",
+    "companyToken": "comp_123456",
+    "customerToken": "cust_123456",
     "orderToken": "ordr_Bv0Opb8czca0o03czpwXz8Wj",
     "orderNumber": 117,
     "orderStatus": "os_awaiting_fulfillment",
-    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_ChXDOtbOnQSZRtH4LoKkfDFU\",\"customerToken\":\"cs_BXW5tm36lo2QHdAs634YYwAj6o4xItx3lbIK\",\"couponCodes\":null,\"addressToken\":\"adrs_xipKF02Td5eJ66IoEyzHdXUM\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"ha.haseeb29@gmail.com\",\"contactFirstName\":\"Haseeb\",\"contactLastName\":\"Ali\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
-    "customerObject": "{\"id\":0,\"customerFirstName\":\"Haseeb \",\"customerLastName\":\"Ali\",\"customerEmail\":\"ha.haseeb29@gmail.com\",\"customerPhone\":\"0313445214\",\"customerCompanyName\":\"abcd\",\"dateCreated\":\"1635837718\",\"customerStatus\":\"\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":0,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2021-11-02 07:21:58\",\"editedAt\":\"2021-11-02 12:04:02\"}"
+    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_ChXDOtbOnQSZRtH4LoKkfDFU\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_xipKF02Td5eJ66IoEyzHdXUM\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"123456@gmail.com\",\"contactFirstName\":\"#####\",\"contactLastName\":\"###\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
+    "customerObject": "{\"id\":0,\"customerFirstName\":\"##### \",\"customerLastName\":\"###\",\"customerEmail\":\"123456@gmail.com\",\"customerPhone\":\"0313445214\",\"customerCompanyName\":\"abcd\",\"dateCreated\":\"1635837718\",\"customerStatus\":\"\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":0,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2021-11-02 07:21:58\",\"editedAt\":\"2021-11-02 12:04:02\"}"
   }
 }
 ```
@@ -391,7 +391,7 @@ curl --request POST \
                 "editedAt": "2022-12-08 12:34:27",
                 "companyToken": "comp_dft6yhzjkli",
                 "siteToken": "site_Dpawt345k2m4",
-                "customerToken": "cust_PGenT8ngCNC4J5FyvAh4Jc3z",
+                "customerToken": "cust_123456",
                 "cartCreated": "1670502867",
                 "cartLastTouched": "1670502867",
                 "prodStaticCollections": [],
@@ -399,7 +399,7 @@ curl --request POST \
                 "product": {
                     "prodToken": "prod_6jy8JYtQ3FfKh4th",
                     "variantToken": "vrnt_Mt75VgrGixqkYsOB",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "companyToken": "comp_123456",
                     "variantName": "viral",
                     "variantImage": [],
                     "variantImages": [],
@@ -472,25 +472,25 @@ curl --request POST \
         "orderWeight": 0,
         "orderShippingAddress": "{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]}",
         "orderPaymentMethod": null,
-        "contactLastName": "Green - shippingName",
-        "contactFirstName": "John - shippingName",
+        "contactLastName": "#### - shippingName",
+        "contactFirstName": "#### - shippingName",
         "orderProdQuantity": 1,
         "paymentObject": null,
         "cardToken": null,
         "orderIP": "86.183.104.179",
         "cartToken": "cart_8II78afqDL1NC9pvEagHwlTB",
         "PO": "123-P9ojd",
-        "BillToName": "John - shippingName Green - shippingName",
+        "BillToName": "### - shippingName #### - shippingName",
         "BillToAddress": "{\"name\":\"John - shippingName Green - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
         "orderNotePublic": "order paid through PO pathway",
         "siteToken": "site_Dpawt345k2m4",
-        "companyToken": "comp_dft6yhzjkli",
-        "customerToken": "cust_PGenT8ngCNC4J5FyvAh4Jc3z",
+        "companyToken": "comp_123456",
+        "customerToken": "cust_123456",
         "orderToken": "ordr_dgzABf0dod39Bdtno5zwkfIe",
         "orderNumber": 200606,
         "orderStatus": "os_awaiting_fulfillment",
-        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_8II78afqDL1NC9pvEagHwlTB\",\"customerToken\":\"cs_3PheG4dLHNvWxlWYvPJunkyXPsGp9qn4vdmD\",\"couponCodes\":null,\"addressToken\":\"adrs_8yY55uZos2WfmnqUhfnBsuU1\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"chayelle+102Shaylee@evelt.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"}],\"contactFirstName\":\"John - shippingName\",\"contactLastName\":\"Green - shippingName\",\"companyName\":\"Steuber, Schamberger and Leffler\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
-        "customerObject": "{\"id\":53237,\"customerFirstName\":\"Zula\",\"customerLastName\":\"Gottlieb\",\"customerEmail\":\"chayelle+102Shaylee@evelt.com\",\"customerPhone\":\"925-755-7647\",\"customerCompanyName\":\"Steuber, Schamberger and Leffler\",\"dateCreated\":\"1670502805\",\"customerStatus\":\"cs_approved\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":1,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2022-12-08 12:33:25\",\"editedAt\":\"2022-12-08 12:34:55\"}",
+        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_8II78afqDL1NC9pvEagHwlTB\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_8yY55uZos2WfmnqUhfnBsuU1\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"chayelle+102Shaylee@evelt.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"}],\"contactFirstName\":\"#### - shippingName\",\"contactLastName\":\"#### - shippingName\",\"companyName\":\"##########,\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
+        "customerObject": "{\"id\":53237,\"customerFirstName\":\"Zula\",\"customerLastName\":\"Gottlieb\",\"customerEmail\":\"chayelle+102Shaylee@evelt.com\",\"customerPhone\":\"925-755-7647\",\"customerCompanyName\":\"#######\",\"dateCreated\":\"1670502805\",\"customerStatus\":\"cs_approved\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":1,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2022-12-08 12:33:25\",\"editedAt\":\"2022-12-08 12:34:55\"}",
         "dateCreated": 1670502895
     }
 }
@@ -536,7 +536,7 @@ curl --request POST \
 {
   "id": "117",
   "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
-  "customerToken": "cust_HgjzzebMZgssVUqv2aCYbBUk",
+  "customerToken": "cust_123456",
   "couponCodes": ["SUMMER50"],
   "addressToken": "",
   "shippingMethod": "",
@@ -601,7 +601,7 @@ curl --request POST \
 {
   "id": "117",
   "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
-  "customerToken": "cust_HgjzzebMZgssVUqv2aCYbBUk",
+  "customerToken": "cust_123456",
   "couponCodes": [],
   "addressToken": "",
   "shippingMethod": "",
