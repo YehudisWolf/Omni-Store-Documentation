@@ -174,7 +174,7 @@ if ($err) {
 ```json
 {
     "prodToken": "prod_123",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "prodName": "Base test",
      "prodImage": {
         "file": "5-16-2019/1558035336341__607069__Imperial-Berkey-System-NMCL-E-Commerce-1.jpg"
@@ -238,7 +238,7 @@ if ($err) {
         {
             "prodToken": "prod_123",
             "variantToken": "vrnt_4fRjcxwep6p80Jut",
-            "companyToken": "comp_3fgfgNjMfe5Bcst7",
+            "companyToken": "comp_123456",
             "variantName": "Moishe fVar",
             "variantImage": "",
             "variantImages": [
@@ -561,7 +561,7 @@ if ($err) {
 [
   {
     "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "collectionName": "c 1d23",
     "collectionDefaultSort": "b",
     "collectionSlug": "d",
@@ -571,7 +571,7 @@ if ($err) {
   },
   {
     "collectionToken": "clcs_EoexlRSAdfrkH37d",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "collectionName": "NAME",
     "collectionDefaultSort": "b",
     "collectionSlug": "SLUG",
@@ -629,7 +629,7 @@ if ($err) {
 ```json
 {
   "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "collectionName": "c 1d23",
   "collectionDefaultSort": "b",
   "collectionSlug": "d",
@@ -642,7 +642,7 @@ if ($err) {
       "productToken": "prod_BqrDoFZe1Nf04wXr",
       "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
       "prodToken": "prod_BqrDoFZe1Nf04wXr",
-      "companyToken": "comp_3fgfgNjMfe5Bcst7",
+      "companyToken": "comp_123456",
       "prodName": "This is name test",
       "prodImage": "",
       "prodImages": "",
@@ -667,7 +667,7 @@ if ($err) {
       "productToken": "prod_DRPBsXOgYfHqqcDB",
       "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
       "prodToken": "prod_DRPBsXOgYfHqqcDB",
-      "companyToken": "comp_3fgfgNjMfe5Bcst7",
+      "companyToken": "comp_123456",
       "prodName": "brgtbr",
       "prodImage": "",
       "prodImages": "",
@@ -761,13 +761,13 @@ if ($err) {
 ```json
 [
   {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_2UJFjRsFMRECMtcqSvTx",
     "brandName": "arrow-down",
     "brandImage": "9-2-2020/1599064728110__1059__photo_2020-07-26_13-44-22.jpg"
 },
   {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_2UJFjRsFMRECMtcqSvTx",
     "brandName": "arrow-down",
     "brandImage": "9-2-2020/1599064728110__1059__photo_2020-07-26_13-44-22.jpg"
@@ -821,7 +821,7 @@ if ($err) {
 
 ```json
 {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_2UJFjRsFMRECMtcqSvTx",
     "brandName": "arrow-down",
     "brandImage": "9-2-2020/1599064728110__1059__photo_2020-07-26_13-44-22.jpg"
@@ -892,9 +892,9 @@ if ($err) {
 ```json
 {
   "cartToken": "cart_k3YtQ3MRqtTZBBQ90WBMotTt",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
-  "customerToken": "cust_RqpJFDxXBB1LBJXZqSVYpuBl",
+  "customerToken": "cust_123456",
   "status": "cart created"
 }
 ```
@@ -951,7 +951,7 @@ if ($err) {
 
 ```json
 {
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
   "cartToken": "cart_33FkeUtvV7PXTwMOVCCcVa0S",
   "customerToken": "cust_111",
@@ -971,7 +971,7 @@ if ($err) {
       "deleted": "0",
       "product": {
         "prodToken": "prod_xo22yxyybFUhVU3V",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "prodName": "Ner Mitzvah On The Go Shabbos Set",
         "prodImage": "5-30-2018/1527707245740__578534__NM-23020.jpg",
         "prodImages": [],
@@ -1126,7 +1126,7 @@ if ($err) {
 
 ```json
 {
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
   "cartToken": "cart_6yZ0bcIz0isgUMYJTOk6fnr4",
   "customerToken": "cust_123",
@@ -1462,7 +1462,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
   --header 'token: 123' \
-  --data '{ "customerFirstName" : "Moishe", "customerLastName" : "Blue", "customerEmail" : "mschwartz@evselt.com", "customerPassword" : "123456Aa" }'
+  --data '{ "customerFirstName" : "#####", "customerLastName" : "####", "customerEmail" : "123456@evselt.com", "customerPassword" : "123456Aa" }'
 
 ```
 
@@ -1475,7 +1475,7 @@ curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.omnifront.cloudsnob.com/customers/",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_CUSTOMREQUEST => "POST",
-   CURLOPT_POSTFIELDS => "{ \"customerFirstName\" : \"Moishe\", \"customerLastName\" : \"Blue\", \"customerEmail\" : \"mschwartz@evselt.com\", \"customerPassword\" : \"123456Aa\" }",
+   CURLOPT_POSTFIELDS => "{ \"customerFirstName\" : \"#####\", \"customerLastName\" : \"####\", \"customerEmail\" : \"123456@evselt.com\", \"customerPassword\" : \"123456Aa\" }",
 
 
   CURLOPT_HTTPHEADER => array(
@@ -1501,10 +1501,10 @@ if ($err) {
 
 ```json
 {
-  "customerToken": "cust_xBedClkqViWqaBVSQ4D7ZSXm",
-  "customerEmail": "mschwartahz@evselt.com",
-  "customerFirstName": "Moishe",
-  "customerLastName": "Blue",
+  "customerToken": "cust_123456",
+  "customerEmail": "123456@evselt.com",
+  "customerFirstName": "#####",
+  "customerLastName": "####",
   "customerPhone": null
 }
 ```
@@ -1572,11 +1572,11 @@ if ($err) {
 
 ```json
 {
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
-  "customerToken": "cust_xBedClkqViWqaBVSQ4D7ZSXm",
-  "customerFirstName": "Moishe",
-  "customerLastName": "Blue",
-  "customerEmail": "mschwartahz@evselt.com",
+  "companyToken": "comp_123456",
+  "customerToken": "cust_123456",
+  "customerFirstName": "#####",
+  "customerLastName": "####",
+  "customerEmail": "123456@evselt.com",
   "customerPhone": "",
   "dateCreated": "1529341050",
   "guest": "0",
@@ -1693,9 +1693,9 @@ if ($err) {
 ```json
 {
   "userToken": "usr_123",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
-  "name": "Moses Schwartz",
-  "email": "mschwartz@evelt.com",
+  "companyToken": "comp_123456",
+  "name": "### #####",
+  "email": "123456@evelt.com",
   "phone": "8455008070",
   "createdOn": "1505148766",
   "lastLogin": "1529415579"
@@ -2009,7 +2009,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
   --header 'token: 123' \
-  --data '{"contactEmail" : "mschwartz@test.com","addressToken" : "adrs_123"}'
+  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_123"}'
 
 ```
 
@@ -2048,7 +2048,7 @@ if ($err) {
 {
   "id": "1",
   "cartToken": "cart_uVCTu26zon4Zjut2YZ399BiG",
-  "customerToken": "cust_CrMpXsC9jVuzpOtLg58OqfBT",
+  "customerToken": "cust_123456",
   "addressToken": "adrs_Ik8y7FrJHm8wgkzqPtNVVHOB",
   "shippingMethod": "",
   "shippingMethodId": "",
@@ -2387,7 +2387,7 @@ if ($err) {
 {
   "id": "1",
   "cartToken": "cart_uVCTu26zon4Zjut2YZ399BiG",
-  "customerToken": "cust_CrMpXsC9jVuzpOtLg58OqfBT",
+  "customerToken": "cust_123456",
   "addressToken": "adrs_Ik8y7FrJHm8wgkzqPtNVVHOB",
   "shippingMethod": "",
   "shippingMethodId": "3jiJ0s56y9uGcPBHK7ZV2CzU",
@@ -2624,7 +2624,7 @@ if ($err) {
         "deleted": "0",
         "product": {
           "prodToken": "prod_3aiNdXcBQ2CPxPny",
-          "companyToken": "comp_3fgfgNjMfe5Bcst7",
+          "companyToken": "comp_123456",
           "prodName": "Flat Wire for Lightning iPhone, iPad, iPod Sync and Charge Cable",
           "prodImage": "5-31-2018/1527796147164__187422__ZF-ZFACUSBFWIP5.jpg",
           "prodImages": [],
@@ -2655,7 +2655,7 @@ if ($err) {
         }
       }
     ],
-    "orderEmail": "schwart@ygmaitl.com",
+    "orderEmail": "123456@gmail.com",
     "orderShippingMethod": {
       "desc": "Priority Mail 3-Day Window Flat Rate Envelope",
       "rate": 18.7,
@@ -2744,8 +2744,8 @@ if ($err) {
       "transfer_group": null
     },
     "siteToken": "site_123",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
-    "customerToken": "cust_CrMpXsC9jVuzpOtLg58OqfBT",
+    "companyToken": "comp_123456",
+    "customerToken": "cust_123456",
     "orderToken": "ordr_KHojLPQGj4j6vZRyn3GBPeGu"
   }
 }
@@ -2825,7 +2825,7 @@ if ($err) {
 {
   "id": "117",
   "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
-  "customerToken": "cust_HgjzzebMZgssVUqv2aCYbBUk",
+  "customerToken": "cust_123456",
   "couponCodes": ["SUMMER50"],
   "addressToken": "",
   "shippingMethod": "",
@@ -2853,14 +2853,14 @@ if ($err) {
   "couponCodesInfo": [
     {
       "name": "SUMMER50",
-      "msg": "Sucssecfully applied",
+      "msg": "Successfully applied",
       "status": "valid"
     }
   ],
   "couponCodeInfo": [
     {
       "name": "SUMMER50",
-      "msg": "Sucssecfully applied",
+      "msg": "Successfully applied",
       "status": "valid"
     }
   ]
@@ -2926,7 +2926,7 @@ if ($err) {
 {
   "id": "117",
   "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
-  "customerToken": "cust_HgjzzebMZgssVUqv2aCYbBUk",
+  "customerToken": "cust_123456",
   "couponCodes": [],
   "addressToken": "",
   "shippingMethod": "",
@@ -3011,14 +3011,14 @@ if ($err) {
 ```json
 [
   {
-    "cardToken": "cc_HJex2VlBc15i",
-    "cardTokenStripe": "card_1CjpRDEmQpkAHEEPpwvwB4q4",
+    "cardToken": "cc_123456",
+    "cardTokenStripe": "card_123456",
     "lastFour": "",
     "expMonth": "12",
     "expYear": "2020",
     "cvv": "123",
     "companyToken": "",
-    "customerToken": "cust_lRerwQnjCPEu9AxYzdIrMKlm"
+    "customerToken": "cust_123456"
   }
 ]
 ```
@@ -3090,8 +3090,8 @@ if ($err) {
   "billingCity": "Brooklyn",
   "billingState": "NY",
   "isDefault": true,
-  "customerToken": "cust_6qljyfUYPQH052JlIDz5cUp0",
-  "cardToken": "cc_TJ2KfN3u2pcF"
+  "customerToken": "cust_123456",
+  "cardToken": "cc_123456"
 }
 ```
 
@@ -3280,7 +3280,7 @@ if ($err) {
 ```json
 {
   "id": 2,
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "navigationToken": "nav_0hunlFryeREclg9f",
   "name": "My Nav",
   "slug": "my-nav-slug",
@@ -3295,7 +3295,7 @@ if ($err) {
       "link": "",
       "fullItem": {
         "prodToken": "prod_dO3DKC6pXBKiPSYX",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "prodName": "A. Saks Expandable 26\" Soft Duffel Bag Black",
         "prodImage": "5-30-2018/1527713527563__436164__AS-AE26.jpg",
         "prodImages": [],
@@ -3438,7 +3438,7 @@ This endpoint send a reset password link to a user (Be careful, it always return
 ```shell
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/restorepassword \
-  --data '{ "hash" : "pass_q5w3c4eqawjmnu8urhdudkm5hslrslp4xlbtb2wewt53woqgr", "newPassword" : "123456789" }'
+  --data '{ "hash" : "pass_987654", "newPassword" : "123456789" }'
 ```
 
 ```php
@@ -3449,7 +3449,7 @@ $curl = curl_init();
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.omnifront.cloudsnob.com/restorepassword/",
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{ \"hash\" : \"pass_q5w3c4eqawjmnu8urhdudkm5hslrslp4xlbtb2wewt53woqgr\", \"newPassword\" : \"1234eeeeee56\" }",
+  CURLOPT_POSTFIELDS => "{ \"hash\" : \"pass_123456r\", \"newPassword\" : \"1234eeeeee56\" }",
 
   CURLOPT_HTTPHEADER => array(
     "cache-control: no-cache",
