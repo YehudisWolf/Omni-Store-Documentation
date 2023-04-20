@@ -19,7 +19,7 @@ curl --request GET \
 ```json
 [
   {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_ICuB6izokMOcVps1c8I0",
     "brandName": "aaaaaaaaaa",
     "brandImage": "",
@@ -27,7 +27,7 @@ curl --request GET \
     "editedAt": "2021-12-16 18:45:21"
   },
   {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_IFQDSodUJWQMZapLUtXr",
     "brandName": "Second brand test",
     "brandImage": "",
@@ -35,7 +35,7 @@ curl --request GET \
     "editedAt": "2021-12-16 18:45:21"
   },
   {
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "brandToken": "brnd_nsFrcZ5A4AEavqcYSKfO",
     "brandName": "newbrnaad",
     "brandImage": "",
@@ -69,7 +69,7 @@ curl --request GET \
 
 ```json
 {
-  "companyToken": "comp_sfgb50s0dsdgsfh5g",
+  "companyToken": "comp_123456",
   "brandToken": "brnd_nsFrcZ5A4AEavqcYSKfO",
   "brandName": "newbrnaad",
   "brandImage": "",
