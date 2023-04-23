@@ -8,7 +8,7 @@
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes \
   --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -18,7 +18,7 @@ Response:
   {
     "name": "",
     "quoteToken": "cc_gLNmZvF2iXKx",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
+    "customerToken": "cust_123456",
     "companyToken": "",
     "quoteItems": null,
     "quoteFiles": "",
@@ -31,13 +31,13 @@ Response:
   {
     "name": "",
     "quoteToken": "sadasdasdasds",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
+    "customerToken": "cust_123456",
     "companyToken": "comp_3fgfgNjMfe5Bcst7",
     "quoteItems": [
       {
         "prodToken": "prod_UXXUOkccVZwoIiE7",
         "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
         "variantImages": "[]",
@@ -106,8 +106,8 @@ Response:
   {
     "name": "",
     "quoteToken": "quote_IGcWlRG6p0HS",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": null,
     "quoteFiles": "",
     "dateSubmitted": "2021-12-01 20:43:38",
@@ -135,7 +135,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/status \
     --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -145,8 +145,8 @@ Response:
   {
     "name": "",
     "quoteToken": "cc_s2f4scfJy4Z0",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": null,
     "quoteFiles": "",
     "dateSubmitted": "2021-12-01 20:47:19",
@@ -158,13 +158,13 @@ Response:
   {
     "name": "",
     "quoteToken": "sadasdasdasds",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": [
       {
         "prodToken": "prod_UXXUOkccVZwoIiE7",
         "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
         "variantImages": "[]",
@@ -223,7 +223,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/open \
     --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -233,13 +233,13 @@ Response:
   {
     "name": "",
     "quoteToken": "sadasdasdasds",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": [
       {
         "prodToken": "prod_UXXUOkccVZwoIiE7",
         "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
         "variantImages": "[]",
@@ -308,8 +308,8 @@ Response:
   {
     "name": "",
     "quoteToken": "quote_IGcWlRG6p0HS",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": null,
     "quoteFiles": "",
     "dateSubmitted": "2021-12-01 20:43:38",
@@ -321,8 +321,8 @@ Response:
   {
     "name": "",
     "quoteToken": "cc_s2f4scfJy4Z0",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": null,
     "quoteFiles": "",
     "dateSubmitted": "2021-12-01 20:47:19",
@@ -334,7 +334,7 @@ Response:
   {
     "name": "",
     "quoteToken": "cc_gLNmZvF2iXKx",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
+    "customerToken": "cust_123456",
     "companyToken": "",
     "quoteItems": null,
     "quoteFiles": "",
@@ -367,7 +367,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{"quoteItems" : "lll", "quoteFiles" : "111111" }'
 
 ```
@@ -378,8 +378,8 @@ Response:
 {
   "name": "",
   "quoteToken": "quote_SCOBBRFrfpXV",
-  "customerToken": "cust_pQb1hZqri7FLep1WCwxTjBms",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "customerToken": "cust_123456",
+  "companyToken": "comp_123456",
   "quoteItems": "lll",
   "quoteFiles": "",
   "dateSubmitted": null,
@@ -410,7 +410,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{ "quoteItems" : "lll", "quoteFiles" : "111111" }'
 
 ```
@@ -421,8 +421,8 @@ Response:
 {
   "name": "",
   "quoteToken": "quote_00ZebMJzT6kg",
-  "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "customerToken": "cust_123456",
+  "companyToken": "comp_123456",
   "quoteItems": "lll",
   "quoteFiles": "111111",
   "dateSubmitted": "2021-12-01 17:00:25",
@@ -459,7 +459,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
    --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{ "quoteItems" : "lll", "quoteFiles" : "111111" }'
 
 ```
@@ -470,7 +470,7 @@ Response:
 {
   "name": "",
   "quoteToken": "quote_00ZebMJzT6kg",
-  "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
+  "customerToken": "cust_123456",
   "companyToken": "comp_3fgfgNjMfe5Bcst7",
   "quoteItems": "lllss",
   "quoteFiles": "111111",
@@ -508,7 +508,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{"quoteItems" : "lll", "quoteFiles" : "111111" }'
 
 ```
@@ -519,8 +519,8 @@ Response:
 {
   "name": "",
   "quoteToken": "cc_s2f4scfJy4Z0",
-  "customerToken": "cust_pQb1hZqri7FLep1WCwxTjBms",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "customerToken": "cust_123456",
+  "companyToken": "comp_123456",
   "quoteItems": "lll",
   "quoteFiles": "",
   "dateSubmitted": "2020-02-02 04:04:45",
@@ -542,7 +542,7 @@ curl --request DELETE \
   --url https://api.omnifront.cloudsnob.com/quotes/{quoteToken} \
   --header 'content-type: application/json' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
