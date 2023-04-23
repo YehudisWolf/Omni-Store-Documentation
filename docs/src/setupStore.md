@@ -76,14 +76,14 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
 --data-raw '{
     "company": {
         "companyName": "This is the company name 338index",
-        "companyEmail": "662Maudie9@gmail.com",
-        "companyPhone": "013953223232",
+        "companyEmail": "123456@gmail.com",
+        "companyPhone": "1234567890",
         "fs1Token": "",
         "fs1GetToken": "",
-        "cardknoxToken": "opticsforcellcc05320cd4cda41518244a597d635620"
+        "cardknoxToken": "123456"
     },
     "site": {
-        "siteName": "Bogan, Kovacek and Roob",
+        "siteName": "####, ##### and ####",
         "address1": "",
         "address2": "",
         "city": "",
@@ -94,10 +94,10 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "phoneNumber": ""
     },
     "user": {
-        "name": "Sydni Kuhic",
+        "name": "#### #####",
         "password": "passwordForUser",
         "role": 3,
-        "email": "216Alda93@gmail.com",
+        "email": "123456@gmail.com",
         "phone": ""
     },
     "additCompInfo": {
@@ -130,15 +130,15 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
 ```json
     "company": {
         "companyName": "This is the company name 672copy",
-        "companyEmail": "523Madie44@hotmail.com",
-        "companyPhone": "013953223232",
+        "companyEmail": "123456@hotmail.com",
+        "companyPhone": "1234567890",
         "fs1Token": "",
         "fs1GetToken": "",
-        "cardknoxToken": "opticsforcellcc05320cd4cda41518244a597d635620",
-        "companyToken": "comp_7HFq4jjToIDjyDi5"
+        "cardknoxToken": "123456",
+        "companyToken": "comp_123456"
     },
     "site": {
-        "siteName": "Nader Inc",
+        "siteName": "#### Inc",
         "address1": "",
         "address2": "",
         "city": "",
@@ -148,30 +148,30 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "logo": "",
         "phoneNumber": "",
         "lastOrderNumber": 1004534,
-        "companyToken": "comp_7HFq4jjToIDjyDi5",
+        "companyToken": "comp_123456",
         "siteToken": "site_pG7NtyJrwU6swsVZ"
     },
     "user": {
-        "name": "Katherine Hermiston",
+        "name": "#### ######",
         "password": "passwordForUser",
         "role": 3,
-        "email": "119Reilly_Hoppe18@gmail.com",
+        "email": "123456@gmail.com",
         "phone": "",
-        "companyToken": "comp_7HFq4jjToIDjyDi5",
+        "companyToken": "comp_123456",
         "siteToken": "site_pG7NtyJrwU6swsVZ",
-        "userToken": "user_4LhDO11wLft8PpCX"
+        "userToken": "user_123456"
     },
     "additionalCompanyInfo": {
         "resetLink": "",
         "supportEmailAddress": "",
         "salesEmailAddress": "",
-        "companyToken": "comp_7HFq4jjToIDjyDi5",
+        "companyToken": "comp_123456",
         "siteToken": "site_pG7NtyJrwU6swsVZ"
     },
     "settings": {
         "company": {
             "fs1GetToken": "",
-            "companyToken": "comp_7HFq4jjToIDjyDi5",
+            "companyToken": "comp_123456",
             "siteToken": "site_pG7NtyJrwU6swsVZ",
             "companySettingToken": "stngComp_anByvApqujftdBg6"
         },
@@ -192,7 +192,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
             "taxRate": 0.8,
             "variantUrl": "",
             "deleteSessionsRuleInDays": 40,
-            "companyToken": "comp_7HFq4jjToIDjyDi5",
+            "companyToken": "comp_123456",
             "siteToken": "site_pG7NtyJrwU6swsVZ",
             "settingsSiteToken": "stngSite_hQPXaygGbZH7jxdE"
         }
@@ -221,8 +221,8 @@ curl --request GET \
     "site": {
         "id": 3,
         "siteToken": "site_Dpawt345k2m4",
-        "companyToken": "comp_dft6yhzjkli",
-        "siteName": "opticsforce.com",
+        "companyToken": "comp_123456",
+        "siteName": "123456.com",
         "archived": 0,
         "address1": "57 Bewick Road",
         "address2": "Apt. 4",
@@ -238,10 +238,10 @@ curl --request GET \
     },
     "company": {
         "id": 2,
-        "companyToken": "comp_dft6yhzjkli",
+        "companyToken": "comp_123456",
         "companyEmail": "",
         "companyPhone": "",
-        "comapnyName": "Optics Force",
+        "comapnyName": "### ####",
         "companyDomain": "",
         "fs1Token": "D56SQB4YU08QN6F37JY1W",
         "fs1GetToken": "5b22e94022563965f4fdd4b5",
@@ -249,7 +249,7 @@ curl --request GET \
         "orderNumber": 0,
         "stripeTokenSecret": "",
         "stripeTokenPublic": "",
-        "cardknoxToken": "opticsforcellcc05320cd4cda41518244a597d635620",
+        "cardknoxToken": "123456",
         "dateCreated": "",
         "archived": 0,
         "createdAt": "2021-12-15 13:23:49",
@@ -258,11 +258,11 @@ curl --request GET \
     "user": [
         {
             "id": 151,
-            "userToken": "usr_gb67jkKjgT",
-            "companyToken": "comp_dft6yhzjkli",
-            "name": "Bochner",
-            "email": "chayelle@evelt.com",
-            "phone": "8455008012",
+            "userToken": "usr_123456",
+            "companyToken": "comp_123456",
+            "name": "#####",
+            "email": "123456@evelt.com",
+            "phone": "1234567890",
             "role": 1,
             "createdOn": "1505148766",
             "lastLogin": "1657789823",
@@ -271,10 +271,10 @@ curl --request GET \
         },
         {
             "id": 163,
-            "userToken": "user_DUzQMloKs8PzWr7E",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "chylaroth@gmail.com",
+            "email": "123456@gmail.com",
             "phone": "",
             "role": 1,
             "createdOn": "1641334157",
@@ -284,10 +284,10 @@ curl --request GET \
         },
         {
             "id": 164,
-            "userToken": "user_MmrCFYDHXx8jsF9j",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "mendya@evelt.com",
+            "email": "123456@evelt.com",
             "phone": "",
             "role": 1,
             "createdOn": "1653599015",
@@ -297,10 +297,10 @@ curl --request GET \
         },
         {
             "id": 188,
-            "userToken": "user_PPQiDBxlHzv3GM8D",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "chayelle+solid state742Hollie@evelt.com",
+            "email": "123456@evelt.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657487951",
@@ -310,10 +310,10 @@ curl --request GET \
         },
         {
             "id": 187,
-            "userToken": "user_ymxmbMD0lQsnqZNU",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "chayelle+redundant999Lillian@evelt.com",
+            "email": "123456@evelt.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657487252",
@@ -323,10 +323,10 @@ curl --request GET \
         },
         {
             "id": 184,
-            "userToken": "user_C3CZsg6P7iWnBMjv",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "chayelle+back-end609Gerardo@evelt.com",
+            "email": "123456@evelt.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657486361",
@@ -336,10 +336,10 @@ curl --request GET \
         },
         {
             "id": 183,
-            "userToken": "user_kTVDm2NmdC2vwC1Q",
-            "companyToken": "comp_dft6yhzjkli",
+            "userToken": "user_123456",
+            "companyToken": "comp_123456",
             "name": "",
-            "email": "chayelle+auxiliary813Arnulfo@evelt.com",
+            "email": "123456@evelt.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657486244",
@@ -351,7 +351,7 @@ curl --request GET \
     "settings": {
         "companySettings": {
             "settingToken": "stngComp_idxVARXY7fIk",
-            "companyToken": "comp_dft6yhzjkli",
+            "companyToken": "comp_123456",
             "siteToken": "site_Dpawt345k2m4",
             "fs1GetToken": "987",
             "deleted": 0,
@@ -360,7 +360,7 @@ curl --request GET \
         },
         "siteSettings": {
             "settingToken": "stng_ekxpQ8OmSPVV",
-            "companyToken": "comp_dft6yhzjkli",
+            "companyToken": "comp_123456",
             "siteToken": "site_Dpawt345k2m4",
             "baseUrl": null,
             "cartQuantityCombine": null,
@@ -411,7 +411,7 @@ curl --request GET \
 
 ```shell
 curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippingmethods/' \
---header 'token: user_9EmEsTS6uvAGQoBK' \
+--header 'token: user_123456' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "ups": {
@@ -433,10 +433,10 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
             }
         ],
         "credentials": {
-            "key": "9D95FAF78C39F992",
-            "account": "273Y5R",
-            "username": "shopwiseqvm",
-            "password": "ysjb8754"
+            "key": "123456",
+            "account": "123456",
+            "username": "######",
+            "password": "#####"
         }
     },
     "freeshipping": {
@@ -534,10 +534,10 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
             }
         ],
         "credentials": {
-            "key": "9D95FAF78C39F992",
-            "account": "273Y5R",
-            "username": "shopwiseqvm",
-            "password": "ysjb8754"
+            "key": "123456",
+            "account": "123456",
+            "username": "#####",
+            "password": "#####"
         }
     },
     "freeshipping": {
@@ -674,7 +674,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
     curl --location --request PUT 'https://api.omnifront.cloudsnob.com/V1.10/setupStore/comp_CP8Fk5bCArMF59Ta' \
 --header 'security: [contact evelt]' \
 --header 'token: site_8LMODL8fndBMl2jH' \
---header 'userToken: user_z3cz7IfKXVysMpln' \
+--header 'userToken: user_123456' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "company": {
@@ -704,9 +704,9 @@ The above example returns a json object that looks like this:
 {
     "company": {
         "id": 127,
-        "companyToken": "comp_CP8Fk5bCArMF59Ta",
-        "companyEmail": "694Mohamed.Flatley@yahoo.com",
-        "companyPhone": "013953223232",
+        "companyToken": "comp_123456",
+        "companyEmail": "123456@yahoo.com",
+        "companyPhone": "1234567890",
         "comapnyName": "edited company name",
         "companyDomain": "",
         "fs1Token": "34A0IRN53K88JCBAFE6Q2JFW29O17PBR0V0N30SV6SM0R7LDI",
@@ -724,7 +724,7 @@ The above example returns a json object that looks like this:
     "site": {
         "id": 99,
         "siteToken": "site_8LMODL8fndBMl2jH",
-        "companyToken": "comp_CP8Fk5bCArMF59Ta",
+        "companyToken": "comp_123456",
         "siteName": "edited site name",
         "archived": 0,
         "address1": "",
@@ -741,10 +741,10 @@ The above example returns a json object that looks like this:
     },
     "user": {
         "id": 246,
-        "userToken": "user_z3cz7IfKXVysMpln",
-        "companyToken": "comp_CP8Fk5bCArMF59Ta",
+        "userToken": "user_123456",
+        "companyToken": "comp_123456",
         "name": "updated",
-        "email": "612Osbaldo_Murray53@hotmail.com",
+        "email": "123456@hotmail.com",
         "phone": "",
         "password": "jkl",
         "role": 3,
@@ -758,7 +758,7 @@ The above example returns a json object that looks like this:
     "settings": {
         "settingsSite": {
             "settingToken": "stngSite_xB6MUyS78RGfzSki",
-            "companyToken": "comp_CP8Fk5bCArMF59Ta",
+            "companyToken": "comp_123456",
             "siteToken": "site_8LMODL8fndBMl2jH",
             "baseUrl": "",
             "cartQuantityCombine": 1,
