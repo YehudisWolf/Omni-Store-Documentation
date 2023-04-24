@@ -63,7 +63,7 @@ This will be the table for all site based enquiries
     ],
     "settingssite": {
         "settingToken": "stngSite_VankVNtH9zI3",
-        "companyToken": "comp_dft6yhzjkli",
+        "companyToken": "comp_123456",
         "siteToken": "site_Dpawt345k2m4",
         "baseUrl": "https://optics.evelt.dev/",
         "cartQuantityCombine": 1,
