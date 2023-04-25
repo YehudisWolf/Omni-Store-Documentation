@@ -39,10 +39,10 @@ curl --request POST \
 > If the 'customerStatus' is 'cs_awaiting_approval' The above command returns JSON structured like this:
 ```json
 {
-    "customerToken": "cs_GgNZxnn7sWAN3v4HNb8x09nCjxTa0cQRz9Oq",
+    "customerToken": "cs_123456",
     "customerStatus": "cs_awaiting_approval",
-    "customerEmail": "chayelle+313Rupert@evelt.com",
-    "customerFirstName": "Romaine"
+    "customerEmail": "123456@evelt.com",
+    "customerFirstName": "######"
 }
 ```
 
@@ -66,7 +66,7 @@ curl --request POST \
   "taxExemptID": null,
   "createdAt": "2021-12-01 10:12:01",
   "editedAt": "2021-12-01 13:42:53",
-  "customerToken": "cs_ZK4RlsapPZr6etrnR4wHg9QZgewANIXV1e6k"
+  "customerToken": "cs_123456"
 }
 ```
 
@@ -88,7 +88,7 @@ curl --request POST \
 ```shell
 curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/login/logout' \
 --header 'token: site_Dpawt345k2m4' \
---header 'customerToken: cs_WeWTIfxVRh0VuyYRzH1K8LnNCHuThUukFpnv'
+--header 'customerToken: cs_123456'
 ```
 
 > The above command returns JSON structured like this:

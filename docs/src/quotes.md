@@ -69,7 +69,7 @@ Pricing:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes \
   --header 'token: site_Token'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{
         "quoteItems": [
                {
@@ -83,9 +83,9 @@ curl --request POST \
            ],
            "shippingAddress" : "adrs_WeAHRgbGWL20ffUuQua1t5Gf",
            "contactDetails" : {
-               "firstName" : "Sharon",
-               "lastName" : "Doe",
-               "email" : "chayelle+quoteDetails@evelt.com",
+               "firstName" : "####",
+               "lastName" : "#####",
+               "email" : "123456@evelt.com",
                "phoneNumber" : "987657489",
                "companyName" : "Techo"
            }
@@ -97,7 +97,7 @@ Response:
 ```json
 {
     "quoteToken": "quote_QKc0xtR0EXNJ",
-    "customerToken": "cs_Yc4JrR2zsRyFsRRSCHWkVX4wT60JL2oiF1B4",
+    "customerToken": "cs_123456",
     "companyToken": "comp_dft6yhzjkli",
     "quoteFiles": "",
     "status": "waiting-response",
@@ -120,7 +120,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_tpZ6ntgIg6oi27KF",
                 "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                 "variantImage": {
                     "file": "6-27-2018/1530121117199__32308__5618.jpg"
@@ -188,7 +188,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_ozRjqnWCKNzmhZaS",
                 "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
                     "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -255,22 +255,22 @@ Response:
         "addressCity": "Monsey",
         "addressState": "NY",
         "addressZip": "10952",
-        "addressFirstName": "Mika",
-        "addressLastName": "Green",
+        "addressFirstName": "####",
+        "addressLastName": "#####",
         "phoneNumber": "",
         "mobileNumber": "",
         "addressCountry": "United States",
         "addressDefault": 0,
-        "customerToken": "cust_88sGkuJpGGyhU8on65xgojPT",
+        "customerToken": "cust_123456",
         "createdAt": "2023-01-03 11:30:56",
         "editedAt": "2023-01-03 11:30:56",
         "specialValues": []
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_nEV0kVRmMWR9",
-        "firstName": "Sharon",
-        "lastName": "Doe",
-        "email": "chayelle+quoteDetails@evelt.com",
+        "firstName": "####",
+        "lastName": "#####",
+        "email": "123456@evelt.com",
         "phoneNumber": "987657489",
         "companyName": "Techo"
     },
@@ -295,7 +295,7 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes/[shippingQuotesToken]/approve-shipping \
   --header 'token: site_Token'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{
         "approved": true,
         "approvedBy": "[name]"
@@ -322,7 +322,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes \
   --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -331,7 +331,7 @@ Response:
 [
     {
         "quoteToken": "quote_TjIM4C2RtK5H",
-        "customerToken": "cs_Yc4JrR2zsRyFsRRSCHWkVX4wT60JL2oiF1B4",
+        "customerToken": "cs_123456",
         "companyToken": "comp_dft6yhzjkli",
         "quoteFiles": "",
         "status": "waiting-response",
@@ -354,7 +354,7 @@ Response:
                 "fullDetails": {
                     "prodToken": "prod_tpZ6ntgIg6oi27KF",
                     "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                     "variantImage": {
                         "file": "6-27-2018/1530121117199__32308__5618.jpg"
@@ -489,22 +489,22 @@ Response:
             "addressCity": "Monsey",
             "addressState": "NY",
             "addressZip": "10952",
-            "addressFirstName": "Mika",
-            "addressLastName": "Green",
+            "addressFirstName": "####",
+            "addressLastName": "#####",
             "phoneNumber": "",
             "mobileNumber": "",
             "addressCountry": "United States",
             "addressDefault": 0,
-            "customerToken": "cust_88sGkuJpGGyhU8on65xgojPT",
+            "customerToken": "cust_123456",
             "createdAt": "2023-01-03 11:30:56",
             "editedAt": "2023-01-03 11:30:56",
             "specialValues": []
         },
         "contactDetails": {
             "quote_ContactToken": "quoteContact_iX8J2MWM0WEP",
-            "firstName": "Sharon",
-            "lastName": "Doe",
-            "email": "chayelle+quoteDetails@evelt.com",
+            "firstName": "####",
+            "lastName": "#####",
+            "email": "123456@evelt.com",
             "phoneNumber": "987657489",
             "companyName": "Techo"
         },
@@ -512,7 +512,7 @@ Response:
     },
     {
         "quoteToken": "quote_hkSfDVoy8QvV",
-        "customerToken": "cs_Yc4JrR2zsRyFsRRSCHWkVX4wT60JL2oiF1B4",
+        "customerToken": "cs_123456",
         "companyToken": "comp_dft6yhzjkli",
         "quoteFiles": "",
         "status": "approvedByCustomer",
@@ -535,7 +535,7 @@ Response:
                 "fullDetails": {
                     "prodToken": "prod_tpZ6ntgIg6oi27KF",
                     "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                     "variantImage": {
                         "file": "6-27-2018/1530121117199__32308__5618.jpg"
@@ -670,24 +670,24 @@ Response:
             "addressCity": "Monsey",
             "addressState": "NY",
             "addressZip": "10952",
-            "addressFirstName": "Mika",
-            "addressLastName": "Green",
+            "addressFirstName": "####",
+            "addressLastName": "#####",
             "phoneNumber": "",
             "mobileNumber": "",
             "addressCountry": "United States",
             "addressDefault": 0,
-            "customerToken": "cust_88sGkuJpGGyhU8on65xgojPT",
+            "customerToken": "cust_123456",
             "createdAt": "2023-01-03 11:30:56",
             "editedAt": "2023-01-03 11:30:56",
             "specialValues": []
         },
         "contactDetails": {
             "quote_ContactToken": "quoteContact_7KjjTX2g5f6e",
-            "firstName": "Sharon",
-            "lastName": "Doe",
-            "email": "chayelle+quoteDetails@evelt.com",
-            "phoneNumber": "987657489",
-            "companyName": "Techo"
+            "firstName": "####",
+            "lastName": "#####",
+            "email": "123456@evelt.com",
+            "phoneNumber": "123456789",
+            "companyName": "####"
         },
         "shippingQuote": [
             {
@@ -743,7 +743,7 @@ Response:
 ```json
 {
     "quoteToken": "quote_xdYMnZ6Px1lr",
-    "customerToken": "cs_omET2nbZuocYg0qrwiGMC19rJnpuPygF1muf",
+    "customerToken": "cs_123456",
     "companyToken": "comp_dft6yhzjkli",
     "quoteFiles": "",
     "status": "approvedByCustomer",
@@ -766,7 +766,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_tpZ6ntgIg6oi27KF",
                 "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                 "variantImage": {
                     "file": "6-27-2018/1530121117199__32308__5618.jpg"
@@ -834,7 +834,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_ozRjqnWCKNzmhZaS",
                 "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
                     "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -901,24 +901,24 @@ Response:
         "addressCity": "Monsey",
         "addressState": "NY",
         "addressZip": "10952",
-        "addressFirstName": "Mika",
-        "addressLastName": "Green",
+        "addressFirstName": "####",
+        "addressLastName": "#####",
         "phoneNumber": "",
         "mobileNumber": "",
         "addressCountry": "United States",
         "addressDefault": 0,
-        "customerToken": "cust_IMNv5HjVUeA6fTPOBv4Ukh6d",
+        "customerToken": "cust_123456",
         "createdAt": "2023-01-03 12:20:12",
         "editedAt": "2023-01-03 12:20:12",
         "specialValues": []
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_HTDKzc5B0R72",
-        "firstName": "Sharon",
-        "lastName": "Doe",
-        "email": "chayelle+quoteDetails@evelt.com",
-        "phoneNumber": "987657489",
-        "companyName": "Techo"
+        "firstName": "####",
+        "lastName": "#####",
+        "email": "123456@evelt.com",
+        "phoneNumber": "123456789",
+        "companyName": "####"
     },
     "shippingQuote": [
         {
@@ -931,7 +931,7 @@ Response:
             "deliveryDays": "1",
             "description": null,
             "approved": 1,
-            "approvedBy": "Owen Crist"
+            "approvedBy": "#### #####"
         },
         {
             "quote_shippingQuoteToken": "shippingQuoteToken_nuxPb17tWVdt",
@@ -965,7 +965,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/status \
     --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -974,9 +974,9 @@ Response:
 [
   {
     "name": "",
-    "quoteToken": "cc_s2f4scfJy4Z0",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "quoteToken": "cc_123456",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": null,
     "quoteFiles": "",
     "dateSubmitted": "2021-12-01 20:47:19",
@@ -988,13 +988,13 @@ Response:
   {
     "name": "",
     "quoteToken": "sadasdasdasds",
-    "customerToken": "cust_I4gNPGClYrPHl14nFlMbqLEB",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteItems": [
       {
         "prodToken": "prod_UXXUOkccVZwoIiE7",
         "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
         "variantImages": "[]",
@@ -1022,7 +1022,7 @@ Response:
         "variantOptions": {
           "optn_OYTQkGqr39CvOopfJPi7": "Var 1"
         },
-        "prodName": "Moishes Test",
+        "prodName": "####",
         "prodImage": "9-6-2018/1536271360573__14511__yb.jpg",
         "quantity": 2
       }
@@ -1074,8 +1074,8 @@ Response:
 ```json
 {
     "quoteToken": "quote_5iS6jgAYGMBk",
-    "customerToken": "cust_8cfyDAWmLgtYyhJ1RtiOReaw",
-    "companyToken": "comp_dft6yhzjkli",
+    "customerToken": "cust_123456",
+    "companyToken": "comp_123456",
     "quoteFiles": "",
     "status": "cancelled",
     "deleted": 0,
@@ -1089,7 +1089,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_ozRjqnWCKNzmhZaS",
                 "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
                     "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -1154,7 +1154,7 @@ Response:
             "fullDetails": {
                 "prodToken": "prod_ozRjqnWCKNzmhZaS",
                 "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                "companyToken": "comp_dft6yhzjkli",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
                     "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -1221,15 +1221,15 @@ Response:
         "state": "NY",
         "zip": "130245",
         "country": "US",
-        "receiverContactName": "Mike",
-        "receiverContactNumber": "4564498"
+        "receiverContactName": "####",
+        "receiverContactNumber": "123456"
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_X55PU3l83z4c",
-        "name": "Sharon Doe",
-        "email": "chayelle+quoteDetails@evelt.com",
-        "phoneNumber": "987657489",
-        "companyName": "Techo"
+        "name": "#### #####",
+        "email": "123456@evelt.com",
+        "phoneNumber": "123456789",
+        "companyName": "####"
     },
     "shippingQuote": null
 }
@@ -1247,7 +1247,7 @@ curl --request DELETE \
   --url https://api.omnifront.cloudsnob.com/quotes/{quoteToken} \
   --header 'content-type: application/json' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -1268,14 +1268,14 @@ curl --request DELETE \
   --url https://api.omnifront.cloudsnob.com/quotes/all \
   --header 'content-type: application/json' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
 
 ```json
 {
-    "customertoken": "cs_BiWJQDpvr2cLcMJZKAYT2h5N3e7c4OHS7eBm",
+    "customertoken": "cs_123456",
     "quotes": "all",
     "deleted": "true"
 }

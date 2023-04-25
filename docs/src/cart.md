@@ -29,9 +29,9 @@ curl --request POST \
 ```json
 {
   "cartToken": "cart_k3YtQ3MRqtTZBBQ90WBMotTt",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
-  "customerToken": "cust_RqpJFDxXBB1LBJXZqSVYpuBl",
+  "customerToken": "cust_123456",
   "status": "cart created"
 }
 ```
@@ -54,7 +54,7 @@ This endpoint retrieves a cart by cart token or customer token
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/cart \
   --header 'token: 123'
-  --header 'customerToken: cs_qwertyuiZysFx9ew'
+  --header 'customerToken: cs_123456'
 
 ```
 
@@ -62,10 +62,10 @@ curl --request GET \
 
 ```json
 {
-  "companyToken": "comp_qwertyuhfjg",
+  "companyToken": "comp_123456",
   "siteToken": "site_qwertyuigsvv",
   "cartToken": "cart_ertyuiertyu",
-  "customerToken": "cust_Urtyuix",
+  "customerToken": "cust_123456",
   "cartCreated": "1637945854",
   "cartLastTouched": "1637945854",
   "deleted": 0,
@@ -85,9 +85,9 @@ curl --request GET \
       "addOnProdTokens": null,
       "prodToken": "vrnt_vW0b5BfYvotwN537",
       "deleted": 0,
-      "companyToken": "comp_sfgb50s0dsdgsfh5g",
+      "companyToken": "comp_123456",
       "siteToken": "site_dg30sdfsgdsgsvv",
-      "customerToken": "cust_tyuioyuiVTkBx",
+      "customerToken": "cust_123456",
       "cartCreated": "1637945854",
       "cartLastTouched": "1637945854",
       "prodStaticCollections": [
@@ -100,7 +100,7 @@ curl --request GET \
       "product": {
         "prodToken": "prod_icHD94piTTvPLaDl",
         "variantToken": "vrnt_vW0b5BfYvotwN537",
-        "companyToken": "comp_sfgb50s0dsdgsfh5g",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": {
           "file": "10-13-2021/1634136843403__65263__aron-yigin-epjvM-Ql5-Y-unsplash.jpg",
@@ -204,17 +204,17 @@ curl --request POST \
   --url 'https://api.omnifront.cloudsnob.com/cart/combine/cart_50e5QlOuzqmJFp80CNOdvzLF/cs_6WK26VjXieFUZ2cRKJtR1DT3ECNMR8fXCOP2' \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
-  --header 'token: 123, customertoken : cs_gdzuvYJXIMPfA9jr5MElSLg1WeNiMwBGZ5WR' \
+  --header 'token: 123, customertoken : cs_123456' \
 ```
 
 > The above command returns JSON structured like this
 
 ```json
 {
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
   "cartToken": "cart_50e5QlOuzqmJFp80CNOdvzLF",
-  "customerToken": "cust_OLycsNhFtu2N7w4DWaOuPMqC",
+  "customerToken": "cust_123456",
   "cartCreated": "1638346960",
   "cartLastTouched": "1638346960",
   "deleted": 0,
@@ -232,9 +232,9 @@ curl --request POST \
       "addOnProdTokens": null,
       "prodToken": "vrnt_Zy1z3mQU8oVA5pIz",
       "deleted": 0,
-      "companyToken": "comp_3fgfgNjMfe5Bcst7",
+      "companyToken": "comp_123456",
       "siteToken": "site_123",
-      "customerToken": "cust_OLycsNhFtu2N7w4DWaOuPMqC",
+      "customerToken": "cust_123456",
       "cartCreated": "1638346960",
       "cartLastTouched": "1638346960",
       "prodStaticCollections": [],
@@ -242,7 +242,7 @@ curl --request POST \
       "product": {
         "prodToken": "prod_7aotpy9KUXDQxXbZ",
         "variantToken": "vrnt_Zy1z3mQU8oVA5pIz",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": {
           "file": ""

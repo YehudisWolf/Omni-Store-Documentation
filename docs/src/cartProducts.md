@@ -41,7 +41,7 @@ curl --request POST \
 {
   "cartToken": "cart_340qwertyuCx46z",
   "prodToken": "prod_MMetyuiGWoF",
-  "customerToken": "cs_J14Cdfghjk5v6iMYGTGvK6tofD",
+  "customerToken": "cs_123456",
   "cartProdQuantity": 23,
   "cartProdToken": "cp_GNly67fafffafI2aB0V",
   "cartAddedQuantity": "8",
@@ -102,7 +102,7 @@ curl --request POST \
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/cartprods/[cartProdToken] \
   --header 'token: 123'
-  --header 'customerToken: cs_dfghjklkjhgfvgh6Xav4paw'
+  --header 'customerToken: cs_123456'
 ```
 
 > The above command returns JSON structured like this:
@@ -118,9 +118,9 @@ curl --request GET \
   "deleted": 0,
   "createdAt": "2021-12-29 14:57:32",
   "editedAt": "2021-12-29 14:57:32",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "siteToken": "site_123",
-  "customerToken": "cust_5SJTQcV3Mvw7MRsMcZMv1YsC",
+  "customerToken": "cust_123456",
   "cartCreated": "1640789852",
   "cartLastTouched": "1640789852",
   "specialValues": [],
