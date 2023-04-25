@@ -48,7 +48,7 @@ b) Open up Postman desktop app
 c) Select ‘Import’ > ‘Raw text’ and paste this api call in the text box
 
     curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/123!' \
-    --header 'token: usr_gb67jkKjgT'
+    --header 'token: usr_123456'
     
 d) Note:
   This call should ONLY be called in its format above where it calls the dev environment. Do not direct it to ‘…//api.omni …’
@@ -76,12 +76,12 @@ m) Do not attempt to copy and past the returned code in postman instead of downl
 a) Copy and paste this api call below into postman (Import > Raw text > Continue > Import)
 
     curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/companyToken/123!' \
-    --header 'token: usr_gb67jkKjgT'
+    --header 'token: usr_123456'
 
-b) Edit the url ‘companyToken’ to the company token of the company you want the data of. eg Sanders Furnishers = ‘comp_DUKNlH2doBNtlKrq’ :
+b) Edit the url ‘companyToken’ to the company token of the company you want the data of. eg Tyrell Corp = ‘comp_123456’ :
 
     curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/comp_DUKNlH2doBNtlKrq/123!' \
-    --header 'token: usr_gb67jkKjgT' 
+    --header 'token: usr_123456' 
 
 c) The Api call you will call in the next few steps will be automatically pull data from the production DB: ‘cloudsno_omniPRODUCTION’. ( Note: production used to be cloudsno_omniPROD, but was changed. FYI in case of inconsistencies in name etc.)
 
