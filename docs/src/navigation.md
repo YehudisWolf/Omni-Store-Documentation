@@ -33,7 +33,7 @@ curl --request GET \
 ```json
 {
   "id": 2,
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "navigationToken": "nav_0hunlFryeREclg9f",
   "name": "My Nav",
   "slug": "my-nav-slug",
@@ -49,7 +49,7 @@ curl --request GET \
       "link": "",
       "fullItem": {
         "prodToken": "prod_dO3DKC6pXBKiPSYX",
-        "companyToken": "comp_3fgfgNjMfe5Bcst7",
+        "companyToken": "comp_123456",
         "prodName": "A. Saks Expandable 26\" Soft Duffel Bag Black",
         "prodImage": {
           "file": "5-31-2021/1622471456251__6160299__jonah-brown-veEPQ7aOx8w-unsplash.jpg",
@@ -141,7 +141,7 @@ curl --request GET \
       "fullItem": [
         {
           "collectionToken": "clcs_e49y9ZuhyE6E9wuz",
-          "companyToken": "comp_3fgfgNjMfe5Bcst7",
+          "companyToken": "comp_123456",
           "collectionName": "Luggage & Bags",
           "collectionDefaultSort": "",
           "collectionSlug": "luggage-bags",

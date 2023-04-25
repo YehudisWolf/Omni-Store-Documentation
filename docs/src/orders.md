@@ -110,8 +110,8 @@ curl --request GET \
                 }
             }
         ],
-        "BillToName": "#### - shippingName ##### - shippingName",
-        "BillToAddress": "{\"name\":\"#### - shippingName ##### - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+        "BillToName": "Sarah - shippingName Jones - shippingName",
+        "BillToAddress": "{\"name\":\"Sarah - shippingName Jones - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
         "orderShippingMethod": {
             "carrier": "freeshipping",
             "description": "",
@@ -140,11 +140,11 @@ curl --request GET \
         "orderStatus": "os_awaiting_fulfillment",
         "customerObject": {
             "id": 52806,
-            "customerFirstName": "####",
-            "customerLastName": "#####",
-            "customerEmail": "123456@evelt.com",
+            "customerFirstName": "Sarah",
+            "customerLastName": "Jones",
+            "customerEmail": "sjones1.com",
             "customerPhone": "123-456-7890",
-            "customerCompanyName": "#### ### ####",
+            "customerCompanyName": "Tyrell Corp",
             "dateCreated": "1669588428",
             "customerStatus": "cs_reg_customer",
             "customerTypes": null,
@@ -157,9 +157,9 @@ curl --request GET \
             "editedAt": "2022-11-27 22:33:48"
         },
         "orderWeight": 1,
-        "contactFirstName": "#### - shippingName",
-        "contactLastName": "##### - shippingName",
-        "orderEmail": "123456@evelt.com",
+        "contactFirstName": "Sarah - shippingName",
+        "contactLastName": "Jones - shippingName",
+        "orderEmail": "sjones1@gmail.com",
         "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
         "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
         "orderPaymentMethod": {
@@ -180,7 +180,7 @@ curl --request GET \
             "xToken": "1234567890",
             "xMaskedCardNumber": "5xxxxxxxxxxx0666",
             "xCardType": "MasterCard",
-            "xName": "#### - shippingName ##### - shippingName",
+            "xName": "Sarah - shippingName Jones - shippingName",
             "cardToken": "cc_123456"
         },
         "checkoutObject": {
@@ -212,7 +212,7 @@ curl --request GET \
                 "mobile": "",
                 "specialValues": []
             },
-            "contactEmail": "123456@evelt.com",
+            "contactEmail": "sjones1@gmail.com",
             "contactPhone": "123-456-7890",
             "shippingMethodsJson": [
                 {
@@ -517,9 +517,9 @@ curl --request GET \
                     "methodName": ""
                 }
             ],
-            "contactFirstName": "#### - shippingName",
-            "contactLastName": "##### - shippingName",
-            "companyName": "#### ### ####",
+            "contactFirstName": "Sarah - shippingName",
+            "contactLastName": "Jones - shippingName",
+            "companyName": "Tyrell Corp",
             "createdAt": "2022-11-27 22:34:13",
             "editedAt": "2022-11-27 22:34:18",
             "pricing": {
@@ -552,7 +552,7 @@ curl --request GET \
             "xToken": "1234567890",
             "xMaskedCardNumber": "5xxxxxxxxxxx0666",
             "xCardType": "MasterCard",
-            "xName": "#### - shippingName ##### - shippingName",
+            "xName": "Sarah - shippingName Jones - shippingName",
             "cardToken": "cc_123456"
         },
         "cardToken": "cc_123456",
@@ -582,7 +582,7 @@ curl --request GET \
                 "amount": "0.1",
                 "action": "charge",
                 "dateTime": "1669588465",
-                "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"1234567890\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"#### - shippingName ##### - shippingName\",\"cardToken\":\"cc_123456\"}",
+                "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"1234567890\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"Sarah - shippingName Jones - shippingName\",\"cardToken\":\"cc_123456\"}",
                 "cardToken": "cc_123456",
                 "userToken": "omni",
                 "createdAt": "2022-11-27 22:34:25",
@@ -711,8 +711,8 @@ curl --request GET \
             }
         }
     ],
-    "BillToName": "#### - shippingName ##### - shippingName",
-    "BillToAddress": "{\"name\":\"#### - shippingName ##### - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+    "BillToName": "Sarah - shippingName Jones - shippingName",
+    "BillToAddress": "{\"name\":\"Sarah - shippingName Jones - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
     "orderShippingMethod": {
         "carrier": "freeshipping",
         "description": "",
@@ -741,11 +741,11 @@ curl --request GET \
     "orderStatus": "os_awaiting_fulfillment",
     "customerObject": {
         "id": 52806,
-        "customerFirstName": "####",
-        "customerLastName": "#####",
-        "customerEmail": "123456@evelt.com",
+        "customerFirstName": "Sarah",
+        "customerLastName": "Jones",
+        "customerEmail": "sjones1@gmail.com",
         "customerPhone": "123-456-7890",
-        "customerCompanyName": "#### ### ####",
+        "customerCompanyName": "Tyrell Corp",
         "dateCreated": "1669588428",
         "customerStatus": "cs_reg_customer",
         "customerTypes": null,
@@ -758,9 +758,9 @@ curl --request GET \
         "editedAt": "2022-11-27 22:33:48"
     },
     "orderWeight": 1,
-    "contactFirstName": "#### - shippingName",
-    "contactLastName": "##### - shippingName",
-    "orderEmail": "123456@evelt.com",
+    "contactFirstName": "Sarah - shippingName",
+    "contactLastName": "Jones - shippingName",
+    "orderEmail": "sjones1@gmail.com",
     "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
     "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
     "orderPaymentMethod": {
@@ -781,7 +781,7 @@ curl --request GET \
         "xToken": "1234567890",
         "xMaskedCardNumber": "5xxxxxxxxxxx0666",
         "xCardType": "MasterCard",
-        "xName": "#### - shippingName ##### - shippingName",
+        "xName": "Sarah - shippingName Jones - shippingName",
         "cardToken": "cc_123456"
     },
     "checkoutObject": {
@@ -813,7 +813,7 @@ curl --request GET \
             "mobile": "",
             "specialValues": []
         },
-        "contactEmail": "123456@evelt.com",
+        "contactEmail": "sjones1@gmail.com",
         "contactPhone": "123-456-7890",
         "shippingMethodsJson": [
             {
@@ -1118,9 +1118,9 @@ curl --request GET \
                 "methodName": ""
             }
         ],
-        "contactFirstName": "#### - shippingName",
-        "contactLastName": "##### - shippingName",
-        "companyName": "#### ### ####",
+        "contactFirstName": "Sarah - shippingName",
+        "contactLastName": "Jones - shippingName",
+        "companyName": "Tyrell Corp",
         "createdAt": "2022-11-27 22:34:13",
         "editedAt": "2022-11-27 22:34:18",
         "pricing": {
@@ -1153,7 +1153,7 @@ curl --request GET \
         "xToken": "1234567890",
         "xMaskedCardNumber": "5xxxxxxxxxxx0666",
         "xCardType": "MasterCard",
-        "xName": "#### - shippingName ##### - shippingName",
+        "xName": "Sarah - shippingName Jones - shippingName",
         "cardToken": "cc_123456"
     },
     "cardToken": "cc_123456",
@@ -1183,7 +1183,7 @@ curl --request GET \
             "amount": "0.1",
             "action": "charge",
             "dateTime": "1669588465",
-            "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"1234567890\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"#### - shippingName ##### - shippingName\",\"cardToken\":\"cc_123456\"}",
+            "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"760465207\",\"xExp\":\"0325\",\"xDate\":\"11\\/27\\/2022 5:34:39 PM\",\"xAuthCode\":\"678485\",\"xBatch\":\"100202\",\"xAvsResultCode\":\"YYY\",\"xAvsResult\":\"Address: Match & 5 Digit Zip: Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"0.10\",\"xToken\":\"1234567890\",\"xMaskedCardNumber\":\"5xxxxxxxxxxx0666\",\"xCardType\":\"MasterCard\",\"xName\":\"Sarah - shippingName Jones - shippingName\",\"cardToken\":\"cc_123456\"}",
             "cardToken": "cc_123456",
             "userToken": "omni",
             "createdAt": "2022-11-27 22:34:25",
@@ -1238,9 +1238,9 @@ curl --request GET \
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/orders \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
-  --data '{ "customerToken" : "cs_pQb1hZqri7FLep1WCwxTjBms", "orderProducts" : [array of products],"BillToName":"myName","BillToAddress":"myAddress", "orderEmail" : "abc@gmail.com" }'
+  --data '{ "customerToken" : "cs_123456", "orderProducts" : [array of products],"BillToName":"myName","BillToAddress":"myAddress", "orderEmail" : "abc@gmail.com" }'
 
 ```
 
@@ -1308,7 +1308,7 @@ Response:
   "orderTotal": "218.7",
   "orderStatus": "1",
   "customerObject": "",
-  "orderEmail": "123456@gmail.com",
+  "orderEmail": "sjones1@gmail.com",
   "orderNotePublic": "This is orderNotePublic",
   "cartToken": "",
   "orderPaymentMethod": {
@@ -1323,7 +1323,7 @@ Response:
     "created": 1530131498,
     "currency": "usd",
     "customer": null,
-    "description": "####s charge",
+    "description": "Sarahs charge",
     "destination": null,
     "dispute": null,
     "failure_code": null,

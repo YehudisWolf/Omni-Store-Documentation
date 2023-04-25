@@ -83,7 +83,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "cardknoxToken": "123456"
     },
     "site": {
-        "siteName": "####, ##### and ####",
+        "siteName": "Tyrell Corp",
         "address1": "",
         "address2": "",
         "city": "",
@@ -94,10 +94,10 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "phoneNumber": ""
     },
     "user": {
-        "name": "#### #####",
+        "name": "Sarah Jones",
         "password": "passwordForUser",
         "role": 3,
-        "email": "123456@gmail.com",
+        "email": "sjones1@gmail.com",
         "phone": ""
     },
     "additCompInfo": {
@@ -138,7 +138,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "companyToken": "comp_123456"
     },
     "site": {
-        "siteName": "#### Inc",
+        "siteName": "Tyrell Corp",
         "address1": "",
         "address2": "",
         "city": "",
@@ -152,10 +152,10 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "siteToken": "site_pG7NtyJrwU6swsVZ"
     },
     "user": {
-        "name": "#### ######",
+        "name": "Sarah Jones",
         "password": "passwordForUser",
         "role": 3,
-        "email": "123456@gmail.com",
+        "email": "sjones1@gmail.com",
         "phone": "",
         "companyToken": "comp_123456",
         "siteToken": "site_pG7NtyJrwU6swsVZ",
@@ -241,7 +241,7 @@ curl --request GET \
         "companyToken": "comp_123456",
         "companyEmail": "",
         "companyPhone": "",
-        "comapnyName": "### ####",
+        "comapnyName": "Tyrell Corp",
         "companyDomain": "",
         "fs1Token": "D56SQB4YU08QN6F37JY1W",
         "fs1GetToken": "5b22e94022563965f4fdd4b5",
@@ -260,8 +260,8 @@ curl --request GET \
             "id": 151,
             "userToken": "usr_123456",
             "companyToken": "comp_123456",
-            "name": "#####",
-            "email": "123456@evelt.com",
+            "name": "Sarah Jones",
+            "email": "sjones1@gmail.com",
             "phone": "1234567890",
             "role": 1,
             "createdOn": "1505148766",
@@ -287,7 +287,7 @@ curl --request GET \
             "userToken": "user_123456",
             "companyToken": "comp_123456",
             "name": "",
-            "email": "123456@evelt.com",
+            "email": "sjones1@gmail.com",
             "phone": "",
             "role": 1,
             "createdOn": "1653599015",
@@ -300,7 +300,7 @@ curl --request GET \
             "userToken": "user_123456",
             "companyToken": "comp_123456",
             "name": "",
-            "email": "123456@evelt.com",
+            "email": "sjones1@gmail.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657487951",
@@ -313,7 +313,7 @@ curl --request GET \
             "userToken": "user_123456",
             "companyToken": "comp_123456",
             "name": "",
-            "email": "123456@evelt.com",
+            "email": "sjones1@gmail.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657487252",
@@ -326,7 +326,7 @@ curl --request GET \
             "userToken": "user_123456",
             "companyToken": "comp_123456",
             "name": "",
-            "email": "123456@evelt.com",
+            "email": "sjones1@gmail.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657486361",
@@ -339,7 +339,7 @@ curl --request GET \
             "userToken": "user_123456",
             "companyToken": "comp_123456",
             "name": "",
-            "email": "123456@evelt.com",
+            "email": "sjones1@gmail.com",
             "phone": "",
             "role": 0,
             "createdOn": "1657486244",
@@ -435,7 +435,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
         "credentials": {
             "key": "123456",
             "account": "123456",
-            "username": "######",
+            "username": "SarahJones",
             "password": "#####"
         }
     },
@@ -536,7 +536,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
         "credentials": {
             "key": "123456",
             "account": "123456",
-            "username": "#####",
+            "username": "SarahJones",
             "password": "#####"
         }
     },

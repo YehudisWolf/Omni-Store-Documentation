@@ -15,7 +15,7 @@
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/cartprods/[cartToken] \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{ "cartProdQuantity" : "1", "prodToken" : "prod_nHc1b0iV8NsN2RGw" }'
 
@@ -68,7 +68,7 @@ This endpoint Edits a product in cart
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/cartprods/{cartProdToken} \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{ "cartProdQuantity" : "1" }'
 

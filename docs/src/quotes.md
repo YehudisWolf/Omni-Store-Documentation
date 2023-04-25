@@ -83,11 +83,11 @@ curl --request POST \
            ],
            "shippingAddress" : "adrs_WeAHRgbGWL20ffUuQua1t5Gf",
            "contactDetails" : {
-               "firstName" : "####",
-               "lastName" : "#####",
-               "email" : "123456@evelt.com",
+               "firstName" : "Sarah",
+               "lastName" : "Jones",
+               "email" : "sjones@gmail.com",
                "phoneNumber" : "987657489",
-               "companyName" : "Techo"
+               "companyName" : "Tyrell Corp"
            }
 }'
 ```
@@ -98,7 +98,7 @@ Response:
 {
     "quoteToken": "quote_QKc0xtR0EXNJ",
     "customerToken": "cs_123456",
-    "companyToken": "comp_dft6yhzjkli",
+    "companyToken": "comp_123456",
     "quoteFiles": "",
     "status": "waiting-response",
     "deleted": 0,
@@ -255,8 +255,8 @@ Response:
         "addressCity": "Monsey",
         "addressState": "NY",
         "addressZip": "10952",
-        "addressFirstName": "####",
-        "addressLastName": "#####",
+        "addressFirstName": "Sarah",
+        "addressLastName": "Jones",
         "phoneNumber": "",
         "mobileNumber": "",
         "addressCountry": "United States",
@@ -268,11 +268,11 @@ Response:
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_nEV0kVRmMWR9",
-        "firstName": "####",
-        "lastName": "#####",
-        "email": "123456@evelt.com",
+        "firstName": "Sarah",
+        "lastName": "Jones",
+        "email": "sjones1@gmail.com",
         "phoneNumber": "987657489",
-        "companyName": "Techo"
+        "companyName": "Tyrell Corp"
     },
     "shippingQuote": []
 }
@@ -332,7 +332,7 @@ Response:
     {
         "quoteToken": "quote_TjIM4C2RtK5H",
         "customerToken": "cs_123456",
-        "companyToken": "comp_dft6yhzjkli",
+        "companyToken": "comp_123456",
         "quoteFiles": "",
         "status": "waiting-response",
         "deleted": 0,
@@ -489,8 +489,8 @@ Response:
             "addressCity": "Monsey",
             "addressState": "NY",
             "addressZip": "10952",
-            "addressFirstName": "####",
-            "addressLastName": "#####",
+            "addressFirstName": "Sarah",
+            "addressLastName": "Jones",
             "phoneNumber": "",
             "mobileNumber": "",
             "addressCountry": "United States",
@@ -502,18 +502,18 @@ Response:
         },
         "contactDetails": {
             "quote_ContactToken": "quoteContact_iX8J2MWM0WEP",
-            "firstName": "####",
-            "lastName": "#####",
-            "email": "123456@evelt.com",
+            "firstName": "Sarah",
+            "lastName": "Jones",
+            "email": "sjones1@gmail.com",
             "phoneNumber": "987657489",
-            "companyName": "Techo"
+            "companyName": "Tyrell Corp"
         },
         "shippingQuote": []
     },
     {
         "quoteToken": "quote_hkSfDVoy8QvV",
         "customerToken": "cs_123456",
-        "companyToken": "comp_dft6yhzjkli",
+        "companyToken": "comp_123456",
         "quoteFiles": "",
         "status": "approvedByCustomer",
         "deleted": 0,
@@ -603,7 +603,7 @@ Response:
                 "fullDetails": {
                     "prodToken": "prod_ozRjqnWCKNzmhZaS",
                     "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                     "variantImage": {
                         "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -670,8 +670,8 @@ Response:
             "addressCity": "Monsey",
             "addressState": "NY",
             "addressZip": "10952",
-            "addressFirstName": "####",
-            "addressLastName": "#####",
+            "addressFirstName": "Sarah",
+            "addressLastName": "Jones",
             "phoneNumber": "",
             "mobileNumber": "",
             "addressCountry": "United States",
@@ -683,11 +683,11 @@ Response:
         },
         "contactDetails": {
             "quote_ContactToken": "quoteContact_7KjjTX2g5f6e",
-            "firstName": "####",
-            "lastName": "#####",
-            "email": "123456@evelt.com",
+            "firstName": "Sarah",
+            "lastName": "Jones",
+            "email": "sjones1@gmail.com",
             "phoneNumber": "123456789",
-            "companyName": "####"
+            "companyName": "Tyrell Corp"
         },
         "shippingQuote": [
             {
@@ -735,7 +735,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/{quoteToken} \
    --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -744,7 +744,7 @@ Response:
 {
     "quoteToken": "quote_xdYMnZ6Px1lr",
     "customerToken": "cs_123456",
-    "companyToken": "comp_dft6yhzjkli",
+    "companyToken": "comp_123456",
     "quoteFiles": "",
     "status": "approvedByCustomer",
     "deleted": 0,
@@ -901,8 +901,8 @@ Response:
         "addressCity": "Monsey",
         "addressState": "NY",
         "addressZip": "10952",
-        "addressFirstName": "####",
-        "addressLastName": "#####",
+        "addressFirstName": "Sarah",
+        "addressLastName": "Jones",
         "phoneNumber": "",
         "mobileNumber": "",
         "addressCountry": "United States",
@@ -914,11 +914,11 @@ Response:
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_HTDKzc5B0R72",
-        "firstName": "####",
-        "lastName": "#####",
-        "email": "123456@evelt.com",
+        "firstName": "Sarah",
+        "lastName": "Jones",
+        "email": "sjones1@gmail.com",
         "phoneNumber": "123456789",
-        "companyName": "####"
+        "companyName": "Tyrell Corp"
     },
     "shippingQuote": [
         {
@@ -931,7 +931,7 @@ Response:
             "deliveryDays": "1",
             "description": null,
             "approved": 1,
-            "approvedBy": "#### #####"
+            "approvedBy": "John Smith"
         },
         {
             "quote_shippingQuoteToken": "shippingQuoteToken_nuxPb17tWVdt",
@@ -1022,7 +1022,7 @@ Response:
         "variantOptions": {
           "optn_OYTQkGqr39CvOopfJPi7": "Var 1"
         },
-        "prodName": "####",
+        "prodName": "widget",
         "prodImage": "9-6-2018/1536271360573__14511__yb.jpg",
         "quantity": 2
       }
@@ -1061,9 +1061,9 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes/[quoteToken]/cancel \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
    --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data ''
 }'
 
@@ -1221,15 +1221,15 @@ Response:
         "state": "NY",
         "zip": "130245",
         "country": "US",
-        "receiverContactName": "####",
+        "receiverContactName": "John",
         "receiverContactNumber": "123456"
     },
     "contactDetails": {
         "quote_ContactToken": "quoteContact_X55PU3l83z4c",
-        "name": "#### #####",
-        "email": "123456@evelt.com",
+        "name": "Sarah Jones",
+        "email": "sjones1@gmail.com",
         "phoneNumber": "123456789",
-        "companyName": "####"
+        "companyName": "Tyrell Corp"
     },
     "shippingQuote": null
 }

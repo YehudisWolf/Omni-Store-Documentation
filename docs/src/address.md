@@ -6,7 +6,7 @@
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/addresses/{addressToken} \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{ "customerToken" : "cust_123456",
    "address" : "123 Main street","addressCity" : "Monsey",

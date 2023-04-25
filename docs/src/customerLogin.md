@@ -42,7 +42,7 @@ curl --request POST \
     "customerToken": "cs_123456",
     "customerStatus": "cs_awaiting_approval",
     "customerEmail": "123456@evelt.com",
-    "customerFirstName": "######"
+    "customerFirstName": "Sarah"
 }
 ```
 

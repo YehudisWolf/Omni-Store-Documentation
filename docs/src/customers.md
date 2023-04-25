@@ -30,9 +30,9 @@ This endpoint Creates/edits a customer
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/customers/ \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
-  --data '{ "customerFirstName" : "Moishe", "customerLastName" : "Blue", "customerEmail" : "mschwartz@evselt.com", "customerPassword" : "123456Aa" }'
+  --data '{ "customerFirstName" : "Sarah", "customerLastName" : "Jones", "customerEmail" : "sjones1@evselt.com", "customerPassword" : "123456Aa" }'
 
 ```
 
@@ -41,9 +41,9 @@ curl --request POST \
 ```json
 {
   "id": 51150,
-  "customerFirstName": "Moishe",
-  "customerLastName": "Blue",
-  "customerEmail": "mschwartz@evselt.com",
+  "customerFirstName": "Sarah",
+  "customerLastName": "Jones",
+  "customerEmail": "sjones1@gmail.com",
   "customerPhone": "",
   "customerCompanyName": "",
   "dateCreated": "1639760040",
@@ -56,7 +56,7 @@ curl --request POST \
   "taxExemptID": null,
   "createdAt": "2021-12-17 16:54:00",
   "editedAt": "2021-12-17 16:54:00",
-  "customerToken": "cs_BO1vZb68ulsQ9Icoqz8w123cxUN5ecNQ2VaF"
+  "customerToken": "cs_123456"
 }
 ```
 
@@ -66,7 +66,7 @@ curl --request POST \
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/customers/ \
   --header 'token: 123'
-  --header 'customerToken: cs_LumSObkk004q7gDfqB1jRZL2Lmj532NPzvVN'
+  --header 'customerToken: cs_123456'
 ```
 
 > The above command returns JSON structured like this:
@@ -74,9 +74,9 @@ curl --request GET \
 ```json
 {
   "id": 51150,
-  "customerFirstName": "yanky",
-  "customerLastName": "green",
-  "customerEmail": "mschwartz@evselt.com",
+  "customerFirstName": "Sarah",
+  "customerLastName": "Jones",
+  "customerEmail": "sjones1@gmail.com",
   "customerPhone": "",
   "customerCompanyName": "",
   "dateCreated": "1639760040",

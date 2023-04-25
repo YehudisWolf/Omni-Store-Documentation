@@ -18,7 +18,7 @@ This endpoint creates a cart
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/cart/ \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{"customerToken" : "cusst444"}'
 
@@ -193,7 +193,7 @@ This endpoint Adds a user to a cart
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/cart/combine/[cartToken]/[customerToken cs_] \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123, customertoken : cs_123' \
 ```
 
@@ -203,7 +203,7 @@ Another example:
 curl --request POST \
   --url 'https://api.omnifront.cloudsnob.com/cart/combine/cart_50e5QlOuzqmJFp80CNOdvzLF/cs_6WK26VjXieFUZ2cRKJtR1DT3ECNMR8fXCOP2' \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123, customertoken : cs_123456' \
 ```
 

@@ -305,4 +305,4 @@ Follow instructions above, and add optional customerToken header:
 | --------- | --------  | --------------------------------------------------------------- |
 | customerToken     | false  | Token of the customer to retreive the frequently purchased list for |
 
---header 'customerToken: cs_hcBD5Wq9lrBsFRxESz50LWTdU7jGQwXKC0Mk'
+--header 'customerToken: cs_123456'
