@@ -461,7 +461,7 @@ curl --request GET \
 [
   {
     "prodToken": "prod_abcdefgABCDEFG123",
-    "companyToken": "comp_sfgb50s0dsdgsfh5g",
+    "companyToken": "comp_123456",
     "prodName": "Not a Highlander",
     "prodImage": {
       "file": "12-17-2020/1608227079221__15192__image.png",
@@ -715,9 +715,9 @@ curl --request GET \
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/products/{token} \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
     --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
   --data '{ "count" :3"  }'
 
 ```
