@@ -96,7 +96,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/quoteToken \
    --header 'token: 123'
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -298,7 +298,7 @@ Response:
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/quotes/submitted \
   --header 'token: 123'\
-  --header 'customerToken: cs_DWCQeqvYAIeWYYzJ1MgAZbXUdUW76Xav4paw' \
+  --header 'customerToken: cs_123456' \
 ```
 
 Response:
@@ -365,7 +365,7 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
     --header 'token: 123'\
   --header 'customerToken: cs_123456' \
   --data '{"quoteItems" : "lll", "quoteFiles" : "111111" }'
@@ -408,7 +408,7 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes/submit \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
     --header 'token: 123'\
   --header 'customerToken: cs_123456' \
   --data '{ "quoteItems" : "lll", "quoteFiles" : "111111" }'
@@ -457,7 +457,7 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
    --header 'token: 123'\
   --header 'customerToken: cs_123456' \
   --data '{ "quoteItems" : "lll", "quoteFiles" : "111111" }'
@@ -471,7 +471,7 @@ Response:
   "name": "",
   "quoteToken": "quote_00ZebMJzT6kg",
   "customerToken": "cust_123456",
-  "companyToken": "comp_3fgfgNjMfe5Bcst7",
+  "companyToken": "comp_123456",
   "quoteItems": "lllss",
   "quoteFiles": "111111",
   "dateSubmitted": "2021-12-01 21:01:42",
@@ -506,7 +506,7 @@ Response:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/quotes/submit/quoteToken \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
     --header 'token: 123'\
   --header 'customerToken: cs_123456' \
   --data '{"quoteItems" : "lll", "quoteFiles" : "111111" }'
