@@ -13,7 +13,7 @@ curl --request GET \
 ```json
 {
   "prodToken": "prod_CopF1h0dqzc9mR61",
-  "companyToken": "comp_sfgb50s0dsdgsfh5g",
+  "companyToken": "comp_123456",
   "prodName": "No moref",
   "prodImage": {
     "file": "11-24-2020/1606237454516__1133421__1605838189835__12153371__ad_-_11X17_-_Copy.jpg"
@@ -102,7 +102,7 @@ curl --request GET \
 ```json
        {
   "prodToken": "prod_CopF1h0dqzc9mR61",
-  "companyToken": "comp_sfgb50s0dsdgsfh5g",
+  "companyToken": "comp_123456",
   "prodName": "No moref",
   "prodImage": {
     "file": "11-24-2020/1606237454516__1133421__1605838189835__12153371__ad_-_11X17_-_Copy.jpg"
@@ -295,7 +295,7 @@ curl --request GET \
     {
       "prodToken": "prod_CopF1h0dqzc9mR61",
       "variantToken": "vrnt_WSBp0UD2QJMrObF0",
-      "companyToken": "comp_sfgb50s0dsdgsfh5g",
+      "companyToken": "comp_123456",
       "variantName": "",
       "variantImage": {
         "file": ""
@@ -340,7 +340,7 @@ curl --request GET \
     {
       "prodToken": "prod_CopF1h0dqzc9mR61",
       "variantToken": "vrnt_Z6fkKd8YqK5MImsU",
-      "companyToken": "comp_sfgb50s0dsdgsfh5g",
+      "companyToken": "comp_123456",
       "variantName": "",
       "variantImage": {
         "file": ""
