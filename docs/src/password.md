@@ -34,7 +34,7 @@ This endpoint send a reset password link to a user (Be careful, it always return
 ```shell
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/restorepassword \
-  --data '{ "hash" : "pass_q5w3c4eqawjmnu8urhdudkm5hslrslp4xlbtb2wewt53woqgr", "newPassword" : "123456789" }'
+  --data '{ "hash" : "pass_1234567", "newPassword" : "123456789" }'
 ```
 
 > The above command returns JSON structured like this:
