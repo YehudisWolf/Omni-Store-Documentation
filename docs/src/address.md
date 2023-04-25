@@ -8,7 +8,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
   --header 'token: 123' \
-  --data '{ "customerToken" : "cust_xbQHYEl0QrDFdqkxmAcEdAmN",
+  --data '{ "customerToken" : "cust_123456",
    "address" : "123 Main street","addressCity" : "Monsey",
     "addressState" : "NY",
     "addressZip" : "10952",
@@ -24,7 +24,7 @@ curl --request POST \
 
 ```json
 {
-  "customerToken": "cust_A2X1uN1qNDaIIK4I8dUjXz2b",
+  "customerToken": "cust_123456",
   "address": "123 Main street",
   "address2": "unit 4",
   "addressCity": "Monsey",
@@ -96,7 +96,7 @@ curl --request GET \
     "mobileNumber": "",
     "addressCountry": "United States",
     "addressDefault": 0,
-    "customerToken": "cust_G76NSpsy49ha3GdIXnvBnnl1",
+    "customerToken": "cust_123456",
     "specialValues": []
   },
   {
@@ -113,7 +113,7 @@ curl --request GET \
     "mobileNumber": "",
     "addressCountry": "USA",
     "addressDefault": 0,
-    "customerToken": "cust_G76NSpsy49ha3GdIXnvBnnl1",
+    "customerToken": "cust_123456",
     "specialValues": []
   }
 ]
@@ -150,7 +150,7 @@ curl --request GET \
   "mobileNumber": "",
   "addressCountry": "USA",
   "addressDefault": 0,
-  "customerToken": "cust_G76NSpsy49ha3GdIXnvBnnl1",
+  "customerToken": "cust_123456",
   "specialValues": []
 }
 ```
