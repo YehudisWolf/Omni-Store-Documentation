@@ -6,9 +6,9 @@
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/info \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
-  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_xipKF02Td5eJ66IoEyzHdXUM","contactFirstName":"####","contactLastName","####"}'
+  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_xipKF02Td5eJ66IoEyzHdXUM","contactFirstName":"Sarah","contactLastName","Jones"}'
 
 ```
 
@@ -35,9 +35,9 @@ curl --request POST \
     "mobile": "",
     "specialValues": []
   },
-  "contactEmail": "123456@gmail.com",
-  "contactFirstName": "####",
-  "contactLastName": "###",
+  "contactEmail": "sjones1@gmail.com",
+  "contactFirstName": "Sarah",
+  "contactLastName": "Jones",
   "companyName": "",
   "contactPhone": "1233333",
   "shippingMethodsJson": [
@@ -88,7 +88,7 @@ This endpoint starts a checkout (returns all avail shipping methods if address t
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/shippingmethod \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{"shippingMethodId" : "123456789"}'
 
@@ -117,9 +117,9 @@ curl --request POST \
     "mobile": "",
     "specialValues": []
   },
-  "contactEmail": "123456@gmail.com",
-  "contactFirstName": "####",
-  "contactLastName": "###",
+  "contactEmail": "sjones1@gmail.com",
+  "contactFirstName": "Sarah",
+  "contactLastName": "Jones",
   "companyName": "",
   "contactPhone": "1233333",
   "shippingMethodsJson": [
@@ -171,7 +171,7 @@ This endpoint selects a shipping method id (returned with each method) and retur
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/payment \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{"cardNumbers" : "4242424242424242", "expMonth" : "12", "expYear" : "2025", "cvv" : "123", "amount" : "333", "po" : "PO-123456", "nameOnCard": "testChayelle BillingName", "billingPhone": "8455225252","billingAddress": "117 Maple Ave Bill","billingCity": "Bala Cynwyd Bill", "billingState": "Pennsylvania Bill", "billingZip": "19004", "orderNotePublic" :"this is a note submitted by the customer at payment" }'
 
@@ -257,7 +257,7 @@ curl --request POST \
         }
       }
     ],
-    "orderEmail": "123456@gmail.com",
+    "orderEmail": "sjones1@gmail.com",
     "orderShippingMethod": {
       "carrier": "freeshipping",
       "description": "",
@@ -289,7 +289,7 @@ curl --request POST \
       "xAuthAmount": "9.90",
       "xMaskedCardNumber": "4xxxxxxxxxxx4242",
       "xCardType": "Visa",
-      "xName": "## ###",
+      "xName": "Sarah Jones",
       "xToken": "724h3q7h9n07n792m9pmppmp1q02nmhn",
       "xMID": "xxxxxxxxxx9999",
       "xTID": "xxxxx6789",
@@ -298,16 +298,16 @@ curl --request POST \
       "xEntryMethod": "Keyed",
       "cardToken": "cc_123456"
     },
-    "contactLastName": "###",
-    "contactFirstName": "#####",
+    "contactLastName": "Jones",
+    "contactFirstName": "Sarah",
     "orderProdQuantity": 1,
-    "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"554234277\",\"xExp\":\"0123\",\"xAuthCode\":\"27119A\",\"xBatch\":\"5150840\",\"xAvsResultCode\":\"NNN\",\"xAvsResult\":\"Address: No Match & 5 Digit Zip: No Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"9.90\",\"xMaskedCardNumber\":\"4xxxxxxxxxxx4242\",\"xCardType\":\"Visa\",\"xName\":\"Haseeb Ali\",\"xToken\":\"724h3q7h9n07n792m9pmppmp1q02nmhn\",\"xMID\":\"xxxxxxxxxx9999\",\"xTID\":\"xxxxx6789\",\"xCurrency\":\"USD\",\"xDate\":\"12\\/2\\/2021 6:19:14 AM\",\"xEntryMethod\":\"Keyed\",\"cardToken\":\"cc_OJctC8FyAXnk\"}",
+    "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"554234277\",\"xExp\":\"0123\",\"xAuthCode\":\"27119A\",\"xBatch\":\"5150840\",\"xAvsResultCode\":\"NNN\",\"xAvsResult\":\"Address: No Match & 5 Digit Zip: No Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"9.90\",\"xMaskedCardNumber\":\"4xxxxxxxxxxx4242\",\"xCardType\":\"Visa\",\"xName\":\"Sarah Jones\",\"xToken\":\"724h3q7h9n07n792m9pmppmp1q02nmhn\",\"xMID\":\"xxxxxxxxxx9999\",\"xTID\":\"xxxxx6789\",\"xCurrency\":\"USD\",\"xDate\":\"12\\/2\\/2021 6:19:14 AM\",\"xEntryMethod\":\"Keyed\",\"cardToken\":\"cc_OJctC8FyAXnk\"}",
     "cardToken": "cc_123456",
     "orderIP": "103.151.236.50",
     "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
     "po": "",
     "BillToName": "Haseeb Ali",
-    "BillToAddress": "{\"name\":\"Haseeb Ali\",\"address\":\"abc\",\"address2\":\"\",\"zip\":\"71005\",\"city\":\"New York\",\"state\":\"New York\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+    "BillToAddress": "{\"name\":\"Sarah Jones\",\"address\":\"abc\",\"address2\":\"\",\"zip\":\"71005\",\"city\":\"New York\",\"state\":\"New York\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
     "orderNotePublic": "",
     "siteToken": "site_dg30sdfsgdsgsvv",
     "companyToken": "comp_123456",
@@ -315,8 +315,8 @@ curl --request POST \
     "orderToken": "ordr_Bv0Opb8czca0o03czpwXz8Wj",
     "orderNumber": 117,
     "orderStatus": "os_awaiting_fulfillment",
-    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_ChXDOtbOnQSZRtH4LoKkfDFU\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_xipKF02Td5eJ66IoEyzHdXUM\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"123456@gmail.com\",\"contactFirstName\":\"#####\",\"contactLastName\":\"###\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
-    "customerObject": "{\"id\":0,\"customerFirstName\":\"##### \",\"customerLastName\":\"###\",\"customerEmail\":\"123456@gmail.com\",\"customerPhone\":\"0313445214\",\"customerCompanyName\":\"abcd\",\"dateCreated\":\"1635837718\",\"customerStatus\":\"\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":0,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2021-11-02 07:21:58\",\"editedAt\":\"2021-11-02 12:04:02\"}"
+    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_ChXDOtbOnQSZRtH4LoKkfDFU\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_xipKF02Td5eJ66IoEyzHdXUM\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"123456@gmail.com\",\"contactFirstName\":\"Sarah\",\"contactLastName\":\"Jones\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
+    "customerObject": "{\"id\":0,\"customerFirstName\":\"Sarah \",\"customerLastName\":\"Jones\",\"customerEmail\":\"sjones1@gmail.com\",\"customerPhone\":\"0313445214\",\"customerCompanyName\":\"abcd\",\"dateCreated\":\"1635837718\",\"customerStatus\":\"\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":0,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2021-11-02 07:21:58\",\"editedAt\":\"2021-11-02 12:04:02\"}"
   }
 }
 ```
@@ -357,7 +357,7 @@ This endpoint pays the checkout and creates an order
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/po \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: user_token' \
   --header '{
                "po": "123-P9ojd",
@@ -472,16 +472,16 @@ curl --request POST \
         "orderWeight": 0,
         "orderShippingAddress": "{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]}",
         "orderPaymentMethod": null,
-        "contactLastName": "#### - shippingName",
-        "contactFirstName": "#### - shippingName",
+        "contactLastName": "Jones - shippingName",
+        "contactFirstName": "Sarah - shippingName",
         "orderProdQuantity": 1,
         "paymentObject": null,
         "cardToken": null,
         "orderIP": "86.183.104.179",
         "cartToken": "cart_8II78afqDL1NC9pvEagHwlTB",
         "PO": "123-P9ojd",
-        "BillToName": "### - shippingName #### - shippingName",
-        "BillToAddress": "{\"name\":\"John - shippingName Green - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
+        "BillToName": "Sarah - shippingName Jones - shippingName",
+        "BillToAddress": "{\"name\":\"Sarah - shippingName Jones - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
         "orderNotePublic": "order paid through PO pathway",
         "siteToken": "site_Dpawt345k2m4",
         "companyToken": "comp_123456",
@@ -489,8 +489,8 @@ curl --request POST \
         "orderToken": "ordr_dgzABf0dod39Bdtno5zwkfIe",
         "orderNumber": 200606,
         "orderStatus": "os_awaiting_fulfillment",
-        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_8II78afqDL1NC9pvEagHwlTB\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_8yY55uZos2WfmnqUhfnBsuU1\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"chayelle+102Shaylee@evelt.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"}],\"contactFirstName\":\"#### - shippingName\",\"contactLastName\":\"#### - shippingName\",\"companyName\":\"##########,\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
-        "customerObject": "{\"id\":53237,\"customerFirstName\":\"Zula\",\"customerLastName\":\"Gottlieb\",\"customerEmail\":\"chayelle+102Shaylee@evelt.com\",\"customerPhone\":\"925-755-7647\",\"customerCompanyName\":\"#######\",\"dateCreated\":\"1670502805\",\"customerStatus\":\"cs_approved\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":1,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2022-12-08 12:33:25\",\"editedAt\":\"2022-12-08 12:34:55\"}",
+        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_8II78afqDL1NC9pvEagHwlTB\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_8yY55uZos2WfmnqUhfnBsuU1\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"sjones1@gmail.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"}],\"contactFirstName\":\"Sarah - shippingName\",\"contactLastName\":\"Jones - shippingName\",\"companyName\":\"Tyrell Corp,\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
+        "customerObject": "{\"id\":53237,\"customerFirstName\":\"Sarah\",\"customerLastName\":\"Jones\",\"customerEmail\":\"sjones1@gmail.com\",\"customerPhone\":\"925-755-7647\",\"customerCompanyName\":\"Tyrell Corp\",\"dateCreated\":\"1670502805\",\"customerStatus\":\"cs_approved\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":1,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2022-12-08 12:33:25\",\"editedAt\":\"2022-12-08 12:34:55\"}",
         "dateCreated": 1670502895
     }
 }
@@ -524,7 +524,7 @@ This endpoint pays the checkout and creates an order
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/applycoupon \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{"couponCode" : "SUMMER20"}'
 
@@ -589,7 +589,7 @@ This endpoint applies a coupon code to a cart
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/checkout/removecoupon \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: 123' \
   --data '{"couponCode" : "SUMMER20"}'
 
