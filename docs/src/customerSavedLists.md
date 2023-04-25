@@ -23,7 +23,7 @@ Sample in Shell:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/customeritemlist \
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: site_123', 'customerToken: cs_123' \
   --data   '{
                "listReadableName":"{{$randomAdjective}}",
@@ -72,7 +72,7 @@ Sample in Shell:
 curl --request POST \
   --url https://api.omnifront.cloudsnob.com/customeritemlist/{custListToken}
   --header 'cache-control: no-cache' \
-  --header 'postman-token: e0dee5b6-94b0-0dd3-f67d-b88804ec5b74' \
+  --header 'postman-token: 1234567890' \
   --header 'token: site_123', 'customerToken: cs_123' \
   --data '{
             "listItems": [
@@ -306,7 +306,7 @@ Response:
                 "variantDetails": {
                     "prodToken": "prod_dJZNmB5bMJpsRiQo",
                     "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Raptor 8.5x32 Binocular",
                     "variantImage": {
                         "file": "11-7-2021/1636320272462__115916__vtx_bin_raptor_32_f_w.jpg"
@@ -407,8 +407,8 @@ Response:
         "ID": 7,
         "listToken": "custList_shxLtOpZXaFtnOq8",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "digital",
         "listItems": []
     },
@@ -417,7 +417,7 @@ Response:
         "listToken": "custList_agAfTtQfq5c6mnrf",
         "sortOrder": 0,
         "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "companyToken": "comp_123456",
         "listReadableName": "solid state",
         "listItems": [
             {
@@ -438,8 +438,8 @@ Response:
         "ID": 9,
         "listToken": "custList_LEsTMkLT3hgdzJvB",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "bluetooth",
         "listItems": []
     },
@@ -447,8 +447,8 @@ Response:
         "ID": 10,
         "listToken": "custList_Zbo2iNdEaYGyLrJn",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "bluetooth",
         "listItems": []
     },
@@ -456,8 +456,8 @@ Response:
         "ID": 11,
         "listToken": "custList_bVX3cveoCMJlfFMA",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "primary",
         "listItems": []
     },
@@ -465,8 +465,8 @@ Response:
         "ID": 12,
         "listToken": "custList_eyL4ajgn9BfNbpTX",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "1080p",
         "listItems": []
     },
@@ -474,8 +474,8 @@ Response:
         "ID": 8,
         "listToken": "custList_aNHEyVp7FdGlrW2p",
         "sortOrder": 1,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "fds",
         "listItems": [
             {
@@ -490,8 +490,8 @@ Response:
         "ID": 13,
         "listToken": "custList_yRX7SVXjMexp0q7o",
         "sortOrder": 1,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
-        "companyToken": "comp_dft6yhzjkli",
+        "customerToken": "cust_123456",
+        "companyToken": "comp_123456",
         "listReadableName": "fjyyds",
         "listItems": [
             {
