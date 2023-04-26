@@ -28,33 +28,33 @@ curl --request GET \
 ```json
 [
     {
-        "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+        "orderToken": "ordr_123456",
         "orderNumber": 200349,
         "companyToken": "comp_123456",
         "PO": "",
-        "siteToken": "site_Dpawt345k2m4",
+        "siteToken": "site_123456",
         "customerToken": "cust_123456",
         "orderProducts": [
             {
-                "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
-                "cartProdToken": "cp_jU1LMK5SUoPSaTOp14aI7tHF",
+                "cartToken": "cart_123456",
+                "cartProdToken": "cp_123456",
                 "cartProdQuantity": 1,
                 "addOnToProdToken": "",
                 "addOnProdTokens": null,
-                "prodToken": "vrnt_EC3pcqgCkY6xiP5e",
+                "prodToken": "vrnt_123456",
                 "deleted": 0,
                 "createdAt": "2022-11-27 22:34:02",
                 "editedAt": "2022-11-27 22:34:02",
                 "companyToken": "comp_123456",
-                "siteToken": "site_Dpawt345k2m4",
+                "siteToken": "site_123456",
                 "customerToken": "cust_123456",
                 "cartCreated": "1669588442",
                 "cartLastTouched": "1669588442",
                 "prodStaticCollections": [],
                 "specialValues": [],
                 "product": {
-                    "prodToken": "prod_lr40vYlpg0qERv3t",
-                    "variantToken": "vrnt_EC3pcqgCkY6xiP5e",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",
                     "companyToken": "comp_123456",
                     "variantName": "Ameliorated",
                     "variantImage": [],
@@ -119,7 +119,7 @@ curl --request GET \
             "deliveryDays": null,
             "origRate": 0,
             "rate": 0,
-            "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "id": "123456",
             "methodName": ""
         },
         "orderShippingAddress": {
@@ -161,7 +161,7 @@ curl --request GET \
         "contactLastName": "Jones - shippingName",
         "orderEmail": "sjones1@gmail.com",
         "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
-        "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+        "cartToken": "cart_123456",
         "orderPaymentMethod": {
             "xResult": "A",
             "xStatus": "Approved",
@@ -185,10 +185,10 @@ curl --request GET \
         },
         "checkoutObject": {
             "id": 30450,
-            "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+            "cartToken": "cart_123456",
             "customerToken": "cs_123456",
             "couponCodes": null,
-            "addressToken": "adrs_n5zSmeQPpUfcX60p1ATEsn3B",
+            "addressToken": "adrs_123456",
             "shippingMethod": {
                 "carrier": "freeshipping",
                 "description": "",
@@ -196,10 +196,10 @@ curl --request GET \
                 "deliveryDays": null,
                 "origRate": 0,
                 "rate": 0,
-                "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                "id": "123456",
                 "methodName": ""
             },
-            "shippingMethodId": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "shippingMethodId": "123456",
             "shippingAddressLabel": "",
             "shippingAddress": {
                 "address": "12354 Main Street",
@@ -222,7 +222,7 @@ curl --request GET \
                     "deliveryDays": null,
                     "origRate": 0,
                     "rate": 0,
-                    "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -261,7 +261,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-29T23:00:00-00:00",
                     "deliveryDays": 1,
                     "origRate": 10.97,
-                    "id": "Chj95cPeY4sAt3zWIkZviSbR",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -300,7 +300,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-12-01T23:00:00-00:00",
                     "deliveryDays": 3,
                     "origRate": 16.18,
-                    "id": "R1f0AsWP7NkgFpuMIrKxUaLn",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -318,7 +318,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-30",
                     "deliveryDays": "",
                     "origRate": 22.45,
-                    "id": "MWiAvglGmF3ufP598SjraZT4",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -357,7 +357,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-30T23:00:00-00:00",
                     "deliveryDays": 2,
                     "origRate": 25.32,
-                    "id": "cmZ052RYMaOyGxqNWAJbh3rC",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -396,7 +396,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-30T23:00:00-00:00",
                     "deliveryDays": 2,
                     "origRate": 27.58,
-                    "id": "KYUDVCnc0tPa1qxTwumZr8FE",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -435,7 +435,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-29T23:00:00-00:00",
                     "deliveryDays": 1,
                     "origRate": 37.61,
-                    "id": "WYGxQKTSDEM12k8he4i0XvBt",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -474,7 +474,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-29T15:00:00-00:00",
                     "deliveryDays": 1,
                     "origRate": 41.14,
-                    "id": "viZKoyXQsFuE8R3SqV6arthB",
+                    "id": "123456",
                     "methodName": ""
                 },
                 {
@@ -513,7 +513,7 @@ curl --request GET \
                     "deliveryDateTime": "2022-11-29T10:00:00-00:00",
                     "deliveryDays": 1,
                     "origRate": 76.92,
-                    "id": "CcAqGjSEZNIQ7M2OmeLkn5wb",
+                    "id": "123456",
                     "methodName": ""
                 }
             ],
@@ -577,8 +577,8 @@ curl --request GET \
         },
         "paymentHistory": [
             {
-                "paymentHistoryToken": "pmth_bj2Hqpvbl2BnRtpnvt4BWGMe23sVIgd98XjZ",
-                "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+                "paymentHistoryToken": "pmth_123456",
+                "orderToken": "ordr_123456",
                 "amount": "0.1",
                 "action": "charge",
                 "dateTime": "1669588465",
@@ -629,33 +629,33 @@ curl --request GET \
 
 ```json
 {
-    "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+    "orderToken": "ordr_123456",
     "orderNumber": 200349,
     "companyToken": "comp_123456",
     "PO": "",
-    "siteToken": "site_Dpawt345k2m4",
+    "siteToken": "site_123456",
     "customerToken": "cust_123456",
     "orderProducts": [
         {
-            "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
-            "cartProdToken": "cp_jU1LMK5SUoPSaTOp14aI7tHF",
+            "cartToken": "cart_123456",
+            "cartProdToken": "cp_123456",
             "cartProdQuantity": 1,
             "addOnToProdToken": "",
             "addOnProdTokens": null,
-            "prodToken": "vrnt_EC3pcqgCkY6xiP5e",
+            "prodToken": "vrnt_123456",
             "deleted": 0,
             "createdAt": "2022-11-27 22:34:02",
             "editedAt": "2022-11-27 22:34:02",
             "companyToken": "comp_123456",
-            "siteToken": "site_Dpawt345k2m4",
+            "siteToken": "site_123456",
             "customerToken": "cust_123456",
             "cartCreated": "1669588442",
             "cartLastTouched": "1669588442",
             "prodStaticCollections": [],
             "specialValues": [],
             "product": {
-                "prodToken": "prod_lr40vYlpg0qERv3t",
-                "variantToken": "vrnt_EC3pcqgCkY6xiP5e",
+                "prodToken": "prod_l123456",
+                "variantToken": "vrnt_123456",
                 "companyToken": "comp_123456",
                 "variantName": "Ameliorated",
                 "variantImage": [],
@@ -720,7 +720,7 @@ curl --request GET \
         "deliveryDays": null,
         "origRate": 0,
         "rate": 0,
-        "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+        "id": "123456",
         "methodName": ""
     },
     "orderShippingAddress": {
@@ -762,7 +762,7 @@ curl --request GET \
     "contactLastName": "Jones - shippingName",
     "orderEmail": "sjones1@gmail.com",
     "orderNotePublic": "this is a public note I wrote and submited through payment checkout api call",
-    "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+    "cartToken": "cart_123456",
     "orderPaymentMethod": {
         "xResult": "A",
         "xStatus": "Approved",
@@ -786,10 +786,10 @@ curl --request GET \
     },
     "checkoutObject": {
         "id": 30450,
-        "cartToken": "cart_WW4me96mjVcbQhVSCqzEIx0H",
+        "cartToken": "cart_123456",
         "customerToken": "cs_123456",
         "couponCodes": null,
-        "addressToken": "adrs_n5zSmeQPpUfcX60p1ATEsn3B",
+        "addressToken": "adrs_123456",
         "shippingMethod": {
             "carrier": "freeshipping",
             "description": "",
@@ -797,10 +797,10 @@ curl --request GET \
             "deliveryDays": null,
             "origRate": 0,
             "rate": 0,
-            "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+            "id": "123456",
             "methodName": ""
         },
-        "shippingMethodId": "0PNDsKOHvAmjwE7YICdQh2bL",
+        "shippingMethodId": "123456",
         "shippingAddressLabel": "",
         "shippingAddress": {
             "address": "12354 Main Street",
@@ -823,7 +823,7 @@ curl --request GET \
                 "deliveryDays": null,
                 "origRate": 0,
                 "rate": 0,
-                "id": "0PNDsKOHvAmjwE7YICdQh2bL",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -862,7 +862,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-29T23:00:00-00:00",
                 "deliveryDays": 1,
                 "origRate": 10.97,
-                "id": "Chj95cPeY4sAt3zWIkZviSbR",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -901,7 +901,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-12-01T23:00:00-00:00",
                 "deliveryDays": 3,
                 "origRate": 16.18,
-                "id": "R1f0AsWP7NkgFpuMIrKxUaLn",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -919,9 +919,9 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-30",
                 "deliveryDays": "",
                 "origRate": 22.45,
-                "id": "MWiAvglGmF3ufP598SjraZT4",
+                "id": "123456",
                 "methodName": ""
-            },
+            },123456
             {
                 "desc": "UPS 2nd Day Air",
                 "rate": 30.384,
@@ -958,7 +958,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-30T23:00:00-00:00",
                 "deliveryDays": 2,
                 "origRate": 25.32,
-                "id": "cmZ052RYMaOyGxqNWAJbh3rC",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -1036,7 +1036,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-29T23:00:00-00:00",
                 "deliveryDays": 1,
                 "origRate": 37.61,
-                "id": "WYGxQKTSDEM12k8he4i0XvBt",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -1075,7 +1075,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-29T15:00:00-00:00",
                 "deliveryDays": 1,
                 "origRate": 41.14,
-                "id": "viZKoyXQsFuE8R3SqV6arthB",
+                "id": "123456",
                 "methodName": ""
             },
             {
@@ -1114,7 +1114,7 @@ curl --request GET \
                 "deliveryDateTime": "2022-11-29T10:00:00-00:00",
                 "deliveryDays": 1,
                 "origRate": 76.92,
-                "id": "CcAqGjSEZNIQ7M2OmeLkn5wb",
+                "id": "123456",
                 "methodName": ""
             }
         ],
@@ -1178,8 +1178,8 @@ curl --request GET \
     },
     "paymentHistory": [
         {
-            "paymentHistoryToken": "pmth_bj2Hqpvbl2BnRtpnvt4BWGMe23sVIgd98XjZ",
-            "orderToken": "ordr_ME2nk9U8MLUpysSaDDtRPZoX",
+            "paymentHistoryToken": "pmth_123456123456",
+            "orderToken": "ordr_123456123456",
             "amount": "0.1",
             "action": "charge",
             "dateTime": "1669588465",
@@ -1248,19 +1248,19 @@ Response:
 
 ```json
 {
-  "orderToken": "ordr_xh8BX0gS6GJ6ZK17L42KOzh0",
+  "orderToken": "ordr_123456",
   "companyToken": "comp_123456",
   "siteToken": "site_123",
   "customerToken": "cust_123456",
   "orderProducts": [
     {
-      "cartToken": "cart_uVCTu26zon4Zjut2YZ399BiG",
-      "cartProdToken": "cp_WI1VQfFpPAoKcVx9jTcvXzIo",
-      "cartProdQuantity": 2,
-      "prodToken": "prod_3aiNdXcBQ2CPxPny",
+      "cartToken": "cart_123456",
+      "cartProdToken": "cp_123456",
+      "cartProdQuantity": 2,123456
+      "prodToken": "prod_123456",
       "deleted": "0",
       "product": {
-        "prodToken": "prod_3aiNdXcBQ2CPxPny",
+        "prodToken": "prod_123456",
         "companyToken": "comp_123456",
         "prodName": "Flat Wire for Lightning iPhone, iPad, iPod Sync and Charge Cable",
         "prodImage": "5-31-2018/1527796147164__187422__ZF-ZFACUSBFWIP5.jpg",
@@ -1282,7 +1282,7 @@ Response:
         "prodCheckInvetory": "0",
         "prodTrackInventory": "0",
         "inventoryCount": "5",
-        "prodCollections": ["clcs_ip9Hw1k7ejnviHFi"]
+        "prodCollections": ["clcs_123456"]
       },
       "pricing": {
         "total": 200
@@ -1303,7 +1303,7 @@ Response:
     "guaranteed": false,
     "carrier": "usps",
     "origRate": 6.7,
-    "id": "NOiHJ45TzMC7ZGRtnclUdFvI"
+    "id": "123456"
   },
   "orderTotal": "218.7",
   "orderStatus": "1",
@@ -1312,7 +1312,7 @@ Response:
   "orderNotePublic": "This is orderNotePublic",
   "cartToken": "",
   "orderPaymentMethod": {
-    "id": "ch_1ChkIgEmQpkAHEEPa14xaRDI",
+    "id": "ch_123456",
     "object": "charge",
     "amount": 2187,
     "amount_refunded": 0,
@@ -1350,7 +1350,7 @@ Response:
       "data": [],
       "has_more": false,
       "total_count": 0,
-      "url": "/v1/charges/ch_1ChkIgEmQpkAHEEPa14xaRDI/refunds"
+      "url": "/v1/charges/ch_123456/refunds"
     },
     "review": null,
     "shipping": null,
@@ -1372,7 +1372,7 @@ Response:
       "dynamic_last4": null,
       "exp_month": 12,
       "exp_year": 2020,
-      "fingerprint": "d6DaoacmudCLi151",
+      "fingerprint": "123456",
       "funding": "credit",
       "last4": "4242",
       "metadata": [],
