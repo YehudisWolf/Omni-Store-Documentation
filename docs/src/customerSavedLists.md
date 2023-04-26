@@ -36,7 +36,7 @@ Response:
 
 ```json
 {
-    "listToken": "custList_yRX7SVXjMexp0q7o",
+    "listToken": "custList_123456",
     "listReadableName": "wireless"
 }
 ```
@@ -77,12 +77,12 @@ curl --request POST \
   --data '{
             "listItems": [
                 {
-                    "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
+                    "variantToken": "vrnt_123456",
                     "quantity": 1,
                     "sortOrder": 0
                 },
                 {
-                    "variantToken": "vrnt_eTsR5DTlxvvPrPyc",
+                    "variantToken": "vrnt_123456",
                     "quantity": 2,
                     "sortOrder": 1
                 }
@@ -95,18 +95,18 @@ Response:
 
 ```json
 {
-    "listToken": "custList_WBZMfbXkprOK6Uoz",
+    "listToken": "custList_123456",
     "listReadableName": "haptic",
     "sortOrder": 0,
     "listItems": [
         {
-            "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
+            "variantToken": "vrnt_123456",
             "quantity": 1,
             "sortOrder": 0,
             "variantDetails": {
-                "prodToken": "prod_dJZNmB5bMJpsRiQo",
-                "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
-                "companyToken": "comp_dft6yhzjkli",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",
+                "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Raptor 8.5x32 Binocular",
                 "variantImage": {
                     "file": "11-7-2021/1636320272462__115916__vtx_bin_raptor_32_f_w.jpg"
@@ -162,7 +162,7 @@ Response:
             }
         },
         {
-            "variantToken": "vrnt_eTsR5DTlxvvPrPyc",
+            "variantToken": "vrnt_123456",
             "quantity": 2,
             "sortOrder": 1,
             "variantDetails": null
@@ -202,7 +202,7 @@ curl --request PUT \
     "listReadableName": "test 1",
     "listItems": [
         {
-            "variantToken": "vrnt_O9dXSxUli2YRjDug",
+            "variantToken": "vrnt_123456",
             "quantity": 1
         }
     ]
@@ -212,13 +212,13 @@ Response:
 
 ```json
 {
-    "listToken": "custList_yRX7SVXjMexp0q7o",
+    "listToken": "custList_123456",
     "sortOrder": 1,
     "listReadableName": "fjyyds",
     "listItems": [
         {
-            "itemToken": "listItem_tcZrq1LEbxE1",
-            "variantToken": "vrnt_pnRf2uhUDzXrPVk1",
+            "itemToken": "listItem_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 5,
             "sortOrder": 0
         }
@@ -263,13 +263,13 @@ Response:
 
 ```json
 {
-    "listToken": "custList_yRX7SVXjMexp0q7o",
+    "listToken": "custList_123456",
     "sortOrder": 1,
     "listReadableName": "fjyyds",
     "listItems": [
         {
-            "itemToken": "listItem_tcZrq1LEbxE1",
-            "variantToken": "vrnt_AmUMSTGCRzdyWmiU",
+            "itemToken": "listItem_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 2,
             "sortOrder": 1
         }
@@ -295,17 +295,17 @@ Response:
 ```json
 [
     {
-        "listToken": "custList_WBZMfbXkprOK6Uoz",
+        "listToken": "custList_123456",
         "sortOrder": 0,
         "listReadableName": "haptic",
         "listItems": [
             {
-                "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
+                "variantToken": "vrnt_123456",
                 "quantity": 1,
                 "sortOrder": 0,
                 "variantDetails": {
-                    "prodToken": "prod_dJZNmB5bMJpsRiQo",
-                    "variantToken": "vrnt_fNOtaJ06Q21uxjMw",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",123456123456
                     "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Raptor 8.5x32 Binocular",
                     "variantImage": {
@@ -362,7 +362,7 @@ Response:
                 }
             },
             {
-                "variantToken": "vrnt_eTsR5DTlxvvPrPyc",
+                "variantToken": "vrnt_123456123456",
                 "quantity": 2,
                 "sortOrder": 1,
                 "variantDetails": null
@@ -405,7 +405,7 @@ Response:
 [
     {
         "ID": 7,
-        "listToken": "custList_shxLtOpZXaFtnOq8",
+        "listToken": "custList_123456123456",
         "sortOrder": 0,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
@@ -414,21 +414,21 @@ Response:
     },
     {
         "ID": 4,
-        "listToken": "custList_agAfTtQfq5c6mnrf",
+        "listToken": "custList_123456123456",
         "sortOrder": 0,
-        "customerToken": "cust_TaE7ZaiNkkwUnPTyf7IF4InZ",
+        "customerToken": "cust_123456123456",
         "companyToken": "comp_123456",
         "listReadableName": "solid state",
         "listItems": [
             {
-                "itemToken": "listItem_PyCcv81DnMde",
-                "variantToken": "vrnt_pnRf2uhUDzXrPVk1",
+                "itemToken": "listItem_123456123456",
+                "variantToken": "vrnt_123456123456",
                 "quantity": 5,
                 "sortOrder": 0
             },
             {
-                "itemToken": "listItem_d4bR52J6qMi4",
-                "variantToken": "vrnt_pnRf2uhUDzXrPVk1",
+                "itemToken": "listItem_123456",
+                "variantToken": "vrnt_123456",
                 "quantity": 5,
                 "sortOrder": 0
             }
@@ -436,7 +436,7 @@ Response:
     },
     {
         "ID": 9,
-        "listToken": "custList_LEsTMkLT3hgdzJvB",
+        "listToken": "custList_123456",
         "sortOrder": 0,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
@@ -445,7 +445,7 @@ Response:
     },
     {
         "ID": 10,
-        "listToken": "custList_Zbo2iNdEaYGyLrJn",
+        "listToken": "custList_123456",
         "sortOrder": 0,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
@@ -454,7 +454,7 @@ Response:
     },
     {
         "ID": 11,
-        "listToken": "custList_bVX3cveoCMJlfFMA",
+        "listToken": "custList_123456",
         "sortOrder": 0,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
@@ -463,7 +463,7 @@ Response:
     },
     {
         "ID": 12,
-        "listToken": "custList_eyL4ajgn9BfNbpTX",
+        "listToken": "custList_123456",
         "sortOrder": 0,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
@@ -472,15 +472,15 @@ Response:
     },
     {
         "ID": 8,
-        "listToken": "custList_aNHEyVp7FdGlrW2p",
+        "listToken": "custList_123456",
         "sortOrder": 1,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
         "listReadableName": "fds",
         "listItems": [
             {
-                "itemToken": "listItem_lecT6r5hUWgB",
-                "variantToken": "vrnt_pnRf2uhUDzXrPVk1",
+                "itemToken": "listItem_123456",
+                "variantToken": "vrnt_123456",
                 "quantity": 5,
                 "sortOrder": 0
             }
@@ -488,15 +488,15 @@ Response:
     },
     {
         "ID": 13,
-        "listToken": "custList_yRX7SVXjMexp0q7o",
+        "listToken": "custList_123456",123456
         "sortOrder": 1,
         "customerToken": "cust_123456",
         "companyToken": "comp_123456",
         "listReadableName": "fjyyds",
         "listItems": [
             {
-                "itemToken": "listItem_tcZrq1LEbxE1",
-                "variantToken": "vrnt_AmUMSTGCRzdyWmiU",
+                "itemToken": "listItem_123456",
+                "variantToken": "vrnt_123456",
                 "quantity": 2,
                 "sortOrder": 1
             }
