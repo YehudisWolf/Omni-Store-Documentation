@@ -8,7 +8,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
-  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_xipKF02Td5eJ66IoEyzHdXUM","contactFirstName":"Sarah","contactLastName","Jones"}'
+  --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_123456","contactFirstName":"Sarah","contactLastName","Jones"}'
 
 ```
 
@@ -17,10 +17,10 @@ curl --request POST \
 ```json
 {
   "id": 821,
-  "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
+  "cartToken": "cart_123456",
   "customerToken": "cs_123456",
   "couponCodes": null,
-  "addressToken": "adrs_xipKF02Td5eJ66IoEyzHdXUM",
+  "addressToken": "adrs_123456",
   "shippingMethod": null,
   "shippingMethodId": "",
   "shippingAddressLabel": "",
@@ -48,7 +48,7 @@ curl --request POST \
       "deliveryDays": null,
       "origRate": 0,
       "rate": 0,
-      "id": "uC6tjBvFKAlrzb5Rh21nVmkG",
+      "id": "123456",
       "methodName": "freeshipping"
     }
   ],
@@ -99,10 +99,10 @@ curl --request POST \
 ```json
 {
   "id": 821,
-  "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
+  "cartToken": "cart_123456",
   "customerToken": "cs_123456",
   "couponCodes": null,
-  "addressToken": "adrs_xipKF02Td5eJ66IoEyzHdXUM",
+  "addressToken": "adrs_123456",
   "shippingMethod": null,
   "shippingMethodId": "",
   "shippingAddressLabel": "",
@@ -130,7 +130,7 @@ curl --request POST \
       "deliveryDays": null,
       "origRate": 0,
       "rate": 0,
-      "id": "uC6tjBvFKAlrzb5Rh21nVmkG",
+      "id": "123456",
       "methodName": "freeshipping"
     }
   ],
@@ -185,23 +185,23 @@ curl --request POST \
   "order": {
     "orderProducts": [
       {
-        "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
-        "cartProdToken": "cp_79ZYOHiz6ZWmpIXlIxYAvEB8",
+        "cartToken": "cart_123456",
+        "cartProdToken": "cp_123456",
         "addOnToProdToken": "",
         "cartProdQuantity": 1,
         "addOnProdTokens": null,
-        "prodToken": "vrnt_fwSP2CWn0v72Ag0c",
+        "prodToken": "vrnt_123456",
         "deleted": 0,
         "companyToken": "comp_123456",
-        "siteToken": "site_dg30sdfsgdsgsvv",
+        "siteToken": "site_123456",
         "customerToken": "cust_123456",
         "cartCreated": "1638443146",
         "cartLastTouched": "1638443146",
-        "prodStaticCollections": ["clcs_pZYTDuzGLEQjvvlW"],
+        "prodStaticCollections": ["clcs_123456"],
         "specialValues": [],
         "product": {
-          "prodToken": "prod_2zza34TZ9v6Aidya",
-          "variantToken": "vrnt_fwSP2CWn0v72Ag0c",
+          "prodToken": "prod_123456",
+          "variantToken": "vrnt_123456",
           "companyToken": "comp_123456",
           "variantName": "Placeat aut consequ",
           "variantImage": {
@@ -265,7 +265,7 @@ curl --request POST \
       "deliveryDays": null,
       "origRate": 0,
       "rate": 0,
-      "id": "uC6tjBvFKAlrzb5Rh21nVmkG",
+      "id": "123456",
       "methodName": "freeshipping"
     },
     "orderTotal": 9.9,
@@ -290,7 +290,7 @@ curl --request POST \
       "xMaskedCardNumber": "4xxxxxxxxxxx4242",
       "xCardType": "Visa",
       "xName": "Sarah Jones",
-      "xToken": "724h3q7h9n07n792m9pmppmp1q02nmhn",
+      "xToken": "123456",
       "xMID": "xxxxxxxxxx9999",
       "xTID": "xxxxx6789",
       "xCurrency": "USD",
@@ -301,21 +301,21 @@ curl --request POST \
     "contactLastName": "Jones",
     "contactFirstName": "Sarah",
     "orderProdQuantity": 1,
-    "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"554234277\",\"xExp\":\"0123\",\"xAuthCode\":\"27119A\",\"xBatch\":\"5150840\",\"xAvsResultCode\":\"NNN\",\"xAvsResult\":\"Address: No Match & 5 Digit Zip: No Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"9.90\",\"xMaskedCardNumber\":\"4xxxxxxxxxxx4242\",\"xCardType\":\"Visa\",\"xName\":\"Sarah Jones\",\"xToken\":\"724h3q7h9n07n792m9pmppmp1q02nmhn\",\"xMID\":\"xxxxxxxxxx9999\",\"xTID\":\"xxxxx6789\",\"xCurrency\":\"USD\",\"xDate\":\"12\\/2\\/2021 6:19:14 AM\",\"xEntryMethod\":\"Keyed\",\"cardToken\":\"cc_OJctC8FyAXnk\"}",
+    "paymentObject": "{\"xResult\":\"A\",\"xStatus\":\"Approved\",\"xError\":\"\",\"xErrorCode\":\"00000\",\"xRefNum\":\"554234277\",\"xExp\":\"0123\",\"xAuthCode\":\"27119A\",\"xBatch\":\"5150840\",\"xAvsResultCode\":\"NNN\",\"xAvsResult\":\"Address: No Match & 5 Digit Zip: No Match\",\"xCvvResultCode\":\"\",\"xCvvResult\":\"No CVV data available\",\"xAuthAmount\":\"9.90\",\"xMaskedCardNumber\":\"4xxxxxxxxxxx4242\",\"xCardType\":\"Visa\",\"xName\":\"Sarah Jones\",\"xToken\":\"123456\",\"xMID\":\"xxxxxxxxxx9999\",\"xTID\":\"xxxxx6789\",\"xCurrency\":\"USD\",\"xDate\":\"12\\/2\\/2021 6:19:14 AM\",\"xEntryMethod\":\"Keyed\",\"cardToken\":\"cc_OJctC8FyAXnk\"}",
     "cardToken": "cc_123456",
     "orderIP": "103.151.236.50",
-    "cartToken": "cart_ChXDOtbOnQSZRtH4LoKkfDFU",
+    "cartToken": "cart_123456",
     "po": "",
-    "BillToName": "Haseeb Ali",
+    "BillToName": "Sarah Jones",
     "BillToAddress": "{\"name\":\"Sarah Jones\",\"address\":\"abc\",\"address2\":\"\",\"zip\":\"71005\",\"city\":\"New York\",\"state\":\"New York\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
     "orderNotePublic": "",
-    "siteToken": "site_dg30sdfsgdsgsvv",
+    "siteToken": "site_123456",
     "companyToken": "comp_123456",
     "customerToken": "cust_123456",
-    "orderToken": "ordr_Bv0Opb8czca0o03czpwXz8Wj",
+    "orderToken": "ordr_123456",
     "orderNumber": 117,
     "orderStatus": "os_awaiting_fulfillment",
-    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_ChXDOtbOnQSZRtH4LoKkfDFU\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_xipKF02Td5eJ66IoEyzHdXUM\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"123456@gmail.com\",\"contactFirstName\":\"Sarah\",\"contactLastName\":\"Jones\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
+    "checkoutObject": "{\"id\":821,\"cartToken\":\"cart_123456\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_123456\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"123456\",\"methodName\":\"freeshipping\"},\"shippingMethodId\":\"123456\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"abc\",\"address2\":\"\",\"city\":\"New York\",\"state\":\"New York\",\"zip\":\"71005\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"123456@gmail.com\",\"contactFirstName\":\"Sarah\",\"contactLastName\":\"Jones\",\"companyName\":\"\",\"contactPhone\":\"1233333\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"uC6tjBvFKAlrzb5Rh21nVmkG\",\"methodName\":\"freeshipping\"}],\"pricing\":{\"productsTotal\":9,\"origTotal\":9,\"subTotal\":9,\"tax\":0.9,\"totalCouponDiscount\":0,\"totalAfterCoupon\":9.9,\"total\":9.9},\"couponCodesInfo\":[]}",
     "customerObject": "{\"id\":0,\"customerFirstName\":\"Sarah \",\"customerLastName\":\"Jones\",\"customerEmail\":\"sjones1@gmail.com\",\"customerPhone\":\"0313445214\",\"customerCompanyName\":\"abcd\",\"dateCreated\":\"1635837718\",\"customerStatus\":\"\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":0,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2021-11-02 07:21:58\",\"editedAt\":\"2021-11-02 12:04:02\"}"
   }
 }
@@ -380,25 +380,25 @@ curl --request POST \
     "order": {
         "orderProducts": [
             {
-                "cartToken": "cart_8II78afqDL1NC9pvEagHwlTB",
-                "cartProdToken": "cp_N0HqKE2o0NPgKCiUiA6nhHoL",
+                "cartToken": "cart_123456",
+                "cartProdToken": "cp_123456",
                 "cartProdQuantity": 1,
                 "addOnToProdToken": "",
                 "addOnProdTokens": null,
-                "prodToken": "vrnt_Mt75VgrGixqkYsOB",
+                "prodToken": "vrnt_123456",
                 "deleted": 0,
                 "createdAt": "2022-12-08 12:34:27",
                 "editedAt": "2022-12-08 12:34:27",
                 "companyToken": "comp_dft6yhzjkli",
-                "siteToken": "site_Dpawt345k2m4",
+                "siteToken": "site_123456",
                 "customerToken": "cust_123456",
                 "cartCreated": "1670502867",
                 "cartLastTouched": "1670502867",
                 "prodStaticCollections": [],
                 "specialValues": [],
                 "product": {
-                    "prodToken": "prod_6jy8JYtQ3FfKh4th",
-                    "variantToken": "vrnt_Mt75VgrGixqkYsOB",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",
                     "companyToken": "comp_123456",
                     "variantName": "viral",
                     "variantImage": [],
@@ -462,7 +462,7 @@ curl --request POST \
             "deliveryDays": null,
             "origRate": 0,
             "rate": 0,
-            "id": "BQRJmVECcNaT37w5Aq8h2fot",
+            "id": "123456",
             "methodName": ""
         },
         "orderTotal": 0.1,
@@ -478,18 +478,18 @@ curl --request POST \
         "paymentObject": null,
         "cardToken": null,
         "orderIP": "86.183.104.179",
-        "cartToken": "cart_8II78afqDL1NC9pvEagHwlTB",
+        "cartToken": "cart_123456",
         "PO": "123-P9ojd",
         "BillToName": "Sarah - shippingName Jones - shippingName",
         "BillToAddress": "{\"name\":\"Sarah - shippingName Jones - shippingName\",\"address\":\"12354 Main Street\",\"address2\":\"\",\"zip\":\"10952\",\"city\":\"Monsey\",\"state\":\"NY\",\"country\":\"\",\"mobile\":\"\",\"phone\":\"\"}",
         "orderNotePublic": "order paid through PO pathway",
-        "siteToken": "site_Dpawt345k2m4",
+        "siteToken": "site_123456",
         "companyToken": "comp_123456",
         "customerToken": "cust_123456",
-        "orderToken": "ordr_dgzABf0dod39Bdtno5zwkfIe",
+        "orderToken": "ordr_123456",
         "orderNumber": 200606,
         "orderStatus": "os_awaiting_fulfillment",
-        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_8II78afqDL1NC9pvEagHwlTB\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_8yY55uZos2WfmnqUhfnBsuU1\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"sjones1@gmail.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"methodName\":\"\"}],\"contactFirstName\":\"Sarah - shippingName\",\"contactLastName\":\"Jones - shippingName\",\"companyName\":\"Tyrell Corp,\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
+        "checkoutObject": "{\"id\":30557,\"cartToken\":\"cart_123456\",\"customerToken\":\"cs_123456\",\"couponCodes\":null,\"addressToken\":\"adrs_123456\",\"shippingMethod\":{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"123456\",\"methodName\":\"\"},\"shippingMethodId\":\"BQRJmVECcNaT37w5Aq8h2fot\",\"shippingAddressLabel\":\"\",\"shippingAddress\":{\"address\":\"12354 Main Street\",\"address2\":\"\",\"city\":\"Monsey\",\"state\":\"NY\",\"zip\":\"10952\",\"country\":\"\",\"phone\":\"\",\"mobile\":\"\",\"specialValues\":[]},\"contactEmail\":\"sjones1@gmail.com\",\"contactPhone\":\"925-755-7647\",\"shippingMethodsJson\":[{\"carrier\":\"freeshipping\",\"description\":\"\",\"deliveryDateTime\":null,\"deliveryDays\":null,\"origRate\":0,\"rate\":0,\"id\":\"123456\",\"methodName\":\"\"}],\"contactFirstName\":\"Sarah - shippingName\",\"contactLastName\":\"Jones - shippingName\",\"companyName\":\"Tyrell Corp,\",\"createdAt\":\"2022-12-08 12:34:38\",\"editedAt\":\"2022-12-08 12:34:46\",\"pricing\":{\"productsTotal\":0.1,\"origTotal\":0.1,\"subTotal\":0.1,\"tax\":0,\"totalCouponDiscount\":0,\"totalAfterCoupon\":0.1,\"total\":0.1},\"couponCodesInfo\":[]}",
         "customerObject": "{\"id\":53237,\"customerFirstName\":\"Sarah\",\"customerLastName\":\"Jones\",\"customerEmail\":\"sjones1@gmail.com\",\"customerPhone\":\"925-755-7647\",\"customerCompanyName\":\"Tyrell Corp\",\"dateCreated\":\"1670502805\",\"customerStatus\":\"cs_approved\",\"customerTypes\":null,\"customerGroups\":null,\"isLoggedIn\":1,\"customerDocs\":null,\"taxExempt\":null,\"taxExemptID\":null,\"createdAt\":\"2022-12-08 12:33:25\",\"editedAt\":\"2022-12-08 12:34:55\"}",
         "dateCreated": 1670502895
     }
@@ -535,7 +535,7 @@ curl --request POST \
 ```json
 {
   "id": "117",
-  "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
+  "cartToken": "cart_123456",
   "customerToken": "cust_123456",
   "couponCodes": ["SUMMER50"],
   "addressToken": "",
@@ -564,7 +564,7 @@ curl --request POST \
   "couponCodesInfo": [
     {
       "name": "SUMMER50",
-      "msg": "Sucssecfully applied",
+      "msg": "Successfully applied",
       "status": "valid"
     }
   ]
@@ -600,7 +600,7 @@ curl --request POST \
 ```json
 {
   "id": "117",
-  "cartToken": "cart_E4uK4GcsbriLcQdangGrvYSq",
+  "cartToken": "cart_123456",
   "customerToken": "cust_123456",
   "couponCodes": [],
   "addressToken": "",
