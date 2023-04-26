@@ -35,7 +35,7 @@ curl --request POST \
   "addressFirstName": "My address first",
   "addressLastName": "My Address Last Name",
   "phoneNumber": "03356705565",
-  "addressToken": "adrs_oTl0Yo7M0IoUjEzkA8fgrufq",
+  "addressToken": "adrs_123456",
   "specialValues": ""
 }
 ```
@@ -83,7 +83,7 @@ curl --request GET \
 ```json
 [
   {
-    "addressToken": "adrs_5nGGQwB1GYp8p1Gp0Otmi0cl",
+    "addressToken": "adrs_123456",
     "addressLabel": "",
     "address": "abcd",
     "address2": "",
@@ -100,7 +100,7 @@ curl --request GET \
     "specialValues": []
   },
   {
-    "addressToken": "adrs_oTl0Yo7M0IoUjEzkA8fgrufq",
+    "addressToken": "adrs_123456",
     "addressLabel": "My Address",
     "address": "123 Main street",
     "address2": "unit 4",
@@ -137,7 +137,7 @@ curl --request GET \
 
 ```json
 {
-  "addressToken": "adrs_oTl0Yo7M0IoUjEzkA8fgrufq",
+  "addressToken": "adrs_123456",
   "addressLabel": "My Address",
   "address": "123 Main street",
   "address2": "unit 4",
