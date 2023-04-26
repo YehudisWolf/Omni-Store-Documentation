@@ -17,7 +17,7 @@ curl --request POST \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
-  --data '{ "cartProdQuantity" : "1", "prodToken" : "prod_nHc1b0iV8NsN2RGw" }'
+  --data '{ "cartProdQuantity" : "1", "prodToken" : "prod_123456" }'
 
 ```
 
@@ -25,11 +25,11 @@ curl --request POST \
 
 ```json
 {
-  "cartToken": "cart_33FkeUtvV7PXTwMOVCCcVa0S",
-  "cartProdToken": "cp_lJgk0e8n8ZM7d2hJBTutM0R6",
+  "cartToken": "cart_123456",
+  "cartProdToken": "cp_123456",
   "cartProdQuantity": "1",
   "customerToken": "cust_111",
-  "prodToken": "prod_oqOBvfghjNtO6Q",
+  "prodToken": "prod_123456",
   "cartAddedQuantity": "3",
   "status": "Prod Added"
 }
@@ -39,11 +39,11 @@ curl --request POST \
 
 ```json
 {
-  "cartToken": "cart_340qwertyuCx46z",
-  "prodToken": "prod_MMetyuiGWoF",
+  "cartToken": "cart_123456",
+  "prodToken": "prod_123456",
   "customerToken": "cs_123456",
   "cartProdQuantity": 23,
-  "cartProdToken": "cp_GNly67fafffafI2aB0V",
+  "cartProdToken": "cp_123456",
   "cartAddedQuantity": "8",
   "status": "Prod Updated"
 }
@@ -78,10 +78,10 @@ curl --request POST \
 
 ```json
 {
-  "cartProdToken": "cp_Yrr8oQ2BiZMTcUllOqG83Drv",
+  "cartProdToken": "cp_123456",
   "cartProdQuantity": "50",
   "cartAddedQuantity": "",
-  "prodToken": "prod_nHc1b0iV8NsN2RGw"
+  "prodToken": "prod_123456"
 }
 ```
 
@@ -109,12 +109,12 @@ curl --request GET \
 
 ```json
 {
-  "cartToken": "cart_NnUTURuJTwgoPjWTnU5Inei9",
-  "cartProdToken": "cp_agb15oMDn46vxOyV0IbbT3h1",
+  "cartToken": "cart_123456",
+  "cartProdToken": "cp_123456",
   "cartProdQuantity": 12,
   "addOnToProdToken": "",
   "addOnProdTokens": null,
-  "prodToken": "prod_3aiNdXcBQ2CPxPny",
+  "prodToken": "prod_123456",
   "deleted": 0,
   "createdAt": "2021-12-29 14:57:32",
   "editedAt": "2021-12-29 14:57:32",
@@ -162,7 +162,7 @@ curl --request DELETE \
 
 ```json
 {
-  "token": "cp_IB4kqwerty03Cb0QBz",
+  "token": "cp_123456",
   "deleted": true
 }
 ```
