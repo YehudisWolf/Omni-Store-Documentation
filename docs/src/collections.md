@@ -19,7 +19,7 @@ curl --request GET \
 ```json
 [
   {
-    "collectionToken": "clcs_5KHj1s7ZluZ9yKFy",
+    "collectionToken": "clcs_123456",
     "companyToken": "comp_123456",
     "collectionName": "c 1d23",
     "collectionDefaultSort": "b",
@@ -35,7 +35,7 @@ curl --request GET \
     "products": []
   },
   {
-    "collectionToken": "clcs_EoexlRSAdfrkH37d",
+    "collectionToken": "clcs_123456",
     "companyToken": "comp_123456",
     "collectionName": "NAME",
     "collectionDefaultSort": "b",
@@ -77,7 +77,7 @@ curl --request GET \
 
 ```json
 {
-  "collectionToken": "clcs_vbnmZ9yKFy",
+  "collectionToken": "clcs_123456",
   "companyToken": "comp_123456",
   "collectionName": "c 1d23",
   "collectionDefaultSort": "b",
@@ -93,8 +93,8 @@ curl --request GET \
   "products": [
     {
       "id": "4",
-      "prodToken": "prod_DRPBasdfghjkDB",
-      "collectionToken": "clcs_5KHjsdfvbnmZ9yKFy",
+      "prodToken": "prod_123456",
+      "collectionToken": "clcs_123456",
       "sortOrder": null,
       "companyToken": "comp_123456",
       "prodName": "brgtbr",
@@ -132,8 +132,8 @@ curl --request GET \
       "backOrderWarning": 0,
       "variants": [
         {
-          "prodToken": "prod_dfghjmya",
-          "variantToken": "vrnt_fwSxcvbnbvcg0c",
+          "prodToken": "prod_123456",
+          "variantToken": "vrnt_123456",
           "companyToken": "comp_123456",
           "variantName": "Plvbnt dvbvt cghbvu",
           "variantImage": {
@@ -185,8 +185,8 @@ curl --request GET \
     },
     {
       "id": "4",
-      "prodToken": "prod_DRPsdfghbvcftyhB",
-      "collectionToken": "clcs_5KrtyuiopZluertyhKFy",
+      "prodToken": "prod_123456",
+      "collectionToken": "clcs_123456",
       "sortOrder": null,
       "companyToken": "comp_123456",
       "prodName": "brgtbr",
@@ -224,8 +224,8 @@ curl --request GET \
       "backOrderWarning": 0,
       "variants": [
         {
-          "prodToken": "prod_2zza34TZ9v6Aidya",
-          "variantToken": "vrnt_fwSP2CWn0v72Ag0c",
+          "prodToken": "prod_123456",
+          "variantToken": "vrnt_123456",
           "companyToken": "comp_123456",
           "variantName": "Placeat aut consequ",
           "variantImage": {
