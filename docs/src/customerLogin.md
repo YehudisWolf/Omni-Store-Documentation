@@ -87,7 +87,7 @@ curl --request POST \
 
 ```shell
 curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/login/logout' \
---header 'token: site_Dpawt345k2m4' \
+--header 'token: site_123456' \
 --header 'customerToken: cs_123456'
 ```
 
