@@ -12,7 +12,7 @@ curl --request GET \
 
 ```json
 {
-  "prodToken": "prod_CopF1h0dqzc9mR61",
+  "prodToken": "prod_123456",
   "companyToken": "comp_123456",
   "prodName": "No moref",
   "prodImage": {
@@ -39,22 +39,22 @@ curl --request GET \
   "shippingProduct": 0,
   "prodMetaTitle": "",
   "prodMetaDescription": "",
-  "prodBrand": "brnd_dNX2r7qA7GRw8smMRrHI",
+  "prodBrand": "brnd_123456",
   "prodType": "",
   "prodTemplate": "fdsa",
   "prodAccessories": [
-    "prod_dgHZuXkYjXsTF7ZB",
-    "prod_lkg9GfQ1PSS1QvLF"
+    "prod_123456",
+    "prod_123456"
   ],
   "google_prodCategory": "",
   "google_prodType": "",
   "google_prodCondition": "",
   "backOrderWarning": 0,
   "prodCollections": [
-    "clcs_vFPTXp7oQu0XcV7S",
-    "clcs_B216qbvH9CNBbJyr",
-    "clcs_B216qbvH9CNBbJyr",
-    "clcs_pLae516pzjDsAndI"
+    "clcs_123456",
+    "clcs_123456",
+    "clcs_123456",
+    "clcs_123456"
   ],
   "variantInfo": {
     "priceTo": 0,
@@ -63,12 +63,12 @@ curl --request GET \
   },
   "prodOptions": [
     {
-      "optionToken": "optn_IoKsm82SMC5ImEg9jmOe",
+      "optionToken": "optn_123456",
       "optionName": "size",
       "optionOrder": ""
     },
     {
-      "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+      "optionToken": "optn_123456",
       "optionName": "color",
       "optionOrder": "1"
     }
@@ -101,7 +101,7 @@ curl --request GET \
 
 ```json
        {
-  "prodToken": "prod_CopF1h0dqzc9mR61",
+  "prodToken": "prod_123456",
   "companyToken": "comp_123456",
   "prodName": "No moref",
   "prodImage": {
@@ -128,22 +128,22 @@ curl --request GET \
   "shippingProduct": 0,
   "prodMetaTitle": "",
   "prodMetaDescription": "",
-  "prodBrand": "brnd_dNX2r7qA7GRw8smMRrHI",
+  "prodBrand": "brnd_123456",
   "prodType": "",
   "prodTemplate": "fdsa",
   "prodAccessories": [
-    "prod_dgHZuXkYjXsTF7ZB",
-    "prod_lkg9GfQ1PSS1QvLF"
+    "prod_123456",
+    "prod_123456"
   ],
   "google_prodCategory": "",
   "google_prodType": "",
   "google_prodCondition": "",
   "backOrderWarning": 0,
   "prodCollections": [
-    "clcs_vFPTXp7oQu0XcV7S",
-    "clcs_B216qbvH9CNBbJyr",
-    "clcs_B216qbvH9CNBbJyr",
-    "clcs_pLae516pzjDsAndI"
+    "clcs_123456",
+    "clcs_123456",
+    "clcs_123456",
+    "clcs_123456"
   ],
   "variantInfo": {
     "priceTo": 0,
@@ -152,7 +152,7 @@ curl --request GET \
   },
   "prodOptions": [
     {
-      "optionToken": "optn_IoKsm82SMC5ImEg9jmOe",
+      "optionToken": "optn_123456",
       "optionName": "size",
       "optionOrder": "",
       "values": [
@@ -161,7 +161,7 @@ curl --request GET \
       ]
     },
     {
-      "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+      "optionToken": "optn_123456",
       "optionName": "color",
       "optionOrder": "1",
       "values": [
@@ -171,9 +171,9 @@ curl --request GET \
   ],
   "variants": [
     {
-      "prodToken": "prod_CopF1h0dqzc9mR61",
-      "variantToken": "vrnt_0IeDlg6B0RchCren",
-      "companyToken": "comp_sfgb50s0dsdgsfh5g",
+      "prodToken": "prod_123456",
+      "variantToken": "vrnt_123456",
+      "companyToken": "comp_123456",
       "variantName": "ffffff",
       "variantImage": {
         "file": ""
@@ -220,21 +220,21 @@ curl --request GET \
       "variantInStock": true,
       "variantOptions": [
         {
-          "optionToken": "optn_IoKsm82SMC5ImEg9jmOe",
+          "optionToken": "optn_123456",
           "optionValue": "sm",
           "optionName": "size"
         },
         {
-          "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+          "optionToken": "optn_123456",
           "optionValue": "red",
           "optionName": "color"
         }
       ]
     },
     {
-      "prodToken": "prod_CopF1h0dqzc9mR61",
-      "variantToken": "vrnt_qmrYL7X1JnIfSfls",
-      "companyToken": "comp_sfgb50s0dsdgsfh5g",
+      "prodToken": "prod_123456",
+      "variantToken": "vrnt_123456",
+      "companyToken": "comp_123456",
       "variantName": "ffffff",
       "variantImage": {
         "file": ""
@@ -281,20 +281,20 @@ curl --request GET \
       "variantInStock": true,
       "variantOptions": [
         {
-          "optionToken": "optn_IoKsm82SMC5ImEg9jmOe",
+          "optionToken": "optn_123456",
           "optionValue": "lg",
           "optionName": "size"
         },
         {
-          "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+          "optionToken": "optn_123456",
           "optionValue": "red",
           "optionName": "color"
         }
       ]
     },
     {
-      "prodToken": "prod_CopF1h0dqzc9mR61",
-      "variantToken": "vrnt_WSBp0UD2QJMrObF0",
+      "prodToken": "prod_123456",
+      "variantToken": "vrnt_123456",
       "companyToken": "comp_123456",
       "variantName": "",
       "variantImage": {
@@ -338,8 +338,8 @@ curl --request GET \
       "variantInStock": true
     },
     {
-      "prodToken": "prod_CopF1h0dqzc9mR61",
-      "variantToken": "vrnt_Z6fkKd8YqK5MImsU",
+      "prodToken": "prod_123456",
+      "variantToken": "vrnt_123456",
       "companyToken": "comp_123456",
       "variantName": "",
       "variantImage": {
@@ -504,43 +504,43 @@ curl --request GET \
     "shippingProduct": 0,
     "prodMetaTitle": "",
     "prodMetaDescription": "",
-    "prodBrand": "brnd_IFQDSodUJWQMZapLUtXr",
+    "prodBrand": "brnd_123456",
     "prodType": "",
     "prodTemplate": "",
     "prodAccessories": [
-      "prod_lkg9GfQ1PSS1QvLF",
-      "prod_wJtZK4kpCSnp0XC5",
-      "prod_dgHZuXkYjXsTF7ZB"
+      "prod_123456",
+      "prod_123456",
+      "prod_123456"
     ],
     "google_prodCategory": "",
     "google_prodType": "",
     "google_prodCondition": "",
     "backOrderWarning": 0,
     "prodCollections": [
-      "clcs_cG2OZ3gKWEYVCFxo",
-      "clcs_mVwiRPQfDbClCdLD"
+      "clcs_123456",
+      "clcs_123456"
     ],
     "prodOptions": [
       {
-        "optionToken": "optn_6j5np5v8On1zvcWSfcny",
+        "optionToken": "optn_123456",
         "optionName": "size",
         "optionOrder": "0"
       },
       {
-        "optionToken": "optn_mUBvv8MdVzU9SozEQGd3",
+        "optionToken": "optn_123456",
         "optionName": "material",
         "optionOrder": "1"
       },
       {
-        "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+        "optionToken": "optn_123456",
         "optionName": "color",
         "optionOrder": "blue"
       }
     ]
   },
   {
-    "prodToken": "prod_abcdefgABCDEFG123",
-    "companyToken": "comp_abcdefgABCDEFG123",
+    "prodToken": "prod_123456",
+    "companyToken": "comp_123456",
     "prodName": "Not a Highlander",
     "prodImage": {
       "file": "12-17-2020/1608227079221__15192__image.png",
@@ -583,35 +583,35 @@ curl --request GET \
     "shippingProduct": 0,
     "prodMetaTitle": "",
     "prodMetaDescription": "",
-    "prodBrand": "brnd_IFQDSodUJWQMZapLUtXr",
+    "prodBrand": "brnd_123456",
     "prodType": "",
     "prodTemplate": "",
     "prodAccessories": [
-      "prod_lkg9GfQ1PSS1QvLF",
-      "prod_wJtZK4kpCSnp0XC5",
-      "prod_dgHZuXkYjXsTF7ZB"
+      "prod_123456",
+      "prod_123456",
+      "prod_123456"
     ],
     "google_prodCategory": "",
     "google_prodType": "",
     "google_prodCondition": "",
     "backOrderWarning": 0,
     "prodCollections": [
-      "clcs_cG2OZ3gKWEYVCFxo",
-      "clcs_mVwiRPQfDbClCdLD"
+      "clcs_123456",
+      "clcs_123456"
     ],
     "prodOptions": [
       {
-        "optionToken": "optn_6j5np5v8On1zvcWSfcny",
+        "optionToken": "optn_123456",
         "optionName": "size",
         "optionOrder": "0"
       },
       {
-        "optionToken": "optn_mUBvv8MdVzU9SozEQGd3",
+        "optionToken": "optn_123456",
         "optionName": "material",
         "optionOrder": "1"
       },
       {
-        "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+        "optionToken": "optn_123456",
         "optionName": "color",
         "optionOrder": "blue"
       }
@@ -637,7 +637,7 @@ curl --request GET \
         "name": "back",
         "type": "youtube"
       },
-      {
+      {123456
         "file": "sO65YihyZac",
         "name": "close-up",
         "type": "youtube"
@@ -662,35 +662,35 @@ curl --request GET \
     "shippingProduct": 0,
     "prodMetaTitle": "",
     "prodMetaDescription": "",
-    "prodBrand": "brnd_IFQDSodUJWQMZapLUtXr",
+    "prodBrand": "brnd_123456",
     "prodType": "",
     "prodTemplate": "",
     "prodAccessories": [
-      "prod_lkg9GfQ1PSS1QvLF",
-      "prod_wJtZK4kpCSnp0XC5",
-      "prod_dgHZuXkYjXsTF7ZB"
+      "prod_123456",
+      "prod_123456",
+      "prod_123456"
     ],
     "google_prodCategory": "",
     "google_prodType": "",
     "google_prodCondition": "",
     "backOrderWarning": 0,
     "prodCollections": [
-      "clcs_cG2OZ3gKWEYVCFxo",
-      "clcs_mVwiRPQfDbClCdLD"
+      "clcs_123456",
+      "clcs_123456"
     ],
     "prodOptions": [
       {
-        "optionToken": "optn_6j5np5v8On1zvcWSfcny",
+        "optionToken": "optn_123456",
         "optionName": "size",
         "optionOrder": "0"
       },
       {
-        "optionToken": "optn_mUBvv8MdVzU9SozEQGd3",
+        "optionToken": "optn_123456",
         "optionName": "material",
         "optionOrder": "1"
       },
       {
-        "optionToken": "optn_4ICF2Y9Iz1eqEYEXxbmc",
+        "optionToken": "optn_123456",
         "optionName": "color",
         "optionOrder": "blue"
       }
