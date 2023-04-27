@@ -48,7 +48,7 @@ This will be the table for all site based enquiries
         {
             "settingCategory": "COMPANY",
             "settingType": "fs1GetToken",
-            "setting": "5b22e94022563965f4fdd4b5"
+            "setting": "123456"
         },
         {
             "settingCategory": "SITE",
@@ -58,13 +58,13 @@ This will be the table for all site based enquiries
         {
             "settingCategory": "SITE",
             "settingType": "googleSheetId",
-            "setting": "1Jl81_nrs6fPQAgQLU3Amyk6NN7TT8TddYp7ryxrRtVA"
+            "setting": "1Jl81_123456"
         }
     ],
     "settingssite": {
-        "settingToken": "stngSite_VankVNtH9zI3",
+        "settingToken": "stngSite_123456",
         "companyToken": "comp_123456",
-        "siteToken": "site_Dpawt345k2m4",
+        "siteToken": "site_123456",
         "baseUrl": "https://optics.evelt.dev/",
         "cartQuantityCombine": 1,
         "collectionUrl": "",
