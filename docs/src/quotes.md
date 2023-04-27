@@ -73,15 +73,15 @@ curl --request POST \
   --data '{
         "quoteItems": [
                {
-                   "variantToken" : "vrnt_ByxRGLNxkfkzTMAH",
+                   "variantToken" : "vrnt_123456",
                    "quantity" : 2
                },
                {
-                   "variantToken" : "vrnt_BYoZwNa3ZC6KPR31",
+                   "variantToken" : "vrnt_123456",
                    "quantity" : 1
                }
            ],
-           "shippingAddress" : "adrs_WeAHRgbGWL20ffUuQua1t5Gf",
+           "shippingAddress" : "adrs_123456",
            "contactDetails" : {
                "firstName" : "Sarah",
                "lastName" : "Jones",
@@ -96,7 +96,7 @@ Response:
 
 ```json
 {
-    "quoteToken": "quote_QKc0xtR0EXNJ",
+    "quoteToken": "quote_123456",
     "customerToken": "cs_123456",
     "companyToken": "comp_123456",
     "quoteFiles": "",
@@ -111,15 +111,15 @@ Response:
  "quoteNumber": 50004,
     "variantDetails": [
         {
-            "quote_variantsToken": "quoteVariant_PHis9YCDe2nu",
-            "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 2,
             "itemPrice": 0.2,
             "itemTax": 0.02,
             "lineTotal": 0.44,
             "fullDetails": {
-                "prodToken": "prod_tpZ6ntgIg6oi27KF",
-                "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                 "variantImage": {
@@ -179,15 +179,15 @@ Response:
             }
         },
         {
-            "quote_variantsToken": "quoteVariant_1uXl9c0P9tNs",
-            "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 1,
             "itemPrice": 359.99,
             "itemTax": 32.4,
             "lineTotal": 392.39,
             "fullDetails": {
-                "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
@@ -248,7 +248,7 @@ Response:
         }
     ],
     "shippingAddress": {
-        "addressToken": "adrs_qnbtI5oTU6Ip3DM6jwq4aHnR",
+        "addressToken": "adrs_123456",
         "addressLabel": "",
         "address": "12354 Main Street",
         "address2": "",
@@ -267,9 +267,9 @@ Response:
         "specialValues": []
     },
     "contactDetails": {
-        "quote_ContactToken": "quoteContact_nEV0kVRmMWR9",
+        "quote_ContactToken": "quoteContact_123456",
         "firstName": "Sarah",
-        "lastName": "Jones",
+        "lastName": "Jones",123456
         "email": "sjones1@gmail.com",
         "phoneNumber": "987657489",
         "companyName": "Tyrell Corp"
@@ -306,8 +306,8 @@ Response:
 
 ```json
 {
-    "quote": "quote_Aay6uBQo6Yyq",
-    "shipQuote": "shippingQuoteToken_AYvUpVvcUb01",
+    "quote": "quote_123456",
+    "shipQuote": "shippingQuoteToken_123456",
     "approved": true
 }
 ```
@@ -330,7 +330,7 @@ Response:
 ```json
 [
     {
-        "quoteToken": "quote_TjIM4C2RtK5H",
+        "quoteToken": "quote_123456",
         "customerToken": "cs_123456",
         "companyToken": "comp_123456",
         "quoteFiles": "",
@@ -345,15 +345,15 @@ Response:
 "quoteNumber": 50005,
         "variantDetails": [
             {
-                "quote_variantsToken": "quoteVariant_HQupkSh7Hhns",
-                "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                "quote_variantsToken": "quoteVariant_123456",
+                "variantToken": "vrnt_123456",
                 "quantity": 2,
                 "itemPrice": 0.2,
                 "itemTax": 0.02,
                 "lineTotal": 0.44,
                 "fullDetails": {
-                    "prodToken": "prod_tpZ6ntgIg6oi27KF",
-                    "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",
                     "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                     "variantImage": {
@@ -413,16 +413,16 @@ Response:
                 }
             },
             {
-                "quote_variantsToken": "quoteVariant_ROBUVCqLbt14",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "quote_variantsToken": "quoteVariant_123456",
+                "variantToken": "vrnt_123456",
                 "quantity": 1,
                 "itemPrice": 359.99,
                 "itemTax": 32.4,
                 "lineTotal": 392.39,
                 "fullDetails": {
-                    "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                    "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
-                    "companyToken": "comp_dft6yhzjkli",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",
+                    "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                     "variantImage": {
                         "file": "6-27-2018/1530121344004__33909__10019.jpg"
@@ -482,7 +482,7 @@ Response:
             }
         ],
         "shippingAddress": {
-            "addressToken": "adrs_qnbtI5oTU6Ip3DM6jwq4aHnR",
+            "addressToken": "adrs_123456",
             "addressLabel": "",
             "address": "12354 Main Street",
             "address2": "",
@@ -501,7 +501,7 @@ Response:
             "specialValues": []
         },
         "contactDetails": {
-            "quote_ContactToken": "quoteContact_iX8J2MWM0WEP",
+            "quote_ContactToken": "quoteContact_123456",123456
             "firstName": "Sarah",
             "lastName": "Jones",
             "email": "sjones1@gmail.com",
@@ -511,7 +511,7 @@ Response:
         "shippingQuote": []
     },
     {
-        "quoteToken": "quote_hkSfDVoy8QvV",
+        "quoteToken": "quote_123456",
         "customerToken": "cs_123456",
         "companyToken": "comp_123456",
         "quoteFiles": "",
@@ -526,15 +526,15 @@ Response:
 "quoteNumber": 5000425,
         "variantDetails": [
             {
-                "quote_variantsToken": "quoteVariant_T4yMySOX23TS",
-                "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                "quote_variantsToken": "quoteVariant_123456",123456
+                "variantToken": "vrnt_123456",
                 "quantity": 2,
                 "itemPrice": 0.2,
                 "itemTax": 0.02,
                 "lineTotal": 0.44,
                 "fullDetails": {
-                    "prodToken": "prod_tpZ6ntgIg6oi27KF",
-                    "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                    "prodToken": "prod_123456",123456
+                    "variantToken": "vrnt_123456",
                     "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                     "variantImage": {
@@ -595,14 +595,14 @@ Response:
             },
             {
                 "quote_variantsToken": "quoteVariant_JDlatoUBnean",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "variantToken": "vrnt_123456",
                 "quantity": 1,
                 "itemPrice": 359.99,
                 "itemTax": 32.4,
                 "lineTotal": 392.39,
                 "fullDetails": {
-                    "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                    "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                    "prodToken": "prod_123456",
+                    "variantToken": "vrnt_123456",123456
                     "companyToken": "comp_123456",
                     "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                     "variantImage": {
@@ -663,7 +663,7 @@ Response:
             }
         ],
         "shippingAddress": {
-            "addressToken": "adrs_qnbtI5oTU6Ip3DM6jwq4aHnR",
+            "addressToken": "adrs_123456",
             "addressLabel": "",
             "address": "12354 Main Street",
             "address2": "",
@@ -682,7 +682,7 @@ Response:
             "specialValues": []
         },
         "contactDetails": {
-            "quote_ContactToken": "quoteContact_7KjjTX2g5f6e",
+            "quote_ContactToken": "quoteContact_123456",
             "firstName": "Sarah",
             "lastName": "Jones",
             "email": "sjones1@gmail.com",
@@ -691,7 +691,7 @@ Response:
         },
         "shippingQuote": [
             {
-                "quote_shippingQuoteToken": "shippingQuoteToken_23m8mEYV0Uwj",
+                "quote_shippingQuoteToken": "shippingQuoteToken_123456",
                 "carrier": "UPS",
                 "methodName": "Next Day Air",
                 "origRate": null,
@@ -703,7 +703,7 @@ Response:
                 "approvedBy": "Fernando Mills"
             },
             {
-                "quote_shippingQuoteToken": "shippingQuoteToken_YXEv8kuvmPYJ",
+                "quote_shippingQuoteToken": "shippingQuoteToken_123456",
                 "carrier": "Fedex",
                 "methodName": "Ground Express",
                 "origRate": null,
@@ -742,7 +742,7 @@ Response:
 
 ```json
 {
-    "quoteToken": "quote_xdYMnZ6Px1lr",
+    "quoteToken": "quote_123456123456",
     "customerToken": "cs_123456",
     "companyToken": "comp_123456",
     "quoteFiles": "",
@@ -757,15 +757,15 @@ Response:
 "quoteNumber": 5007404,
     "variantDetails": [
         {
-            "quote_variantsToken": "quoteVariant_KIlu43SOPuwS",
-            "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 2,
             "itemPrice": 0.2,
             "itemTax": 0.02,
             "lineTotal": 0.44,
             "fullDetails": {
-                "prodToken": "prod_tpZ6ntgIg6oi27KF",
-                "variantToken": "vrnt_ByxRGLNxkfkzTMAH",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",123456
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Kaibab 18x56 HD Binocular",
                 "variantImage": {
@@ -825,15 +825,15 @@ Response:
             }
         },
         {
-            "quote_variantsToken": "quoteVariant_9PuiefpD760m",
-            "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 1,
             "itemPrice": 359.99,
             "itemTax": 32.4,
             "lineTotal": 392.39,
             "fullDetails": {
-                "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",123456
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
@@ -894,7 +894,7 @@ Response:
         }
     ],
     "shippingAddress": {
-        "addressToken": "adrs_KrYu0KFWnwaLu4QPLXMzTDoe",
+        "addressToken": "adrs_123456",
         "addressLabel": "",
         "address": "12354 Main Street",
         "address2": "",
@@ -913,7 +913,7 @@ Response:
         "specialValues": []
     },
     "contactDetails": {
-        "quote_ContactToken": "quoteContact_HTDKzc5B0R72",
+        "quote_ContactToken": "quoteContact_123456",
         "firstName": "Sarah",
         "lastName": "Jones",
         "email": "sjones1@gmail.com",
@@ -922,7 +922,7 @@ Response:
     },
     "shippingQuote": [
         {
-            "quote_shippingQuoteToken": "shippingQuoteToken_oD0j9nS8MgZ7",
+            "quote_shippingQuoteToken": "shippingQuoteToken_123456",
             "carrier": "UPS",
             "methodName": "Next Day Air",
             "origRate": null,
@@ -934,7 +934,7 @@ Response:
             "approvedBy": "John Smith"
         },
         {
-            "quote_shippingQuoteToken": "shippingQuoteToken_nuxPb17tWVdt",
+            "quote_shippingQuoteToken": "shippingQuoteToken_123456",
             "carrier": "Fedex",
             "methodName": "Ground Express",
             "origRate": null,
@@ -992,8 +992,8 @@ Response:
     "companyToken": "comp_123456",
     "quoteItems": [
       {
-        "prodToken": "prod_UXXUOkccVZwoIiE7",
-        "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
@@ -1020,7 +1020,7 @@ Response:
         "deleted": "0",
         "varinatImages": null,
         "variantOptions": {
-          "optn_OYTQkGqr39CvOopfJPi7": "Var 1"
+          "optn_123456": "Var 1"
         },
         "prodName": "widget",
         "prodImage": "9-6-2018/1536271360573__14511__yb.jpg",
@@ -1073,7 +1073,7 @@ Response:
 
 ```json
 {
-    "quoteToken": "quote_5iS6jgAYGMBk",
+    "quoteToken": "quote_123456",
     "customerToken": "cust_123456",
     "companyToken": "comp_123456",
     "quoteFiles": "",
@@ -1083,12 +1083,12 @@ Response:
     "dateUpdated": "2022-11-20 21:06:05",
     "variantDetails": [
         {
-            "quote_variantsToken": "quoteVariant_gwoXvzMwyIey",
-            "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 1,
             "fullDetails": {
-                "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
@@ -1148,12 +1148,12 @@ Response:
             }
         },
         {
-            "quote_variantsToken": "quoteVariant_kCyy1vCrXrXj",
-            "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+            "quote_variantsToken": "quoteVariant_123456",
+            "variantToken": "vrnt_123456",
             "quantity": 1,
             "fullDetails": {
-                "prodToken": "prod_ozRjqnWCKNzmhZaS",
-                "variantToken": "vrnt_BYoZwNa3ZC6KPR31",
+                "prodToken": "prod_123456",
+                "variantToken": "vrnt_123456",
                 "companyToken": "comp_123456",
                 "variantName": "Vortex Optics Diamondback HP 4-16x42  BDC Riflescopes",
                 "variantImage": {
@@ -1214,7 +1214,7 @@ Response:
         }
     ],
     "shippingAddress": {
-        "quote_ShippingAddressToken": "quoteShippingAdrs_HI3bvAbtS6gG",
+        "quote_ShippingAddressToken": "quoteShippingAdrs_123456",
         "address1": "3 peek aboo",
         "address2": null,
         "city": "Brooklyn",
@@ -1225,7 +1225,7 @@ Response:
         "receiverContactNumber": "123456"
     },
     "contactDetails": {
-        "quote_ContactToken": "quoteContact_X55PU3l83z4c",
+        "quote_ContactToken": "quoteContact_123456",
         "name": "Sarah Jones",
         "email": "sjones1@gmail.com",
         "phoneNumber": "123456789",
