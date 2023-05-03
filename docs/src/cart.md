@@ -28,7 +28,7 @@ curl --request POST \
 
 ```json
 {
-  "cartToken": "cart_k3YtQ3MRqtTZBBQ90WBMotTt",
+  "cartToken": "cart_123456",
   "companyToken": "comp_123456",
   "siteToken": "site_123",
   "customerToken": "cust_123456",
@@ -63,8 +63,8 @@ curl --request GET \
 ```json
 {
   "companyToken": "comp_123456",
-  "siteToken": "site_qwertyuigsvv",
-  "cartToken": "cart_ertyuiertyu",
+  "siteToken": "site_123456",
+  "cartToken": "cart_123456",
   "customerToken": "cust_123456",
   "cartCreated": "1637945854",
   "cartLastTouched": "1637945854",
@@ -78,28 +78,28 @@ curl --request GET \
   "cartWeight": 0,
   "cartProds": [
     {
-      "cartToken": "cart_styuioiuyQRm5J9l",
-      "cartProdToken": "cp_LIHtyuiYMKmZRvfmkxN3oqm",
+      "cartToken": "cart_123456",
+      "cartProdToken": "cp_123456",
       "addOnToProdToken": "",
       "cartProdQuantity": 1,
       "addOnProdTokens": null,
-      "prodToken": "vrnt_vW0b5BfYvotwN537",
+      "prodToken": "vrnt_123456",
       "deleted": 0,
       "companyToken": "comp_123456",
-      "siteToken": "site_dg30sdfsgdsgsvv",
+      "siteToken": "site_123456",
       "customerToken": "cust_123456",
       "cartCreated": "1637945854",
       "cartLastTouched": "1637945854",
       "prodStaticCollections": [
-        "clcs_pZYTDuzGLEQjvvlW",
-        "clcs_pZYTDuzGLEQjvvlW",
-        "clcs_vFPTXp7oQu0XcV7S",
+        "clcs_123456",
+        "clcs_123456",
+        "clcs_123456",
         ""
       ],
       "specialValues": [],
       "product": {
-        "prodToken": "prod_icHD94piTTvPLaDl",
-        "variantToken": "vrnt_vW0b5BfYvotwN537",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": {
@@ -145,12 +145,12 @@ curl --request GET \
         "variantInStock": true,
         "variantOptions": [
           {
-            "optionToken": "optn_wiHwKikSFxOEUK9q4slU",
+            "optionToken": "optn_123456",
             "optionValue": "dsasda",
             "optionName": "color"
           },
           {
-            "optionToken": "optn_6agmbVov1dTdSsproX3o",
+            "optionToken": "optn_123456",
             "optionValue": "f",
             "optionName": "size"
           }
@@ -201,7 +201,7 @@ Another example:
 
 ```shell
 curl --request POST \
-  --url 'https://api.omnifront.cloudsnob.com/cart/combine/cart_50e5QlOuzqmJFp80CNOdvzLF/cs_6WK26VjXieFUZ2cRKJtR1DT3ECNMR8fXCOP2' \
+  --url 'https://api.omnifront.cloudsnob.com/cart/combine/cart_123456/cs_123456' \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123, customertoken : cs_123456' \
@@ -213,7 +213,7 @@ curl --request POST \
 {
   "companyToken": "comp_123456",
   "siteToken": "site_123",
-  "cartToken": "cart_50e5QlOuzqmJFp80CNOdvzLF",
+  "cartToken": "cart_123456",
   "customerToken": "cust_123456",
   "cartCreated": "1638346960",
   "cartLastTouched": "1638346960",
@@ -225,12 +225,12 @@ curl --request POST \
   "cartWeight": 4,
   "cartProds": [
     {
-      "cartToken": "cart_50e5QlOuzqmJFp80CNOdvzLF",
-      "cartProdToken": "cp_iaWaCMrPQWUkfLZx5OuauzzC",
+      "cartToken": "cart_123456",
+      "cartProdToken": "cp_123456",
       "addOnToProdToken": "",
       "cartProdQuantity": 4,
       "addOnProdTokens": null,
-      "prodToken": "vrnt_Zy1z3mQU8oVA5pIz",
+      "prodToken": "vrnt_123456",
       "deleted": 0,
       "companyToken": "comp_123456",
       "siteToken": "site_123",
@@ -240,8 +240,8 @@ curl --request POST \
       "prodStaticCollections": [],
       "specialValues": [],
       "product": {
-        "prodToken": "prod_7aotpy9KUXDQxXbZ",
-        "variantToken": "vrnt_Zy1z3mQU8oVA5pIz",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": {

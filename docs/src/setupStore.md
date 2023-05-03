@@ -149,7 +149,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "phoneNumber": "",
         "lastOrderNumber": 1004534,
         "companyToken": "comp_123456",
-        "siteToken": "site_pG7NtyJrwU6swsVZ"
+        "siteToken": "site_123456"
     },
     "user": {
         "name": "Sarah Jones",
@@ -158,7 +158,7 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "email": "sjones1@gmail.com",
         "phone": "",
         "companyToken": "comp_123456",
-        "siteToken": "site_pG7NtyJrwU6swsVZ",
+        "siteToken": "site_123456",
         "userToken": "user_123456"
     },
     "additionalCompanyInfo": {
@@ -166,14 +166,14 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
         "supportEmailAddress": "",
         "salesEmailAddress": "",
         "companyToken": "comp_123456",
-        "siteToken": "site_pG7NtyJrwU6swsVZ"
+        "siteToken": "site_123456"
     },
     "settings": {
         "company": {
             "fs1GetToken": "",
             "companyToken": "comp_123456",
-            "siteToken": "site_pG7NtyJrwU6swsVZ",
-            "companySettingToken": "stngComp_anByvApqujftdBg6"
+            "siteToken": "site_123456",
+            "companySettingToken": "stngComp_123456"
         },
         "site": {
             "baseUrl": "",
@@ -193,8 +193,8 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/setupS
             "variantUrl": "",
             "deleteSessionsRuleInDays": 40,
             "companyToken": "comp_123456",
-            "siteToken": "site_pG7NtyJrwU6swsVZ",
-            "settingsSiteToken": "stngSite_hQPXaygGbZH7jxdE"
+            "siteToken": "site_123456",
+            "settingsSiteToken": "stngSite_123456"
         }
     }
 ```
@@ -211,7 +211,7 @@ This endpoint will return all tokens associated to the site token required.
 ```shell
 curl --request GET \
   --url https://api.omnifront.cloudsnob.com/V1.10/setupStore \
-  --header 'token: site_Dpawt345k2m4'
+  --header 'token: site_123456'
   --header 'security: [contact chayelle@evelt.com]'
 ```
 
@@ -220,7 +220,7 @@ curl --request GET \
 ```json
     "site": {
         "id": 3,
-        "siteToken": "site_Dpawt345k2m4",
+        "siteToken": "site_123456",
         "companyToken": "comp_123456",
         "siteName": "123456.com",
         "archived": 0,
@@ -243,8 +243,8 @@ curl --request GET \
         "companyPhone": "",
         "comapnyName": "Tyrell Corp",
         "companyDomain": "",
-        "fs1Token": "D56SQB4YU08QN6F37JY1W",
-        "fs1GetToken": "5b22e94022563965f4fdd4b5",
+        "fs1Token": "123456",
+        "fs1GetToken": "123456",
         "urlIdentifier": "",
         "orderNumber": 0,
         "stripeTokenSecret": "",
@@ -350,18 +350,18 @@ curl --request GET \
     ],
     "settings": {
         "companySettings": {
-            "settingToken": "stngComp_idxVARXY7fIk",
+            "settingToken": "stngComp_123456",
             "companyToken": "comp_123456",
-            "siteToken": "site_Dpawt345k2m4",
+            "siteToken": "site_123456",
             "fs1GetToken": "987",
             "deleted": 0,
             "dateCreated": "2022-07-17 20:27:26",
             "dateUpdated": "2022-07-17 20:27:27"
         },
         "siteSettings": {
-            "settingToken": "stng_ekxpQ8OmSPVV",
+            "settingToken": "stng_123456",
             "companyToken": "comp_123456",
-            "siteToken": "site_Dpawt345k2m4",
+            "siteToken": "site_123456",
             "baseUrl": null,
             "cartQuantityCombine": null,
             "collectionUrl": null,
@@ -671,9 +671,9 @@ curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/shippi
 ### Includes only a few possible editable fields. Note: See above table for more fields that may be edited through the below example
 
 ```shell
-    curl --location --request PUT 'https://api.omnifront.cloudsnob.com/V1.10/setupStore/comp_CP8Fk5bCArMF59Ta' \
+    curl --location --request PUT 'https://api.omnifront.cloudsnob.com/V1.10/setupStore/comp_123456' \
 --header 'security: [contact evelt]' \
---header 'token: site_8LMODL8fndBMl2jH' \
+--header 'token: site_123456' \
 --header 'userToken: user_123456' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -709,7 +709,7 @@ The above example returns a json object that looks like this:
         "companyPhone": "1234567890",
         "comapnyName": "edited company name",
         "companyDomain": "",
-        "fs1Token": "34A0IRN53K88JCBAFE6Q2JFW29O17PBR0V0N30SV6SM0R7LDI",
+        "fs1Token": "ABCDEFGH",
         "fs1GetToken": "jjj",
         "urlIdentifier": "",
         "orderNumber": 0,
@@ -723,7 +723,7 @@ The above example returns a json object that looks like this:
     },
     "site": {
         "id": 99,
-        "siteToken": "site_8LMODL8fndBMl2jH",
+        "siteToken": "site_123456",
         "companyToken": "comp_123456",
         "siteName": "edited site name",
         "archived": 0,
@@ -757,9 +757,9 @@ The above example returns a json object that looks like this:
     "additionalCompanyInfo": null,
     "settings": {
         "settingsSite": {
-            "settingToken": "stngSite_xB6MUyS78RGfzSki",
+            "settingToken": "stngSite_123456",
             "companyToken": "comp_123456",
-            "siteToken": "site_8LMODL8fndBMl2jH",
+            "siteToken": "site_123456",
             "baseUrl": "",
             "cartQuantityCombine": 1,
             "collectionUrl": "",

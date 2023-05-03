@@ -34,7 +34,7 @@ curl --request GET \
 {
   "id": 2,
   "companyToken": "comp_123456",
-  "navigationToken": "nav_0hunlFryeREclg9f",
+  "navigationToken": "nav_123456",
   "name": "My Nav",
   "slug": "my-nav-slug",
   "navigationImage": "",
@@ -42,13 +42,13 @@ curl --request GET \
     {
       "id": 4,
       "navigationToken": "nav_0hunlFryeREclg9f",
-      "navigationItemToken": "navI_tpvH1PyuWr2ewnOJ",
+      "navigationItemToken": "navI_123456",
       "itemType": "product",
-      "itemToken": "prod_dO3DKC6pXBKiPSYX",
+      "itemToken": "prod_123456",
       "sort": "1",
       "link": "",
       "fullItem": {
-        "prodToken": "prod_dO3DKC6pXBKiPSYX",
+        "prodToken": "prod_123456",
         "companyToken": "comp_123456",
         "prodName": "A. Saks Expandable 26\" Soft Duffel Bag Black",
         "prodImage": {
@@ -82,7 +82,7 @@ curl --request GET \
         "shippingProduct": 1,
         "prodMetaTitle": "",
         "prodMetaDescription": "",
-        "prodBrand": "brnd_Ft1tM2ZaEZHPz4CkY6TQ",
+        "prodBrand": "brnd_123456",
         "prodType": "",
         "prodTemplate": "",
         "prodAccessories": [],
@@ -103,17 +103,17 @@ curl --request GET \
         },
         "prodOptions": [
           {
-            "optionToken": "optn_wiHwKikSFxOEUK9q4slU",
+            "optionToken": "optn_123456",
             "optionName": "color",
             "optionOrder": "0"
           },
           {
-            "optionToken": "optn_6agmbVov1dTdSsproX3o",
+            "optionToken": "optn_123456",123456
             "optionName": "size",
             "optionOrder": "2"
           },
           {
-            "optionToken": "optn_4iBOdZ385V8shWA6IW1v",
+            "optionToken": "optn_123456",
             "optionName": "Another option",
             "optionOrder": "1"
           }
@@ -123,8 +123,8 @@ curl --request GET \
 
     {
       "id": 6,
-      "navigationToken": "nav_0hunlFryeREclg9f",
-      "navigationItemToken": "navI_NaLimtVSEvvLgGlq",
+      "navigationToken": "nav_123456",
+      "navigationItemToken": "navI_123456",
       "itemType": "search",
       "itemToken": "",
       "sort": "2",
@@ -132,15 +132,15 @@ curl --request GET \
     },
     {
       "id": 5,
-      "navigationToken": "nav_0hunlFryeREclg9f",
-      "navigationItemToken": "navI_PPQRJ7H4Y63V1Djf",
+      "navigationToken": "nav_123456",
+      "navigationItemToken": "navI_123456",
       "itemType": "collection",
       "itemToken": "clcs_e49y9ZuhyE6E9wuz",
       "sort": "3",
       "link": "",
       "fullItem": [
         {
-          "collectionToken": "clcs_e49y9ZuhyE6E9wuz",
+          "collectionToken": "clcs_123456",
           "companyToken": "comp_123456",
           "collectionName": "Luggage & Bags",
           "collectionDefaultSort": "",

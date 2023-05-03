@@ -80,7 +80,7 @@ a) Copy and paste this api call below into postman (Import > Raw text > Continue
 
 b) Edit the url ‘companyToken’ to the company token of the company you want the data of. eg Tyrell Corp = ‘comp_123456’ :
 
-    curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/comp_DUKNlH2doBNtlKrq/123!' \
+    curl --location --request GET 'https://dev.api.omni.cloudsnob.com/V1.10/fetchData/comp_123456' \
     --header 'token: usr_123456' 
 
 c) The Api call you will call in the next few steps will be automatically pull data from the production DB: ‘cloudsno_omniPRODUCTION’. ( Note: production used to be cloudsno_omniPROD, but was changed. FYI in case of inconsistencies in name etc.)

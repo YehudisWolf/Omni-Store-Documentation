@@ -17,7 +17,7 @@ Response:
 [
   {
     "name": "",
-    "quoteToken": "cc_gLNmZvF2iXKx",
+    "quoteToken": "cc_123456",
     "customerToken": "cust_123456",
     "companyToken": "",
     "quoteItems": null,
@@ -32,11 +32,11 @@ Response:
     "name": "",
     "quoteToken": "sadasdasdasds",
     "customerToken": "cust_123456",
-    "companyToken": "comp_3fgfgNjMfe5Bcst7",
+    "companyToken": "comp_123456",
     "quoteItems": [
       {
-        "prodToken": "prod_UXXUOkccVZwoIiE7",
-        "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
@@ -105,7 +105,7 @@ Response:
 [
   {
     "name": "",
-    "quoteToken": "quote_IGcWlRG6p0HS",
+    "quoteToken": "quote_123456",
     "customerToken": "cust_123456",
     "companyToken": "comp_123456",
     "quoteItems": null,
@@ -144,7 +144,7 @@ Response:
 [
   {
     "name": "",
-    "quoteToken": "cc_s2f4scfJy4Z0",
+    "quoteToken": "cc_123456",
     "customerToken": "cust_123456",
     "companyToken": "comp_123456",
     "quoteItems": null,
@@ -162,8 +162,8 @@ Response:
     "companyToken": "comp_123456",
     "quoteItems": [
       {
-        "prodToken": "prod_UXXUOkccVZwoIiE7",
-        "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
@@ -190,7 +190,7 @@ Response:
         "deleted": "0",
         "varinatImages": null,
         "variantOptions": {
-          "optn_OYTQkGqr39CvOopfJPi7": "Var 1"
+          "optn_123456": "Var 1"
         },
         "prodName": "Moishes Test",
         "prodImage": "9-6-2018/1536271360573__14511__yb.jpg",
@@ -237,8 +237,8 @@ Response:
     "companyToken": "comp_123456",
     "quoteItems": [
       {
-        "prodToken": "prod_UXXUOkccVZwoIiE7",
-        "variantToken": "vrnt_ukvIRQSn2t0ziCIr",
+        "prodToken": "prod_123456",
+        "variantToken": "vrnt_123456",
         "companyToken": "comp_123456",
         "variantName": "",
         "variantImage": "",
@@ -307,7 +307,7 @@ Response:
 [
   {
     "name": "",
-    "quoteToken": "quote_IGcWlRG6p0HS",
+    "quoteToken": "quote_123456",
     "customerToken": "cust_123456",
     "companyToken": "comp_123456",
     "quoteItems": null,
@@ -320,7 +320,7 @@ Response:
   },
   {
     "name": "",
-    "quoteToken": "cc_s2f4scfJy4Z0",
+    "quoteToken": "cc_123456",
     "customerToken": "cust_123456",
     "companyToken": "comp_123456",
     "quoteItems": null,
@@ -333,7 +333,7 @@ Response:
   },
   {
     "name": "",
-    "quoteToken": "cc_gLNmZvF2iXKx",
+    "quoteToken": "cc_123456",
     "customerToken": "cust_123456",
     "companyToken": "",
     "quoteItems": null,
@@ -377,7 +377,7 @@ Response:
 ```json
 {
   "name": "",
-  "quoteToken": "quote_SCOBBRFrfpXV",
+  "quoteToken": "quote_123456",
   "customerToken": "cust_123456",
   "companyToken": "comp_123456",
   "quoteItems": "lll",
@@ -420,7 +420,7 @@ Response:
 ```json
 {
   "name": "",
-  "quoteToken": "quote_00ZebMJzT6kg",
+  "quoteToken": "quote_123456",
   "customerToken": "cust_123456",
   "companyToken": "comp_123456",
   "quoteItems": "lll",
@@ -469,7 +469,7 @@ Response:
 ```json
 {
   "name": "",
-  "quoteToken": "quote_00ZebMJzT6kg",
+  "quoteToken": "quote_123456",
   "customerToken": "cust_123456",
   "companyToken": "comp_123456",
   "quoteItems": "lllss",
@@ -518,7 +518,7 @@ Response:
 ```json
 {
   "name": "",
-  "quoteToken": "cc_s2f4scfJy4Z0",
+  "quoteToken": "cc_123456",
   "customerToken": "cust_123456",
   "companyToken": "comp_123456",
   "quoteItems": "lll",
@@ -549,7 +549,7 @@ Response:
 
 ```json
 {
-  "token": "quote_SCOBBRFrfpXV",
+  "token": "quote_123456",
   "deleted": "true"
 }
 ```
