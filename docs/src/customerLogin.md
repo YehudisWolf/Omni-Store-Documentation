@@ -13,7 +13,7 @@ This endpoint returns logged in user.
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/login`
+`POST https://apistore.csomni.com/login`
 
 ### Request Headers (to combine existing cart)
 
@@ -30,7 +30,7 @@ This endpoint returns logged in user.
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/login \
+  --url https://apistore.csomni.com/login \
   --header 'cache-control: no-cache' \
   --header 'token: 123' \
   --data '{\n "customerEmail" : "tesst@gmail.com",\n  "customerPassword" : "Abc12345"\n}'
@@ -74,7 +74,7 @@ curl --request POST \
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/login/logout`
+`POST https://apistore.csomni.com/login/logout`
 
 ### Request Headers (to combine existing cart)
 
@@ -86,7 +86,7 @@ curl --request POST \
 
 
 ```shell
-curl --location --request POST 'https://api.omnifront.cloudsnob.com/V1.10/login/logout' \
+curl --location --request POST 'https://apistore.csomni.com/V1.10/login/logout' \
 --header 'token: site_123456' \
 --header 'customerToken: cs_123456'
 ```
