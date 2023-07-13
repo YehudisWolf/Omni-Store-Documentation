@@ -4,7 +4,7 @@
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/addresses/{addressToken} \
+  --url https://apistore.csomni.com/addresses/{addressToken} \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -44,7 +44,7 @@ This endpoint for Add/Edit an address
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/addresses/{addressToken}`
+`POST https://apistore.csomni.com/addresses/{addressToken}`
 
 ### Query Parameters
 
@@ -74,7 +74,7 @@ This endpoint for Add/Edit an address
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/addresses \
+  --url https://apistore.csomni.com/addresses \
   --header 'token: 123'
 ```
 
@@ -123,13 +123,13 @@ This endpoint retrieves all addresses for a specific customer
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/addresses`
+`GET https://apistore.csomni.com/addresses`
 
 ## Get A Specific Address
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/addresses/{addressToken} \
+  --url https://apistore.csomni.com/addresses/{addressToken} \
   --header 'token: 123'
 ```
 
@@ -159,7 +159,7 @@ This endpoint retrieves a specific address
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/addresses/{addressToken}`
+`GET https://apistore.csomni.com/addresses/{addressToken}`
 
 ### URL Parameters
 
@@ -171,7 +171,7 @@ This endpoint retrieves a specific address
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/addresses/{addressToken} \
+  --url https://apistore.csomni.com/addresses/{addressToken} \
   --header 'content-type: application/json' \
   --header 'token: 123'
 ```
@@ -180,7 +180,7 @@ This endpoint deletes (archives) a address
 
 ### HTTP Request
 
-`DELETE https://api.omnifront.cloudsnob.com/addresses/{addressToken}`
+`DELETE https://apistore.csomni.com/addresses/{addressToken}`
 
 ### URL Parameters
 
