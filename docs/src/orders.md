@@ -6,7 +6,7 @@ This endpoint retrieves orders for a specified customer
 
 
 #### HTTP Request
-`GET https://api.omnifront.cloudsnob.com/orders`
+`GET https://apistore.csomni.com/orders`
 
 ### Header Requirements
 
@@ -18,7 +18,7 @@ This endpoint retrieves orders for a specified customer
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/orders \
+  --url https://apistore.csomni.com/orders \
   --header 'token: usr_token'\
   --header 'token: site_token
 ```
@@ -603,7 +603,7 @@ This endpoint retrieves a specific order
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/orders/[orderToken]`
+`GET https://apistore.csomni.com/orders/[orderToken]`
 
 ### Header Requirements
 
@@ -620,7 +620,7 @@ This endpoint retrieves a specific order
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/orders/[orderToken] \
+  --url https://apistore.csomni.com/orders/[orderToken] \
   --header 'token: 123'/
   --header 'customerToken: loginToken123'
 ```
@@ -1199,7 +1199,7 @@ curl --request GET \
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/orders`
+`POST https://apistore.csomni.com/orders`
 
 ### QUERY Parameters
 
@@ -1236,7 +1236,7 @@ curl --request GET \
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/orders \
+  --url https://apistore.csomni.com/orders \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -1395,7 +1395,7 @@ This endpoint deletes (soft deletes) an address
 
 ### HTTP Request
 
-`DELETE https://api.omnifront.cloudsnob.com/orders/[cartToken]`
+`DELETE https://apistore.csomni.com/orders/[cartToken]`
 
 ### Header Parameters
 
@@ -1411,7 +1411,7 @@ This endpoint deletes (soft deletes) an address
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/orders/[cartToken] \
+  --url https://apistore.csomni.com/orders/[cartToken] \
   --header 'content-type: application/json' \
   --header 'token: 123'/
   --header 'customerToken: loginToken123'
