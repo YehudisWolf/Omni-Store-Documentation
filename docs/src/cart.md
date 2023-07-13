@@ -6,7 +6,7 @@ This endpoint creates a cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/cart`
+`POST https://apistore.csomni.com/cart`
 
 ### Query Parameters
 
@@ -16,7 +16,7 @@ This endpoint creates a cart
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/cart/ \
+  --url https://apistore.csomni.com/cart/ \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -42,7 +42,7 @@ This endpoint retrieves a cart by cart token or customer token
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/cart`
+`GET https://apistore.csomni.com/cart`
 
 ### URL Parameters
 
@@ -52,7 +52,7 @@ This endpoint retrieves a cart by cart token or customer token
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/cart \
+  --url https://apistore.csomni.com/cart \
   --header 'token: 123'
   --header 'customerToken: cs_123456'
 
@@ -180,7 +180,7 @@ This endpoint Adds a user to a cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/cart/combine/[cartToken]/[customerToken cs_]/`
+`POST https://apistore.csomni.com/cart/combine/[cartToken]/[customerToken cs_]/`
 
 ### URL Parameters
 
@@ -191,7 +191,7 @@ This endpoint Adds a user to a cart
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/cart/combine/[cartToken]/[customerToken cs_] \
+  --url https://apistore.csomni.com/cart/combine/[cartToken]/[customerToken cs_] \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123, customertoken : cs_123' \
@@ -201,7 +201,7 @@ Another example:
 
 ```shell
 curl --request POST \
-  --url 'https://api.omnifront.cloudsnob.com/cart/combine/cart_123456/cs_123456' \
+  --url 'https://apistore.csomni.com/cart/combine/cart_123456/cs_123456' \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123, customertoken : cs_123456' \
@@ -303,7 +303,7 @@ This endpoint Adds a user to a cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/cart/combine/[cartToken]/[customerToken]`
+`POST https://apistore.csomni.com/cart/combine/[cartToken]/[customerToken]`
 
 ### URL Parameters
 
