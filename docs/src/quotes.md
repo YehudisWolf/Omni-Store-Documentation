@@ -49,7 +49,7 @@ Pricing:
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/quotes`
+`POST https://apistore.csomni.com/quotes`
 
 ### Data Parameters
 
@@ -67,7 +67,7 @@ Pricing:
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/quotes \
+  --url https://apistore.csomni.com/quotes \
   --header 'token: site_Token'
   --header 'customerToken: cs_123456' \
   --data '{
@@ -282,7 +282,7 @@ Response:
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/quotes/[shippingQuotesToken]/approve-shipping `
+`POST https://apistore.csomni.com/quotes/[shippingQuotesToken]/approve-shipping `
 
 ### Data Parameters
 
@@ -293,7 +293,7 @@ Response:
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/quotes/[shippingQuotesToken]/approve-shipping \
+  --url https://apistore.csomni.com/quotes/[shippingQuotesToken]/approve-shipping \
   --header 'token: site_Token'
   --header 'customerToken: cs_123456' \
   --data '{
@@ -316,11 +316,11 @@ Response:
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/quotes`
+`GET https://apistore.csomni.com/quotes`
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/quotes \
+  --url https://apistore.csomni.com/quotes \
   --header 'token: 123'
   --header 'customerToken: cs_123456' \
 ```
@@ -723,7 +723,7 @@ Response:
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/quotes/{quoteToken}`
+`GET https://apistore.csomni.com/quotes/{quoteToken}`
 
 ### URL Parameters
 
@@ -733,7 +733,7 @@ Response:
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/quotes/{quoteToken} \
+  --url https://apistore.csomni.com/quotes/{quoteToken} \
    --header 'token: 123'
   --header 'customerToken: cs_123456' \
 ```
@@ -953,7 +953,7 @@ Response:
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/quotes/{status}`
+`GET https://apistore.csomni.com/quotes/{status}`
 
 ### URL Parameters
 
@@ -963,7 +963,7 @@ Response:
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/quotes/status \
+  --url https://apistore.csomni.com/quotes/status \
     --header 'token: 123'
   --header 'customerToken: cs_123456' \
 ```
@@ -1041,7 +1041,7 @@ Response:
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/quotes/{quoteToken}/cancel`
+`POST https://apistore.csomni.com/quotes/{quoteToken}/cancel`
 
 
 ### URL Parameters
@@ -1059,7 +1059,7 @@ Response:
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/quotes/[quoteToken]/cancel \
+  --url https://apistore.csomni.com/quotes/[quoteToken]/cancel \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
    --header 'token: 123'\
@@ -1240,11 +1240,11 @@ Response:
 
 ### HTTP Request
 
-`DELETE https://api.omnifront.cloudsnob.com/quotes/{quoteToken}`
+`DELETE https://apistore.csomni.com/quotes/{quoteToken}`
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/quotes/{quoteToken} \
+  --url https://apistore.csomni.com/quotes/{quoteToken} \
   --header 'content-type: application/json' \
     --header 'token: 123'\
   --header 'customerToken: cs_123456' \
@@ -1261,11 +1261,11 @@ Response:
 ## Delete all quotes by customer
 
 ### HTTP Request
-`DELETE https://api.omnifront.cloudsnob.com/quotes/all`
+`DELETE https://apistore.csomni.com/quotes/all`
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/quotes/all \
+  --url https://apistore.csomni.com/quotes/all \
   --header 'content-type: application/json' \
     --header 'token: 123'\
   --header 'customerToken: cs_123456' \
