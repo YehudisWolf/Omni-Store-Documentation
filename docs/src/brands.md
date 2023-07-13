@@ -6,11 +6,11 @@ This endpoint retrieves all brands
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/brands`
+`GET https://apistore.csomni.com/brands`
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/brands \
+  --url https://apistore.csomni.com/brands \
   --header 'token: 123'
 ```
 
@@ -51,7 +51,7 @@ This endpoint retrieves a Specific brand.
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/brands/[brandToken]`
+`GET https://apistore.csomni.com/brands/[brandToken]`
 
 ### URL Parameters
 
@@ -61,7 +61,7 @@ This endpoint retrieves a Specific brand.
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/brands/[brandToken] \
+  --url https://apistore.csomni.com/brands/[brandToken] \
   --header 'token: 123'
 ```
 
