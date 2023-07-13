@@ -4,13 +4,13 @@
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/sites`
+`GET https://apistore.csomni.com/sites`
 
 ## Get A Specific Site
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/sites/ \
+  --url https://apistore.csomni.com/sites/ \
   --header 'token: [site_token]'
 ```
 
