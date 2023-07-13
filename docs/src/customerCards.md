@@ -4,7 +4,7 @@
 
 ### HTTP Request
 
-`PUT https://api.omnifront.cloudsnob.com/paymentmanager/[cardToken]`
+`PUT https://apistore.csomni.com/paymentmanager/[cardToken]`
 
 ### Query Parameters
 
@@ -27,7 +27,7 @@
 
 
 ```shell
-curl --location --request PUT 'https://api.omnifront.cloudsnob.com/paymentmanager/cc_123456789' \
+curl --location --request PUT 'https://apistore.csomni.com/paymentmanager/cc_123456789' \
 --header 'customerToken: cs_987654321' \
 --header 'token: site_AbCd' \
 --header 'Content-Type: application/json' \
