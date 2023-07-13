@@ -7,7 +7,7 @@ This endpoint Creates/edits a customer
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/customers/`
+`POST https://apistore.csomni.com/customers/`
 
 ### Query Parameters
 
@@ -28,7 +28,7 @@ This endpoint Creates/edits a customer
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/customers/ \
+  --url https://apistore.csomni.com/customers/ \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -64,7 +64,7 @@ curl --request POST \
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/customers/ \
+  --url https://apistore.csomni.com/customers/ \
   --header 'token: 123'
   --header 'customerToken: cs_123456'
 ```
@@ -96,7 +96,7 @@ This endpoint retrieves a Specific customer (requires a custtoken in the header)
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/customers/customerToken`
+`GET https://apistore.csomni.com/customers/customerToken`
 
 ### URL Parameters
 
@@ -108,7 +108,7 @@ This endpoint retrieves a Specific customer (requires a custtoken in the header)
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/customers/{customerToken}\
+  --url https://apistore.csomni.com/customers/{customerToken}\
   --header 'content-type: application/json' \
   --header 'token: 123'
 ```
@@ -126,4 +126,4 @@ This endpoint deletes (soft) a customer
 
 ### HTTP Request
 
-`DELETE https://api.omnifront.cloudsnob.com/customers/{customerToken}`
+`DELETE https://apistore.csomni.com/customers/{customerToken}`
