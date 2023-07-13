@@ -4,7 +4,7 @@
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/frequentlyPurchased`
+`GET https://apistore.csomni.com/frequentlyPurchased`
 
 | Parameter | Required | Unique | Description                                                     |
 | --------- | -------- | ------ | --------------------------------------------------------------- |
@@ -12,7 +12,7 @@
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/frequentlyPurchased \
+  --url https://apistore.csomni.com/frequentlyPurchased \
   --header 'token: site_dg30sdfsgdsgsvv'
 ```
 
@@ -156,7 +156,7 @@ Response:
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/frequentlyPurchased/forceRefresh`
+`GET https://apistore.csomni.com/frequentlyPurchased/forceRefresh`
 
 | Parameter | Required | Unique | Description                                                     |
 | --------- | -------- | ------ | --------------------------------------------------------------- |
@@ -164,7 +164,7 @@ Response:
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/frequentlyPurchased/forceRefresh \
+  --url https://apistore.csomni.com/frequentlyPurchased/forceRefresh \
   --header 'token: site_123456123456'
 ```
 
