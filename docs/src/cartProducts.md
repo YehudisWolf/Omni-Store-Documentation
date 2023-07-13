@@ -13,7 +13,7 @@
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/cartprods/[cartToken] \
+  --url https://apistore.csomni.com/cartprods/[cartToken] \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -55,7 +55,7 @@ This endpoint Edits a product in cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/cartprods/{cartProdToken}`
+`POST https://apistore.csomni.com/cartprods/{cartProdToken}`
 
 ### Query Parameters
 
@@ -66,7 +66,7 @@ This endpoint Edits a product in cart
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/cartprods/{cartProdToken} \
+  --url https://apistore.csomni.com/cartprods/{cartProdToken} \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -89,7 +89,7 @@ curl --request POST \
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/cartprods/[cartProdToken]`
+`GET https://apistore.csomni.com/cartprods/[cartProdToken]`
 
 ### URL Parameters
 
@@ -100,7 +100,7 @@ curl --request POST \
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/cartprods/[cartProdToken] \
+  --url https://apistore.csomni.com/cartprods/[cartProdToken] \
   --header 'token: 123'
   --header 'customerToken: cs_123456'
 ```
@@ -143,7 +143,7 @@ This endpoint deletes (archives) a cart product
 
 ### HTTP Request
 
-`DELETE https://api.omnifront.cloudsnob.com/cartprods/{cartProdToken}`
+`DELETE https://apistore.csomni.com/cartprods/{cartProdToken}`
 
 ### URL Parameters
 
@@ -153,7 +153,7 @@ This endpoint deletes (archives) a cart product
 
 ```shell
 curl --request DELETE \
-  --url https://api.omnifront.cloudsnob.com/cartprods/{cartProdToken} \
+  --url https://apistore.csomni.com/cartprods/{cartProdToken} \
   --header 'content-type: application/json' \
   --header 'token: 123'
 ```
