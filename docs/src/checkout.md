@@ -4,7 +4,7 @@
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/info \
+  --url https://apistore.csomni.com/checkout/info \
   --header 'token: 123' \
   --data '{"contactEmail" : "123456@test.com","addressToken" : "adrs_123456","contactFirstName":"Sarah","contactLastName","Jones"}'
 
@@ -67,7 +67,7 @@ This endpoint starts a checkout (returns all avail shipping methods if address t
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/info`
+`POST https://apistore.csomni.com/checkout/info`
 
 ### Query Parameters
 
@@ -84,7 +84,7 @@ This endpoint starts a checkout (returns all avail shipping methods if address t
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/shippingmethod \
+  --url https://apistore.csomni.com/checkout/shippingmethod \
   --header 'token: 123' \
   --data '{"shippingMethodId" : "123456789"}'
 
@@ -147,7 +147,7 @@ This endpoint selects a shipping method id (returned with each method) and retur
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/info`
+`POST https://apistore.csomni.com/checkout/info`
 
 ### Query Parameters
 
@@ -159,13 +159,13 @@ This endpoint selects a shipping method id (returned with each method) and retur
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/payment`
+`POST https://apistore.csomni.com/checkout/payment`
 
 ## Chekout Step 3 OPTION 1: Payment
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/payment \
+  --url https://apistore.csomni.com/checkout/payment \
   --header 'token: 123' \
   --data '{"cardNumbers" : "4242424242424242", "expMonth" : "12", "expYear" : "2025", "cvv" : "123", "amount" : "333", "po" : "PO-123456", "nameOnCard": "testChayelle BillingName", "billingPhone": "8455225252","billingAddress": "117 Maple Ave Bill","billingCity": "Bala Cynwyd Bill", "billingState": "Pennsylvania Bill", "billingZip": "19004", "orderNotePublic" :"this is a note submitted by the customer at payment" }'
 
@@ -319,7 +319,7 @@ This endpoint pays the checkout and creates an order
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/payment`
+`POST https://apistore.csomni.com/checkout/payment`
 
 ### Query Parameters
 
@@ -349,7 +349,7 @@ This endpoint pays the checkout and creates an order
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/po \
+  --url https://apistore.csomni.com/checkout/po \
   --header 'token: user_token' \
   --header '{
                "po": "123-P9ojd",
@@ -492,7 +492,7 @@ This endpoint pays the checkout and creates an order
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/po`
+`POST https://apistore.csomni.com/checkout/po`
 
 ### Query Parameters
 
@@ -514,7 +514,7 @@ This endpoint pays the checkout and creates an order
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/applycoupon \
+  --url https://apistore.csomni.com/checkout/applycoupon \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
   --header 'token: 123' \
@@ -567,7 +567,7 @@ This endpoint applies a coupon code to a cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/applycoupon`
+`POST https://apistore.csomni.com/checkout/applycoupon`
 
 ### Query Parameters
 
@@ -579,7 +579,7 @@ This endpoint applies a coupon code to a cart
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/checkout/removecoupon \
+  --url https://apistore.csomni.com/checkout/removecoupon \
   --header 'token: 123' \
   --data '{"couponCode" : "SUMMER20"}'
 
@@ -624,7 +624,7 @@ This endpoint removes a coupon code from a cart
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/checkout/removecoupon`
+`POST https://apistore.csomni.com/checkout/removecoupon`
 
 ### Query Parameters
 
