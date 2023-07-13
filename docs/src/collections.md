@@ -6,11 +6,11 @@ This endpoint retrieves all collections
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/collections`
+`GET https://apistore.csomni.com/collections`
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/collections \
+  --url https://apistore.csomni.com/collections \
   --header 'token: 123'
 ```
 
@@ -58,7 +58,7 @@ This endpoint retrieves a Specific Collecdtion and its products.
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/collections/[collectiontoken||collectionSlug]`
+`GET https://apistore.csomni.com/collections/[collectiontoken||collectionSlug]`
 
 ### URL Parameters
 
@@ -69,7 +69,7 @@ This endpoint retrieves a Specific Collecdtion and its products.
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/collections/[collectiontoken||collectionSlug] \
+  --url https://apistore.csomni.com/collections/[collectiontoken||collectionSlug] \
   --header 'token: 123'
 ```
 
