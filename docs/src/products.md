@@ -4,7 +4,7 @@
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/products/[prodToken||slug] \
+  --url https://apistore.csomni.com/products/[prodToken||slug] \
   --header 'token: 123'
 ```
 
@@ -80,7 +80,7 @@ This endpoint retrieves a Specific Product.
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/products/[prodToken||slug]`
+`GET https://apistore.csomni.com/products/[prodToken||slug]`
 
 ### URL Parameters
 
@@ -93,7 +93,7 @@ This endpoint retrieves a Specific Product.
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/products/[prodToken||slug]/full \
+  --url https://apistore.csomni.com/products/[prodToken||slug]/full \
   --header 'token: 123'
 ```
 
@@ -390,7 +390,7 @@ This endpoint retrieves a Specific Product And all its information.
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/products/[prodToken||slug]/full`
+`GET https://apistore.csomni.com/products/[prodToken||slug]/full`
 
 ### URL Parameters
 
@@ -417,7 +417,7 @@ This endpoint retrieves all products
 
 ### HTTP Request
 
-`GET https://api.omnifront.cloudsnob.com/products`
+`GET https://apistore.csomni.com/products`
 
 ### Query Parameters
 
@@ -451,7 +451,7 @@ variantPrice":"[* TO 500]"} where \* is anything.
 
 ```shell
 curl --request GET \
-  --url https://api.omnifront.cloudsnob.com/products \
+  --url https://apistore.csomni.com/products \
   --header 'token: 123'
 ```
 
@@ -703,7 +703,7 @@ curl --request GET \
 
 ### HTTP Request
 
-`POST https://api.omnifront.cloudsnob.com/products/{token}`
+`POST https://apistore.csomni.com/products/{token}`
 
 ### QUERY Parameters
 
@@ -713,7 +713,7 @@ curl --request GET \
 
 ```shell
 curl --request POST \
-  --url https://api.omnifront.cloudsnob.com/products/{token} \
+  --url https://apistore.csomni.com/products/{token} \
   --header 'cache-control: no-cache' \
   --header 'postman-token: 1234567890' \
     --header 'token: 123'\
